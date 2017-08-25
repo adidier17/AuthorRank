@@ -18,4 +18,4 @@ considering status in a collaboration, greater status should be given to authors
 coauthor together, and status should be diminished as the number of authors in a paper
 increases. Thus, edges are weighted according to frequency of co-authorship and total number
 of co-authors on articles according to the diagram shown below.
-![Co-AuthorshipGraph](AuthorRank/Co-AuthorshipGraph.jpg)
+![Co-AuthorshipGraph](blob/master/Co-AuthorshipGraph.JPGg)

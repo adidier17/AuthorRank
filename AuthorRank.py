@@ -3,20 +3,24 @@ import networkx as nx
 import itertools
 
 
-
 def makeGraph(badges):
 	"""
 	inputs: badges, list of list of strings. Each list in the list contains the badge numbers for the authors of one document. 
+=======
+def makeGraph(authors):
+	"""
+	inputs: authors, list of list of strings. Each list in the list should contain identifying information (like names or id numbers) 
+		of all authors of a paper. 
 	outputs: G, a networkx DiGraph object
 	For a given set of authors across a set of documents, this function creates a weighted graph of co-authorship. Nodes represent authors, 
 	in this case using their badge numbers, and edges represent co-authorship between two authors. 
-	"""
-	flat_badges = list(itertools.chain.from_iterable(badges))
-	counts = Counter(flat_badges)
-	pairs = list(itertools.permutations(badges[0],2))
+"""
+	flat_authors = list(itertools.chain.from_iterable(authors))
+	counts = Counter(flat_authors)
+	pairs = list(itertools.permutations(authors[0],2))
 	edges_all = {}
 	coAuthFrequency = {}
-	for doc in badges:
+	for doc in authors:
 	    if len(doc) > 1:
 	        pairs = (list(itertools.permutations(doc, 2)))
 	        exclusivity = 1/len(doc)
@@ -31,15 +35,14 @@ def makeGraph(badges):
 	return(G)
 
 
-
-
-def topNAuthors(hits, N):
+def topNAuthors(authors, N):
 	"""
-	inputs: hits: a json object resulting from an elasticsearch query in the foundry tool
+	inputs: authors, list of list of strings. Each list in the list should contain identifying information (like names or id numbers) 
+		of all authors of a paper. 
 	N: the number of names to be displayed
 	"""
-	badgeNums = [doc['_source']['badgeNums'] for doc in hits if 'LDAPnames' in doc['_source'].keys() and doc['_source']['LDAPnames']]
-	graph = makeGraph(query_names)
+	graph = makeGraph(authors)
 	rank = nx.pagerank_scipy(graph)
 	sorted_rank = sorted(rank, key = rank.get, reverse = True)
 	return(sorted_rank[0:N])
+

@@ -1,6 +1,8 @@
 # AuthorRank
 A modification of PageRank to find the most prestigious authors in a scientific collaboration network.
 
+[![License](https://img.shields.io/github/license/adidier17/AuthorRank)](https://opensource.org/licenses/MIT)
+
 ## Purpose
 A key question in the analysis of collaborative networks is: "Who are the most prestigious authors?" Answering this question can be useful in identifying subject matter experts or in ranking search results. This module was written to determine the most prestigious authors across a research network utilizing a body or research papers, but determining prestige within a network is not confined to research collaborations and this module could be extended to other purposes. 
 

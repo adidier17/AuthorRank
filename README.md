@@ -133,9 +133,6 @@ G = create(documents=documents)
 export_to_json(G)
 ```
 
-Note: the scores above are generated using the data available in 
-`data/author_network.json`. 
-
 ## About
 This library (of the same name) implements AuthorRank [1]. AuthorRank 
 is a modification of PageRank, Google's original algorithm for ranking 
@@ -189,5 +186,4 @@ Setting up a virtual environment for testing and development is recommended.
 Co-authorship networks in the digital library research community, 
 Information Processing & Management, Volume 41, Issue 6, 2005, 
 Pages 1462-1480, ISSN 0306-4573, http://dx.doi.org/10.1016/j.ipm.2005.03.012.
-(http://www.sciencedirect.com/science/article/pii/S0306457305000336)
 

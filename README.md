@@ -3,6 +3,8 @@ A modification of PageRank to find the most prestigious authors in a scientific 
 
 [![License](https://img.shields.io/github/license/adidier17/AuthorRank)](https://opensource.org/licenses/MIT)
 [![PyPi](https://img.shields.io/badge/pypi-0.0.1-blue.svg)](https://pypi.python.org/pypi/AuthorRank/0.0.1)
+[![Language](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue)](#)
+
 
 ## Purpose
 A key question in the analysis of collaborative networks is: 

@@ -6,6 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 from typing import List, Tuple
 
 
+# TODO: add the option to return the graph
 def top_authors(documents: List[dict], n: int = 5, normalize_scores: bool = False, authorship_key: str = "authors", keys: set = None) -> Tuple[List, List]:
 
     """

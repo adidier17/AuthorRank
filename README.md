@@ -1,9 +1,9 @@
 # AuthorRank
 A modification of PageRank to find the most prestigious authors in a scientific collaboration network.
 
-[![License](https://img.shields.io/github/license/adidier17/AuthorRank)](https://opensource.org/licenses/MIT)
-[![PyPi](https://img.shields.io/badge/pypi-0.0.1-blue.svg)](https://pypi.python.org/pypi/AuthorRank/0.0.1)
 [![Language](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue)](#)
+[![PyPi](https://img.shields.io/badge/pypi-0.0.1-blue.svg)](https://pypi.python.org/pypi/AuthorRank/0.0.1)
+[![License](https://img.shields.io/github/license/adidier17/AuthorRank)](https://opensource.org/licenses/MIT)
 
 
 ## Purpose
@@ -12,7 +12,11 @@ A key question in the analysis of collaborative networks is:
 useful in identifying subject matter experts or in ranking search 
 results. This library implements an approach to determining 
 the most prestigious authors across a research network utilizing a body 
-or research papers. 
+of research papers. 
+
+## Dependencies 
+- Python 3.5 - 3.8 
+- NetworkX >= 2.4
 
 ## How To
 

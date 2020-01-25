@@ -55,6 +55,7 @@ def test_top_author_format(sample_data) -> None:
         assert type(v) == float
 
 
+# TODO: add a test to ensure self-to-self comparisons are ignored
 # TODO: test to check normalization of scores
 # TODO: test to ensure the nodes and links in the graph are representative of the source document
 # TODO: test to check weird formatting of input parameters

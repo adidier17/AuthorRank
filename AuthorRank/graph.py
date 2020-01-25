@@ -81,6 +81,7 @@ def export_to_json(graph: 'nx.classes.digraph.DiGraph'):
     """
     Returns the directed graph in JSON format, containing information
     about nodes and their relationships to one another in the form of edges.
+    A wrapper around the NetworkX functionality.
     :param graph: a networkx.DiGraph object
     :return: a JSON format for the provided graph
     """

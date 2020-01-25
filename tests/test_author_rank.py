@@ -55,7 +55,24 @@ def test_top_author_format(sample_data) -> None:
         assert type(v) == float
 
 
+def test_normalization(sample_data) -> None:
+    """
+    Test to ensure that normalizing the AuthorRank scores returns values between
+    0 and 1.
+    :param sample_data: the sample data
+    :return: None
+    """
+
+    # get the top authors for a set of documents
+    top = top_authors(documents=sample_data['documents'], normalize_scores=True)
+
+    # check that it returns a tuple
+    assert type(top) == tuple
+
+    # check to ensure each value in the responses are in the appropriate format
+    for v in top[1]:
+        assert 0. <= v <= 1.
+
+
 # TODO: add a test to ensure self-to-self comparisons are ignored
-# TODO: test to check normalization of scores
 # TODO: test to ensure the nodes and links in the graph are representative of the source document
-# TODO: test to check weird formatting of input parameters

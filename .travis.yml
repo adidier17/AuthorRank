@@ -1,0 +1,23 @@
+dist: xenial
+language: python
+
+# Existing Python versions
+python:
+  - "3.5"
+  - "3.6"
+  - "3.7"
+  - "3.8-dev"
+
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+  - python setup.py -q install
+  - pip install -r requirements_ci.txt
+
+# run tests
+script:
+  - python -m pytest --cov=mieda
+
+# report results
+after_success:
+  - coveralls

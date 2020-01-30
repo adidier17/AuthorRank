@@ -16,7 +16,7 @@ install:
 
 # run tests
 script:
-  - python -m pytest --cov=mieda
+  - python -m pytest --cov=authorrank
 
 # report results
 after_success:

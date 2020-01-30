@@ -18,6 +18,7 @@ of research papers.
 - Python 3.5 - 3.8 
 - NetworkX >= 2.4
 - numpy>=1.18.1
+- scikit-learn>=0.22.1
 
 ## How To
 

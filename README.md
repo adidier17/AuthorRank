@@ -17,6 +17,7 @@ of research papers.
 ## Dependencies 
 - Python 3.5 - 3.8 
 - NetworkX >= 2.4
+- numpy>=1.18.1
 
 ## How To
 

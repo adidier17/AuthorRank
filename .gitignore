@@ -5,3 +5,5 @@ venv
 .pytest_cache
 .coverage
 .ipynb_checkpoints
+build
+author_rank.egg-info

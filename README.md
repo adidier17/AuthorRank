@@ -26,7 +26,7 @@ of research papers.
 First install the package locally:
 
 ```shell
-pip install . # or pip3 install ... if you're using both Python 3 and 2.
+pip install author-rank # or pip3 install ... if you're using both Python 3 and 2.
 ```
 
 Then, assuming you have input data in a format like the following: 

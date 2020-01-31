@@ -73,6 +73,8 @@ def test_normalization(sample_data) -> None:
     for v in top[1]:
         assert 0. <= v <= 1.
 
+    # check to ensure that the last entry in the list is a value of 0
+    assert top[1][-1] == 0.
 
-# TODO: add a test to ensure self-to-self comparisons are ignored
-# TODO: test to ensure the nodes and links in the graph are representative of the source document
+    # check to ensure that the first entry in the list is a value of 1
+    assert top[1][0] == 1.0

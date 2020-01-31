@@ -1,5 +1,5 @@
 # imports
-from AuthorRank.score import top_authors
+from author_rank.score import top_authors
 import json
 
 

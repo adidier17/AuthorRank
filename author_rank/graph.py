@@ -21,10 +21,11 @@ def create(documents: List[dict], authorship_key: str = "authors", keys: set = N
         keys = {"first_name", "last_name"}
 
     # get the authorship from each of the documents
-    documents = [i[authorship_key] for i in documents]
+    # gets a list of lists
+    doc_authors = [i[authorship_key] for i in documents]
 
     # remove keys and values that are not used as part of an author UID
-    for doc in documents:
+    for doc in doc_authors:
         for author in doc:
             unwanted_keys = set(author) - set(keys)
             for unwanted_key in unwanted_keys:
@@ -32,7 +33,7 @@ def create(documents: List[dict], authorship_key: str = "authors", keys: set = N
 
     # create a UID for each author based on the remaining keys
     # each unique combination of key values will serve as keys for each author
-    flattened_list = list(itertools.chain.from_iterable(documents))
+    flattened_list = list(itertools.chain.from_iterable(doc_authors))
     author_uid_tuples = [tuple(d.values()) for d in flattened_list]
 
     # get overall counts of each author
@@ -42,7 +43,7 @@ def create(documents: List[dict], authorship_key: str = "authors", keys: set = N
     edges_all = list()
 
     # process each document and create the edges with the appropriate weights
-    for doc in documents:
+    for doc in doc_authors:
         if len(doc) > 1:
             author_ids = [tuple(d.values()) for d in flattened_list]
             pairs = (list(itertools.permutations(author_ids, 2)))

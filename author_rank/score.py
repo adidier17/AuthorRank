@@ -1,5 +1,5 @@
 # imports
-from AuthorRank.graph import create
+from author_rank.graph import create
 import networkx as nx
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
@@ -10,7 +10,7 @@ from typing import List, Tuple
 def top_authors(documents: List[dict], n: int = 5, normalize_scores: bool = False, authorship_key: str = "authors", keys: set = None) -> Tuple[List, List]:
 
     """
-    Returns the top n authors according to their AuthorRank scores from the constructed graph as well as their scores,
+    Returns the top n authors according to their author_rank scores from the constructed graph as well as their scores,
     in the form of a tuple.
     :param documents: a list of dictionaries which represent documents.
     :param n: an integer to specify the number of authors to be returned.

@@ -1,6 +1,6 @@
 # imports
-from AuthorRank.graph import create, export_to_json
-from AuthorRank.score import top_authors
+from author_rank.graph import create, export_to_json
+from author_rank.score import top_authors
 import json
 import pytest
 
@@ -57,7 +57,7 @@ def test_top_author_format(sample_data) -> None:
 
 def test_normalization(sample_data) -> None:
     """
-    Test to ensure that normalizing the AuthorRank scores returns values between
+    Test to ensure that normalizing the author_rank scores returns values between
     0 and 1.
     :param sample_data: the sample data
     :return: None

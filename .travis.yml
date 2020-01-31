@@ -16,7 +16,7 @@ install:
 
 # run tests
 script:
-  - python -m pytest --cov=authorrank
+  - python -m pytest --cov=author_rank
 
 # report results
 after_success:

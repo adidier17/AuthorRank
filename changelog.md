@@ -1,5 +1,5 @@
 # Changelog
-All notable changes to `AuthorRank` will be documented in this Changelog.
+All notable changes to `author_rank` will be documented in this Changelog.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) 
 and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
@@ -15,7 +15,7 @@ demonstrates how to use AuthorRank.
 and coveralls.io. 
 - The MIT license.
 - `requirements.txt`, `requirements_ci.txt`, and `requirements_notebooks.txt` 
-files that list dependencies for AuthorRank, continuous integration, and 
+files that list dependencies for author_rank, continuous integration, and
 notebooks, respectively.
 - A `setup.py` file for pip installs. 
 - This changelog.

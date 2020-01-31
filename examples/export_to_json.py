@@ -1,5 +1,5 @@
 # imports
-from AuthorRank.graph import create, export_to_json
+from author_rank.graph import create, export_to_json
 import json
 
 

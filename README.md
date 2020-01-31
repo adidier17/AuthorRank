@@ -2,7 +2,7 @@
 A modification of PageRank to find the most prestigious authors in a scientific collaboration network.
 
 [![Language](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue)](#)
-[![PyPi](https://img.shields.io/badge/pypi-0.0.1-blue.svg)](https://pypi.python.org/pypi/AuthorRank/0.0.1)
+[![PyPi](https://img.shields.io/badge/pypi-0.0.1-blue.svg)](https://pypi.python.org/pypi/author_rank/0.0.1)
 [![License](https://img.shields.io/github/license/adidier17/AuthorRank)](https://opensource.org/licenses/MIT)
 
 
@@ -16,9 +16,9 @@ of research papers.
 
 ## Dependencies 
 - Python 3.5 - 3.8 
-- NetworkX >= 2.4
-- numpy>=1.18.1
-- scikit-learn>=0.22.1
+- networkx >= 2.4
+- numpy >= 1.18.1
+- scikit-learn >= 0.22.1
 
 ## How To
 
@@ -122,7 +122,7 @@ One can compute retrieve a ranked list of authors and their scores
 according to the AuthorRank algortithm: 
 
 ```python
-from AuthorRank.score import top_authors
+from author_rank.score import top_authors
 
 top_authors(documents, normalize_scores=True, n=10)
 ```
@@ -135,7 +135,7 @@ with weights, into a JSON format for use in visualization or additional
 analysis:
 
 ```python
-from AuthorRank.graph import create, export_to_json
+from author_rank.graph import create, export_to_json
 
 G = create(documents=documents)
 export_to_json(G)
@@ -183,7 +183,7 @@ Tests are contained within the `tests` directory. To run tests for
 AuthorRank, call pytest and pytest-cov via the command line:
 
 ```bash
-python3 -m pytest --cov=AuthorRank -vv
+python3 -m pytest --cov=author_rank -vv
 ```
 
 Setting up a virtual environment for testing and development is recommended. 

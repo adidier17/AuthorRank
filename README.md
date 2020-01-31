@@ -2,7 +2,7 @@
 A modification of PageRank to find the most prestigious authors in a scientific collaboration network.
 
 [![Language](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue)](#)
-[![PyPi](https://img.shields.io/badge/pypi-0.0.1-blue.svg)](https://pypi.python.org/pypi/author_rank/0.0.1)
+[![PyPi](https://img.shields.io/badge/pypi-0.0.2-blue.svg)](https://pypi.python.org/pypi/author_rank/0.0.2)
 [![License](https://img.shields.io/github/license/adidier17/AuthorRank)](https://opensource.org/licenses/MIT)
 [![Coverage Status](https://coveralls.io/repos/github/adidier17/AuthorRank/badge.svg?branch=master)](https://coveralls.io/github/adidier17/AuthorRank?branch=master)
 [![Build Status](https://api.travis-ci.org/adidier17/AuthorRank.svg?branch=master)](https://travis-ci.org/adidier17/AuthorRank)
@@ -18,8 +18,6 @@ of research papers.
 ## Dependencies 
 - Python 3.5 - 3.8 
 - networkx >= 2.4
-- numpy >= 1.18.1
-- scikit-learn >= 0.22.1
 
 ## How To
 

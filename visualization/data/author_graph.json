@@ -1,0 +1,1330 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": [
+                "Benedikt",
+                "Boecking"
+            ]
+        },
+        {
+            "id": [
+                "Chris",
+                "Mattmann"
+            ]
+        },
+        {
+            "id": [
+                "Christopher",
+                "Laporte"
+            ]
+        },
+        {
+            "id": [
+                "Ian",
+                "Colwell"
+            ]
+        },
+        {
+            "id": [
+                "Jason",
+                "Hyon"
+            ]
+        },
+        {
+            "id": [
+                "Kyle",
+                "Hundman"
+            ]
+        },
+        {
+            "id": [
+                "Mayank",
+                "Kejriwal"
+            ]
+        },
+        {
+            "id": [
+                "Paul",
+                "Ramirez"
+            ]
+        },
+        {
+            "id": [
+                "Thamme",
+                "Gowda"
+            ]
+        },
+        {
+            "id": [
+                "Tom",
+                "Soderstrom"
+            ]
+        },
+        {
+            "id": [
+                "Valentino",
+                "Constantinou"
+            ]
+        }
+    ],
+    "links": [
+        {
+            "weight": 7.249999999999999,
+            "source": [
+                "Benedikt",
+                "Boecking"
+            ],
+            "target": [
+                "Chris",
+                "Mattmann"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Benedikt",
+                "Boecking"
+            ],
+            "target": [
+                "Christopher",
+                "Laporte"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Benedikt",
+                "Boecking"
+            ],
+            "target": [
+                "Ian",
+                "Colwell"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Benedikt",
+                "Boecking"
+            ],
+            "target": [
+                "Jason",
+                "Hyon"
+            ]
+        },
+        {
+            "weight": 12.083333333333337,
+            "source": [
+                "Benedikt",
+                "Boecking"
+            ],
+            "target": [
+                "Kyle",
+                "Hundman"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Benedikt",
+                "Boecking"
+            ],
+            "target": [
+                "Mayank",
+                "Kejriwal"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Benedikt",
+                "Boecking"
+            ],
+            "target": [
+                "Paul",
+                "Ramirez"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Benedikt",
+                "Boecking"
+            ],
+            "target": [
+                "Thamme",
+                "Gowda"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Benedikt",
+                "Boecking"
+            ],
+            "target": [
+                "Tom",
+                "Soderstrom"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Benedikt",
+                "Boecking"
+            ],
+            "target": [
+                "Valentino",
+                "Constantinou"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Chris",
+                "Mattmann"
+            ],
+            "target": [
+                "Benedikt",
+                "Boecking"
+            ]
+        },
+        {
+            "weight": 4.833333333333335,
+            "source": [
+                "Chris",
+                "Mattmann"
+            ],
+            "target": [
+                "Chris",
+                "Mattmann"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Chris",
+                "Mattmann"
+            ],
+            "target": [
+                "Christopher",
+                "Laporte"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Chris",
+                "Mattmann"
+            ],
+            "target": [
+                "Ian",
+                "Colwell"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Chris",
+                "Mattmann"
+            ],
+            "target": [
+                "Jason",
+                "Hyon"
+            ]
+        },
+        {
+            "weight": 12.083333333333343,
+            "source": [
+                "Chris",
+                "Mattmann"
+            ],
+            "target": [
+                "Kyle",
+                "Hundman"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Chris",
+                "Mattmann"
+            ],
+            "target": [
+                "Mayank",
+                "Kejriwal"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Chris",
+                "Mattmann"
+            ],
+            "target": [
+                "Paul",
+                "Ramirez"
+            ]
+        },
+        {
+            "weight": 4.833333333333335,
+            "source": [
+                "Chris",
+                "Mattmann"
+            ],
+            "target": [
+                "Thamme",
+                "Gowda"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Chris",
+                "Mattmann"
+            ],
+            "target": [
+                "Tom",
+                "Soderstrom"
+            ]
+        },
+        {
+            "weight": 4.833333333333335,
+            "source": [
+                "Chris",
+                "Mattmann"
+            ],
+            "target": [
+                "Valentino",
+                "Constantinou"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Christopher",
+                "Laporte"
+            ],
+            "target": [
+                "Benedikt",
+                "Boecking"
+            ]
+        },
+        {
+            "weight": 7.249999999999999,
+            "source": [
+                "Christopher",
+                "Laporte"
+            ],
+            "target": [
+                "Chris",
+                "Mattmann"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Christopher",
+                "Laporte"
+            ],
+            "target": [
+                "Ian",
+                "Colwell"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Christopher",
+                "Laporte"
+            ],
+            "target": [
+                "Jason",
+                "Hyon"
+            ]
+        },
+        {
+            "weight": 12.083333333333337,
+            "source": [
+                "Christopher",
+                "Laporte"
+            ],
+            "target": [
+                "Kyle",
+                "Hundman"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Christopher",
+                "Laporte"
+            ],
+            "target": [
+                "Mayank",
+                "Kejriwal"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Christopher",
+                "Laporte"
+            ],
+            "target": [
+                "Paul",
+                "Ramirez"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Christopher",
+                "Laporte"
+            ],
+            "target": [
+                "Thamme",
+                "Gowda"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Christopher",
+                "Laporte"
+            ],
+            "target": [
+                "Tom",
+                "Soderstrom"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Christopher",
+                "Laporte"
+            ],
+            "target": [
+                "Valentino",
+                "Constantinou"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Ian",
+                "Colwell"
+            ],
+            "target": [
+                "Benedikt",
+                "Boecking"
+            ]
+        },
+        {
+            "weight": 7.249999999999999,
+            "source": [
+                "Ian",
+                "Colwell"
+            ],
+            "target": [
+                "Chris",
+                "Mattmann"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Ian",
+                "Colwell"
+            ],
+            "target": [
+                "Christopher",
+                "Laporte"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Ian",
+                "Colwell"
+            ],
+            "target": [
+                "Jason",
+                "Hyon"
+            ]
+        },
+        {
+            "weight": 12.083333333333337,
+            "source": [
+                "Ian",
+                "Colwell"
+            ],
+            "target": [
+                "Kyle",
+                "Hundman"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Ian",
+                "Colwell"
+            ],
+            "target": [
+                "Mayank",
+                "Kejriwal"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Ian",
+                "Colwell"
+            ],
+            "target": [
+                "Paul",
+                "Ramirez"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Ian",
+                "Colwell"
+            ],
+            "target": [
+                "Thamme",
+                "Gowda"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Ian",
+                "Colwell"
+            ],
+            "target": [
+                "Tom",
+                "Soderstrom"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Ian",
+                "Colwell"
+            ],
+            "target": [
+                "Valentino",
+                "Constantinou"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Jason",
+                "Hyon"
+            ],
+            "target": [
+                "Benedikt",
+                "Boecking"
+            ]
+        },
+        {
+            "weight": 7.249999999999999,
+            "source": [
+                "Jason",
+                "Hyon"
+            ],
+            "target": [
+                "Chris",
+                "Mattmann"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Jason",
+                "Hyon"
+            ],
+            "target": [
+                "Christopher",
+                "Laporte"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Jason",
+                "Hyon"
+            ],
+            "target": [
+                "Ian",
+                "Colwell"
+            ]
+        },
+        {
+            "weight": 12.083333333333337,
+            "source": [
+                "Jason",
+                "Hyon"
+            ],
+            "target": [
+                "Kyle",
+                "Hundman"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Jason",
+                "Hyon"
+            ],
+            "target": [
+                "Mayank",
+                "Kejriwal"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Jason",
+                "Hyon"
+            ],
+            "target": [
+                "Paul",
+                "Ramirez"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Jason",
+                "Hyon"
+            ],
+            "target": [
+                "Thamme",
+                "Gowda"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Jason",
+                "Hyon"
+            ],
+            "target": [
+                "Tom",
+                "Soderstrom"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Jason",
+                "Hyon"
+            ],
+            "target": [
+                "Valentino",
+                "Constantinou"
+            ]
+        },
+        {
+            "weight": 2.4166666666666674,
+            "source": [
+                "Kyle",
+                "Hundman"
+            ],
+            "target": [
+                "Benedikt",
+                "Boecking"
+            ]
+        },
+        {
+            "weight": 7.250000000000005,
+            "source": [
+                "Kyle",
+                "Hundman"
+            ],
+            "target": [
+                "Chris",
+                "Mattmann"
+            ]
+        },
+        {
+            "weight": 2.4166666666666674,
+            "source": [
+                "Kyle",
+                "Hundman"
+            ],
+            "target": [
+                "Christopher",
+                "Laporte"
+            ]
+        },
+        {
+            "weight": 2.4166666666666674,
+            "source": [
+                "Kyle",
+                "Hundman"
+            ],
+            "target": [
+                "Ian",
+                "Colwell"
+            ]
+        },
+        {
+            "weight": 2.4166666666666674,
+            "source": [
+                "Kyle",
+                "Hundman"
+            ],
+            "target": [
+                "Jason",
+                "Hyon"
+            ]
+        },
+        {
+            "weight": 9.666666666666677,
+            "source": [
+                "Kyle",
+                "Hundman"
+            ],
+            "target": [
+                "Kyle",
+                "Hundman"
+            ]
+        },
+        {
+            "weight": 2.4166666666666674,
+            "source": [
+                "Kyle",
+                "Hundman"
+            ],
+            "target": [
+                "Mayank",
+                "Kejriwal"
+            ]
+        },
+        {
+            "weight": 2.4166666666666674,
+            "source": [
+                "Kyle",
+                "Hundman"
+            ],
+            "target": [
+                "Paul",
+                "Ramirez"
+            ]
+        },
+        {
+            "weight": 4.83333333333333,
+            "source": [
+                "Kyle",
+                "Hundman"
+            ],
+            "target": [
+                "Thamme",
+                "Gowda"
+            ]
+        },
+        {
+            "weight": 2.4166666666666674,
+            "source": [
+                "Kyle",
+                "Hundman"
+            ],
+            "target": [
+                "Tom",
+                "Soderstrom"
+            ]
+        },
+        {
+            "weight": 4.83333333333333,
+            "source": [
+                "Kyle",
+                "Hundman"
+            ],
+            "target": [
+                "Valentino",
+                "Constantinou"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Mayank",
+                "Kejriwal"
+            ],
+            "target": [
+                "Benedikt",
+                "Boecking"
+            ]
+        },
+        {
+            "weight": 7.249999999999999,
+            "source": [
+                "Mayank",
+                "Kejriwal"
+            ],
+            "target": [
+                "Chris",
+                "Mattmann"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Mayank",
+                "Kejriwal"
+            ],
+            "target": [
+                "Christopher",
+                "Laporte"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Mayank",
+                "Kejriwal"
+            ],
+            "target": [
+                "Ian",
+                "Colwell"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Mayank",
+                "Kejriwal"
+            ],
+            "target": [
+                "Jason",
+                "Hyon"
+            ]
+        },
+        {
+            "weight": 12.083333333333337,
+            "source": [
+                "Mayank",
+                "Kejriwal"
+            ],
+            "target": [
+                "Kyle",
+                "Hundman"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Mayank",
+                "Kejriwal"
+            ],
+            "target": [
+                "Paul",
+                "Ramirez"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Mayank",
+                "Kejriwal"
+            ],
+            "target": [
+                "Thamme",
+                "Gowda"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Mayank",
+                "Kejriwal"
+            ],
+            "target": [
+                "Tom",
+                "Soderstrom"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Mayank",
+                "Kejriwal"
+            ],
+            "target": [
+                "Valentino",
+                "Constantinou"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Paul",
+                "Ramirez"
+            ],
+            "target": [
+                "Benedikt",
+                "Boecking"
+            ]
+        },
+        {
+            "weight": 7.249999999999999,
+            "source": [
+                "Paul",
+                "Ramirez"
+            ],
+            "target": [
+                "Chris",
+                "Mattmann"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Paul",
+                "Ramirez"
+            ],
+            "target": [
+                "Christopher",
+                "Laporte"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Paul",
+                "Ramirez"
+            ],
+            "target": [
+                "Ian",
+                "Colwell"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Paul",
+                "Ramirez"
+            ],
+            "target": [
+                "Jason",
+                "Hyon"
+            ]
+        },
+        {
+            "weight": 12.083333333333337,
+            "source": [
+                "Paul",
+                "Ramirez"
+            ],
+            "target": [
+                "Kyle",
+                "Hundman"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Paul",
+                "Ramirez"
+            ],
+            "target": [
+                "Mayank",
+                "Kejriwal"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Paul",
+                "Ramirez"
+            ],
+            "target": [
+                "Thamme",
+                "Gowda"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Paul",
+                "Ramirez"
+            ],
+            "target": [
+                "Tom",
+                "Soderstrom"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Paul",
+                "Ramirez"
+            ],
+            "target": [
+                "Valentino",
+                "Constantinou"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Thamme",
+                "Gowda"
+            ],
+            "target": [
+                "Benedikt",
+                "Boecking"
+            ]
+        },
+        {
+            "weight": 7.250000000000002,
+            "source": [
+                "Thamme",
+                "Gowda"
+            ],
+            "target": [
+                "Chris",
+                "Mattmann"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Thamme",
+                "Gowda"
+            ],
+            "target": [
+                "Christopher",
+                "Laporte"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Thamme",
+                "Gowda"
+            ],
+            "target": [
+                "Ian",
+                "Colwell"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Thamme",
+                "Gowda"
+            ],
+            "target": [
+                "Jason",
+                "Hyon"
+            ]
+        },
+        {
+            "weight": 12.083333333333327,
+            "source": [
+                "Thamme",
+                "Gowda"
+            ],
+            "target": [
+                "Kyle",
+                "Hundman"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Thamme",
+                "Gowda"
+            ],
+            "target": [
+                "Mayank",
+                "Kejriwal"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Thamme",
+                "Gowda"
+            ],
+            "target": [
+                "Paul",
+                "Ramirez"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Thamme",
+                "Gowda"
+            ],
+            "target": [
+                "Thamme",
+                "Gowda"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Thamme",
+                "Gowda"
+            ],
+            "target": [
+                "Tom",
+                "Soderstrom"
+            ]
+        },
+        {
+            "weight": 4.833333333333334,
+            "source": [
+                "Thamme",
+                "Gowda"
+            ],
+            "target": [
+                "Valentino",
+                "Constantinou"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Tom",
+                "Soderstrom"
+            ],
+            "target": [
+                "Benedikt",
+                "Boecking"
+            ]
+        },
+        {
+            "weight": 7.249999999999999,
+            "source": [
+                "Tom",
+                "Soderstrom"
+            ],
+            "target": [
+                "Chris",
+                "Mattmann"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Tom",
+                "Soderstrom"
+            ],
+            "target": [
+                "Christopher",
+                "Laporte"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Tom",
+                "Soderstrom"
+            ],
+            "target": [
+                "Ian",
+                "Colwell"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Tom",
+                "Soderstrom"
+            ],
+            "target": [
+                "Jason",
+                "Hyon"
+            ]
+        },
+        {
+            "weight": 12.083333333333337,
+            "source": [
+                "Tom",
+                "Soderstrom"
+            ],
+            "target": [
+                "Kyle",
+                "Hundman"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Tom",
+                "Soderstrom"
+            ],
+            "target": [
+                "Mayank",
+                "Kejriwal"
+            ]
+        },
+        {
+            "weight": 2.4166666666666665,
+            "source": [
+                "Tom",
+                "Soderstrom"
+            ],
+            "target": [
+                "Paul",
+                "Ramirez"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Tom",
+                "Soderstrom"
+            ],
+            "target": [
+                "Thamme",
+                "Gowda"
+            ]
+        },
+        {
+            "weight": 4.833333333333332,
+            "source": [
+                "Tom",
+                "Soderstrom"
+            ],
+            "target": [
+                "Valentino",
+                "Constantinou"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Valentino",
+                "Constantinou"
+            ],
+            "target": [
+                "Benedikt",
+                "Boecking"
+            ]
+        },
+        {
+            "weight": 7.250000000000002,
+            "source": [
+                "Valentino",
+                "Constantinou"
+            ],
+            "target": [
+                "Chris",
+                "Mattmann"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Valentino",
+                "Constantinou"
+            ],
+            "target": [
+                "Christopher",
+                "Laporte"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Valentino",
+                "Constantinou"
+            ],
+            "target": [
+                "Ian",
+                "Colwell"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Valentino",
+                "Constantinou"
+            ],
+            "target": [
+                "Jason",
+                "Hyon"
+            ]
+        },
+        {
+            "weight": 12.083333333333327,
+            "source": [
+                "Valentino",
+                "Constantinou"
+            ],
+            "target": [
+                "Kyle",
+                "Hundman"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Valentino",
+                "Constantinou"
+            ],
+            "target": [
+                "Mayank",
+                "Kejriwal"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Valentino",
+                "Constantinou"
+            ],
+            "target": [
+                "Paul",
+                "Ramirez"
+            ]
+        },
+        {
+            "weight": 4.833333333333334,
+            "source": [
+                "Valentino",
+                "Constantinou"
+            ],
+            "target": [
+                "Thamme",
+                "Gowda"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Valentino",
+                "Constantinou"
+            ],
+            "target": [
+                "Tom",
+                "Soderstrom"
+            ]
+        },
+        {
+            "weight": 2.416666666666666,
+            "source": [
+                "Valentino",
+                "Constantinou"
+            ],
+            "target": [
+                "Valentino",
+                "Constantinou"
+            ]
+        }
+    ]
+}
+

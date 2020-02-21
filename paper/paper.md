@@ -73,7 +73,9 @@ instrument for experiments related to "chlorine partitioning" - and
 visualized using the browser-based library d3.js [Bostock2011]. This 
 capability is not part of the AuthorRank 
 package, but AuthorRank does provide the capability to export the 
-co-authorship network in a JSON format needed for visualization in d3.js.
+co-authorship network in a JSON format needed for visualization in d3.js
+(note that the presence of two "3" ranked authors is due to a tie in their 
+AuthorRank scores).
 
 ![d3.js](../images/d3_mls.png)
 

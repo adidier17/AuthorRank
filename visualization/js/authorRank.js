@@ -82,7 +82,7 @@ function updateGraph() {
     link = link.enter().append("line")
         .attr('class', 'links')
         .attr('stroke-width', function(d) {
-            return Math.max(Math.sqrt(d.weight) - 2., 0.5);
+            return Math.max(d.scaled_weight, 0.5);
         })
         .attr('stroke', "lightgray")
         .style("opacity", 0.2)
@@ -163,7 +163,14 @@ function updateGraph() {
         })
         .merge(node);
 
-    nodeContainer.filter((d) => { return d.rank <= 3} ).append("text")
+    // use the values instead of the rank so that ties are effectively shown
+    let scores = [];
+    nodeContainer.each((d) => {
+        scores.push(d.score);
+    });
+    let topScores = scores.sort((a, b) => b - a).slice(0, 3);
+
+    nodeContainer.filter((d) => { return topScores.includes(d.score) } ).append("text")
         .attr("font-size", function(d) {
             return String(0.25 + d.score) + "rem"
         })
@@ -171,7 +178,7 @@ function updateGraph() {
         .attr("fill",  "#2E8FFF")
         .attr("font-weight",  "bold")
         .text(function(d) {
-            return d.rank;
+            return topScores.indexOf(d.score) + 1;
         });
 
     nodeContainer.call(d3.drag()
@@ -263,6 +270,10 @@ function dragended(d) {
     // d.fy = null;
 }
 
+// scale value function
+function scale_to_range(val, max, min) {
+    return (val - min) / (max - min);
+}
 
 // initialize
 function addScoresToGraph(graph, scores) {
@@ -285,8 +296,8 @@ function addScoresToGraph(graph, scores) {
 }
 
 Promise.all([
-    d3.json("data/author_graph.json"),
-    d3.json("data/author_scores.json"),
+    d3.json("data/chlorine_partitioning_mls_graph.json"),
+    d3.json("data/chlorine_partitioning_mls_scores.json"),
 ]).then(function (files) {
 
     // load the top authors
@@ -304,6 +315,22 @@ Promise.all([
 
     // add scores to the graph
     graph = addScoresToGraph(graph, scores);
+
+    // scale the weights on a scale from 0.0 to 2
+    let weightMin = 0;
+    let weightMax = 0;
+    graph.links.forEach(function(d) {
+        if (d.weight < weightMin) {
+            weightMin = d.weight;
+        }
+        if (d.weight > weightMax) {
+            weightMax = d.weight
+        }
+    });
+    graph.links.forEach(function(d) {
+        // NOTE: we divide the min and max by 2 to scale the values from 0 to 2 as opposed to 0 to 1
+        d.scaled_weight = scale_to_range(d.weight, weightMax / 2, weightMin / 2);
+    });
 
     // initialize
     initializeGraph(graph);

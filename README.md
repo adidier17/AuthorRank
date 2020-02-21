@@ -129,6 +129,21 @@ top_authors(documents, normalize_scores=True, n=10)
 Setting _normalized_scores_ to `True` normalizes the AuthorRank scores 
 on a scale of 0 to 1 (inclusive), which may be helpful for interpretation.  
 
+### Specifying Authorship Keys 
+
+By default, AuthorRank looks for a list of authors - with each author 
+represented as a dictionary of keys and values - from each document 
+in the list of documents passed into `top_authors` or `create` using 
+the key `authors`, with the keys `first_name` and `last_name` as the 
+keys used to uniquely identify each author. However, if desired other keys 
+could be specified and utilized, as in the example below: 
+
+```python
+top_authors(documents, normalize_scores=True, n=10, authorship_key="creators", keys=set(["given", "family"]))
+```
+
+### Exporting the Co-Authorship Graph
+
 It is also possible to export the directed graph from the provided input data, 
 with weights, into a JSON format for use in visualization or additional 
 analysis:

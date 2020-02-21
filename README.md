@@ -158,11 +158,13 @@ considering status in a collaboration, greater status should be given to authors
 coauthor together, and status should be diminished as the number of authors in a paper
 increases. Thus, edges are weighted according to frequency of co-authorship and total number
 of co-authors on articles according to the diagram shown below.
-![Co-AuthorshipGraph](images/Co-AuthorshipGraph.JPG)
+
+![Co-AuthorshipGraph](images/co-authorship-graph.png)
 
 The applicability of this approach is not confined to research 
 collaborations and this module could be extended into other useful 
-applications utilizing similar directed graphs. 
+applications utilizing similar directed graphs (for example, it may be 
+interesting to examine the [Enron email corpus](https://www.cs.cmu.edu/~enron/)).
 
 ## Contributing
 If you would like to contribute, please fork the repository and make 

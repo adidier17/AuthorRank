@@ -1,8 +1,7 @@
 # imports
 from author_rank.graph import create
+from author_rank.utils import normalize
 import networkx as nx
-import numpy as np
-from sklearn.preprocessing import MinMaxScaler
 from typing import List, Tuple
 
 
@@ -38,8 +37,9 @@ def top_authors(documents: List[dict], n: int = 5, normalize_scores: bool = Fals
 
     # normalize the scores if the option is specified
     if normalize_scores:
-        scaler = MinMaxScaler(feature_range=(0, 1))
-        sorted_scores = [s[0] for s in scaler.fit_transform(np.array([[s] for s in sorted_scores]))]
+        minimum = min(sorted_scores)
+        maximum = max(sorted_scores)
+        sorted_scores = [normalize(minimum, maximum, s) for s in sorted_scores]
 
     return sorted_rank, sorted_scores
 

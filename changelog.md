@@ -4,6 +4,13 @@ All notable changes to `author_rank` will be documented in this Changelog.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) 
 and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 0.0.2
+
+### Changed 
+
+- Updates the normalization of scores in `top_authors` to a pure Python 
+approach, removing the `numpy` and `scikit-learn` requirements. 
+
 ## 0.0.1
 
 ### Added

@@ -1,0 +1,19 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.annotation-note-label {
+    font-size: 0.35rem;
+}
+
+.stats-container {
+    position: fixed;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 50px;
+    width: 200px;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+}

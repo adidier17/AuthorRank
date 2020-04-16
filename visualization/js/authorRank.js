@@ -232,7 +232,8 @@ function updateGraph() {
             return {
             data: {x: d.x, y: d.y},
             note: {
-                label: d.id,
+                title: d.id,
+                label: d.note,
                 align: "top",
                 orientation: "fixed",
             },
@@ -287,8 +288,11 @@ function scale_to_range(val, max, min) {
 
 // initialize
 function addScoresToGraph(graph, scores) {
+
     let nodes = graph.nodes;
-    nodes.forEach(function(d, i) {
+
+    // add scores to the nodes
+    nodes.forEach(function(d) {
         d.score = scores[d.id];
     });
 

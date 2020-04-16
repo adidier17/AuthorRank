@@ -10,14 +10,13 @@ and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 - The visualization has been updated with suggested improvements 
 from [Edward Barraza](https://github.com/edwardbarraza): 
-* [x] Contain the ranks within the vertices shown on the visualization
-* [x] Change the color of the vertices to #489FDF
-* [x] Change the color of text within the vertices to #ECF2FF
-* [x] Change the color of the hover / selection states to #F2A900
-* [x] Change the written text color to #3B3B3B
-* [ ] Provide a ranked list on the top-left of the window
-    * [ ] Add the connections between vertices shown in the ranked list 
-* [ ] Subtitles for each vertex label 
+* Contain the ranks within the vertices shown on the visualization
+* Change the color of the vertices to #489FDF
+* Change the color of text within the vertices to #ECF2FF
+* Change the color of the hover / selection states to #F2A900
+* Change the written text color to #3B3B3B
+* Subtitles for each vertex label if the `note` field is available for 
+the vertex
 
 ## 0.0.2
 

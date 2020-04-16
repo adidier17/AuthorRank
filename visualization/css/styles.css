@@ -6,6 +6,10 @@ body {
     font-size: 0.35rem;
 }
 
+.annotation-note-label {
+    font-size: 0.25rem !important;
+}
+
 .stats-container {
     position: fixed;
     margin: 10px;

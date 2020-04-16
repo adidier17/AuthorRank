@@ -84,8 +84,8 @@ function updateGraph() {
         .attr('stroke-width', function(d) {
             return Math.max(d.scaled_weight, 0.5);
         })
-        .attr('stroke', "lightgray")
-        .style("opacity", 0.2)
+        .attr('stroke', "#3B3B3B")
+        .style("opacity", 0.05)
         .merge(link);
     link.transition(t);
 
@@ -104,15 +104,15 @@ function updateGraph() {
 
             return r
         })
-        .attr("fill", "gray")
+        .attr("fill", "#489FDF")
         .on("mouseover", function (d) {
 
             // on hover highlight node
             node.attr("fill", function (o) {
                 if (d.id === o.id) {
-                    return "#D5FF00"
+                    return "#F2A900"
                 } else {
-                    return "gray"
+                    return "#489FDF"
                 }
             });
 
@@ -144,12 +144,12 @@ function updateGraph() {
             g.selectAll('.links').filter((d2) => {
                 // return true if a link exists between d and d2
                 return !connectedNodes[d2.source.id];
-            }).style('opacity', 0.2);
+            }).style('opacity', 0.1);
 
             g.selectAll('.links').filter((d2) => {
                 // return true if a link exists between d and d2
                 return connectedNodes[d2.source.id];
-            }).style('opacity', 0.5);
+            }).style('opacity', 0.1);
 
             // END OF HIGHLIGHT CONNECTED LINKS
             // *********************************
@@ -157,8 +157,8 @@ function updateGraph() {
         })
         .on("mouseout", function () {
             node.attr('opacity', 1);
-            node.attr('fill', "gray");
-            link.style("opacity", 0.2);
+            node.attr('fill', "#489FDF");
+            link.style("opacity", 0.05);
             d3.select("#score").text("")
         })
         .merge(node);
@@ -172,10 +172,13 @@ function updateGraph() {
 
     nodeContainer.filter((d) => { return topScores.includes(d.score) } ).append("text")
         .attr("font-size", function(d) {
-            return String(0.25 + d.score) + "rem"
+            return String(d.score * 0.8) + "rem"
         })
-        .attr("text-anchor", "end")
-        .attr("fill",  "#2E8FFF")
+        .attr("text-anchor", "middle")
+        .attr("fill",  "#ECF2FF")
+        .attr("y", function(d) {
+            return d.score * 4.5
+        })
         .attr("font-weight",  "bold")
         .text(function(d) {
             return topScores.indexOf(d.score) + 1;
@@ -224,16 +227,23 @@ function updateGraph() {
 
     // annotation generator
     let makeAnnotations = d3.annotation()
-        .type(d3.annotationCalloutElbow)
+        .type(d3.annotationCalloutCircle)
         .annotations(graphGlobal.nodes.map((d) => {
             return {
             data: {x: d.x, y: d.y},
-            note: { label: d.id,
-              align: "top",
-              orientation: "fixed" },
+            note: {
+                label: d.id,
+                align: "top",
+                orientation: "fixed",
+            },
             connector: { type: "elbow" },
+            color: "#3B3B3B",
             dy: -10,
-            dx: 10
+            dx: 10,
+            subject: {
+                radius: 0.001,
+                radiusPadding: Math.sqrt((50 + (100 * d.score)) /  Math.PI)
+            }
           }
         }))
         .accessors({ x: d => d.x , y: d => d.y});

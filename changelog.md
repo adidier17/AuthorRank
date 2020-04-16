@@ -4,6 +4,21 @@ All notable changes to `author_rank` will be documented in this Changelog.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) 
 and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 0.0.3
+
+### Changed 
+
+- The visualization has been updated with suggested improvements 
+from [Edward Barraza](https://github.com/edwardbarraza): 
+* [x] Contain the ranks within the vertices shown on the visualization
+* [x] Change the color of the vertices to #489FDF
+* [x] Change the color of text within the vertices to #ECF2FF
+* [x] Change the color of the hover / selection states to #F2A900
+* [x] Change the written text color to #3B3B3B
+* [ ] Provide a ranked list on the top-left of the window
+    * [ ] Add the connections between vertices shown in the ranked list 
+* [ ] Subtitles for each vertex label 
+
 ## 0.0.2
 
 ### Changed 

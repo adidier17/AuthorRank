@@ -119,12 +119,6 @@ function updateGraph() {
             // raise the circle to the top so the annotation isn't displayed over it
             d3.select(this.parentElement).raise();
 
-            // // display this information in the info box
-            // d3.select("#score")
-            //     .text(function() {
-            //         return "AuthorRank score: " + d.score.toFixed(2)
-            //     });
-
             // *********************************
             // HIGHLIGHT CONNECTED LINKS (thanks Chris Laporte)
 
@@ -144,12 +138,12 @@ function updateGraph() {
             g.selectAll('.links').filter((d2) => {
                 // return true if a link exists between d and d2
                 return !connectedNodes[d2.source.id];
-            }).style('opacity', 0.1);
+            }).style('opacity', 0.2);
 
             g.selectAll('.links').filter((d2) => {
                 // return true if a link exists between d and d2
                 return connectedNodes[d2.source.id];
-            }).style('opacity', 0.1);
+            }).style('opacity', 0.2);
 
             // END OF HIGHLIGHT CONNECTED LINKS
             // *********************************

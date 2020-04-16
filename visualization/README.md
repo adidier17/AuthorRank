@@ -2,9 +2,9 @@
 
 This code allows you to view the results of the 
 AuthorRank approach using an interactive 
-directed graph in your browser using d3.js. 
+directed graph in your browser using [d3.js](https://d3js.org). 
 
-![D3Graph](../images/d3.png)
+![D3Graph](../images/d3_mls.png)
 
 ## Run 
 
@@ -15,6 +15,6 @@ python3 -m http.server 8000
 ```
 
 Then visit `127.0.0.1:8000` in your browser. You can use other 
-data by replacing the files in `data` and changing the file names 
-in `js/authorRank.js`. 
+data by replacing the files in `data` and changing the file names near
+the bottom of `js/authorRank.js`. 
 

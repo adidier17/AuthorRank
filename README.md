@@ -11,7 +11,7 @@ A modification of PageRank to find the most prestigious authors in a scientific 
 A key question in the analysis of collaborative networks is: 
 "Who are the most prestigious authors?" Answering this question can be 
 useful in identifying subject matter experts or in ranking search 
-results. This library implements an approach to determining 
+results. This library implements [an approach](http://dx.doi.org/10.1016/j.ipm.2005.03.012) [1] to determining 
 the most prestigious authors across a research network utilizing a body 
 of research papers. 
 
@@ -156,6 +156,7 @@ export_to_json(G)
 ```
 
 ## About
+
 This library (of the same name) implements AuthorRank [1]. AuthorRank 
 is a modification of PageRank, Google's original algorithm for ranking 
 webpage search results. PageRank works on the idea of transferred 
@@ -178,6 +179,19 @@ of co-authors on articles according to the diagram shown below.
 The applicability of this approach is not confined to research 
 collaborations and this module could be extended into other useful 
 applications utilizing similar directed graphs. 
+
+## Visualization 
+
+This repository contains an interactive d3.js visualization which 
+can be used to illustrate the results of applying AuthorRank to a 
+set of documents in the `visualization` directory, 
+with instructions prvided in `visualization/readme.md`. 
+
+![AuthorRank_MLS](images/d3_mls.png)
+
+The visualization is included for illustration and is not a core 
+developmental focus for this library. However, helpful suggestions 
+and thoughts for improvement are welcome. 
 
 ## Contributing
 If you would like to contribute, please fork the repository and make 

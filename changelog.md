@@ -17,6 +17,7 @@ from [Edward Barraza](https://github.com/edwardbarraza):
 * Change the written text color to #3B3B3B
 * Subtitles for each vertex label if the `note` field is available for 
 the vertex
+* A ranked list to accompany the undirected graph visualization
 
 ## 0.0.2
 

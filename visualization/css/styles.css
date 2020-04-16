@@ -10,14 +10,30 @@ body {
     font-size: 0.25rem !important;
 }
 
-.stats-container {
+.side-panel {
     position: fixed;
     margin: 10px;
-    background-color: rgba(0, 0, 0, 0.75);
-    height: 50px;
-    width: 200px;
     text-align: left;
-    color: white;
+    color: #3B3B3B;
     padding: 10px;
     font-size: 0.9rem;
+    list-style: outside none none;
+}
+
+.line-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.line-rank {
+    font-weight: bold;
+    order: 1;
+    padding-right: 10px;
+    width: 20px;
+    align-self: flex-end;
+}
+
+.line-title {
+    order: 2;
+    align-self: flex-start;
 }

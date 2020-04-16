@@ -119,11 +119,11 @@ function updateGraph() {
             // raise the circle to the top so the annotation isn't displayed over it
             d3.select(this.parentElement).raise();
 
-            // display this information in the info box
-            d3.select("#score")
-                .text(function() {
-                    return "AuthorRank score: " + d.score.toFixed(2)
-                });
+            // // display this information in the info box
+            // d3.select("#score")
+            //     .text(function() {
+            //         return "AuthorRank score: " + d.score.toFixed(2)
+            //     });
 
             // *********************************
             // HIGHLIGHT CONNECTED LINKS (thanks Chris Laporte)
@@ -309,6 +309,10 @@ function addScoresToGraph(graph, scores) {
     return graph
 }
 
+
+// function
+
+
 Promise.all([
     d3.json("data/chlorine_partitioning_mls_graph.json"),
     d3.json("data/chlorine_partitioning_mls_scores.json"),
@@ -346,10 +350,36 @@ Promise.all([
         d.scaled_weight = scale_to_range(d.weight, weightMax / 2, weightMin / 2);
     });
 
-    // initialize
+    // initialize the graph
     initializeGraph(graph);
 
-    // draw
+    // draw the graph
     drawGraph(graph);
+
+    // add the rank and author name to the side panel
+    graph.nodes.forEach(function(d) {
+
+        // add the line item for the vertex
+        let lineItem = d3.select("#side-panel-container")
+            .append('li')
+            .attr('class', 'line-item');
+
+        // add the rank
+        lineItem
+            .append("div")
+            .attr("class", "line-rank")
+            .text(function () {
+                return d.rank
+            });
+
+        // and the text associated with the vertex
+        lineItem
+            .append("div")
+            .attr("class", "line-title")
+            .text(function() {
+                return d.id
+            })
+
+    });
 
 });

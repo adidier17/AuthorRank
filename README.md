@@ -156,6 +156,21 @@ G = create(documents=documents)
 export_to_json(G)
 ```
 
+### Progress Bar 
+Whether using `graph.create` or `scores.top_authors`, the `progress_bar` 
+parameter can be used to indicate the progress of applying AuthorRank to 
+a set of documents. This can be helpful when processing larger corpora 
+of documents as it provides a rough indication of the remaining time 
+needed to complete execution. 
+
+```python
+from author_rank.graph import create
+from author_rank.score import top_authors
+
+create(documents=documents)
+top_authors(documents, normalize_scores=True, n=10, progress_bar=True)
+```
+
 ## About
 This library (of the same name) implements AuthorRank [1]. AuthorRank 
 is a modification of PageRank, Google's original algorithm for ranking 

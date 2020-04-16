@@ -63,8 +63,8 @@ def test_normalization(sample_data) -> None:
     :return: None
     """
 
-    # get the top authors for a set of documents
-    top = top_authors(documents=sample_data['documents'], normalize_scores=True)
+    # get the top authors for a set of documents and use the progress bar functionality
+    top = top_authors(documents=sample_data['documents'], normalize_scores=True, progress_bar=True)
 
     # check that it returns a tuple
     assert type(top) == tuple

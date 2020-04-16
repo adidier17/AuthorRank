@@ -18,13 +18,15 @@ top = top_authors(
     normalize_scores=True,
     n=25,
     authorship_key="author",
-    keys=set(["given", "family"])
+    keys=set(["given", "family"]),
+    progress_bar=True
 )
 
 # alternatively, when a progress bar as you create a graph
 G = create(
     documents=chlorine_partitioning_docs,
     authorship_key="author",
-    keys=set(["given", "family"])
+    keys=set(["given", "family"]),
+    progress_bar=True
 )
 

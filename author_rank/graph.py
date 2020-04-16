@@ -6,13 +6,14 @@ from typing import List
 from author_rank.utils import emit_progress_bar
 
 
-def create(documents: List[dict], authorship_key: str = "authors", keys: set = None) -> 'nx.classes.digraph.DiGraph':
+def create(documents: List[dict], authorship_key: str = "authors", keys: set = None, progress_bar: bool = False) -> 'nx.classes.digraph.DiGraph':
 
     """
     Creates a directed graph object from the list of input documents which are represented as dictionaries.
     :param documents: a list of dictionaries which represent documents.
     :param authorship_key: the key in the document which contains a list of dictionaries representing authors.
     :param keys: a set that contains the keys to be used to create a UID for authors.
+    :param progress_bar: a boolean that indicates whether or not a progress bar should be emitted, default False.
     :return: a networkx DiGraph object.
     """
 
@@ -55,7 +56,8 @@ def create(documents: List[dict], authorship_key: str = "authors", keys: set = N
         else:
             edges_all.extend([{"edge": (doc_authors[doc][0], doc_authors[doc][0]), "weight": 1}])
 
-        progress = emit_progress_bar(progress, doc+1, len(doc_authors))
+        if progress_bar:
+            progress = emit_progress_bar(progress, doc+1, len(doc_authors))
 
     # sort the edges for processing
     edges_all_sorted = sorted(edges_all, key=lambda x: str(x["edge"]))

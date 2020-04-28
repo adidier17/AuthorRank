@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.svg-container-2 {
+  display: block;
+  position: relative;
+  width: 50%;
+  /* padding-bottom: 100%; */
+  vertical-align: top;
+  overflow: hidden;
+}
+
+/* .svg-content {
+display: inline-block;
+} */
+
+
+/* #annotation-parent {
+  font-size: 0.35rem;
+}
+
+.annotation-note-label {
+  font-size: 0.25rem !important;
+} */
+
+.annotation {
+  font-size: 0.45rem !important;
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: 500;
+  text-decoration: underline;
+  text-anchor: start;
+}
+
+.side-panel {
+  position: fixed;
+  margin: 10px;
+  text-align: left;
+  color: #3B3B3B;
+  padding: 10px;
+  font-size: 0.9rem;
+  list-style: outside none none;
+}
+
+.line-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.line-rank {
+  font-weight: bold;
+  order: 1;
+  padding-right: 10px;
+  width: 20px;
+  align-self: flex-end;
+}
+
+.line-title {
+  order: 2;
+  align-self: flex-start;
+}
+
+/* Allows hoverability on nodes with numbers easily. */
+text {
+  pointer-events: none;
+}

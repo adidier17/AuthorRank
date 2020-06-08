@@ -21,6 +21,21 @@ def sample_data() -> dict:
     return data
 
 
+@pytest.fixture()
+def zero_division_data() -> dict:
+    """
+    This fixture reads in sample data that manifests a ZeroDivisionError from the data directory for the purposes of 
+    testing the functionality under this condition.
+    :return: None
+    """
+
+    # read in sample json
+    with open("data/author_network_zero_division.json", 'r') as f:
+        data = json.load(f)
+
+    return data
+
+
 def test_export_format(sample_data) -> None:
     """
     Test to ensure that the graph is being effectively exported as a dictionary which is valid JSON.
@@ -37,7 +52,7 @@ def test_export_format(sample_data) -> None:
     assert type(export) == dict
 
 
-def test_top_author_format(sample_data) -> None:
+def test_top_author_format(sample_data, zero_division_data) -> None:
     """
     Test to ensure that the top_author is returning a tuple of two lists with the appropriate formatting for the
     output
@@ -46,15 +61,19 @@ def test_top_author_format(sample_data) -> None:
     """
 
     # get the top authors for a set of documents
-    top = top_authors(documents=sample_data['documents'])
+    datasets = [sample_data['documents'], zero_division_data["documents"]]
 
-    # check that it returns a tuple
-    assert type(top) == tuple
+    for d in datasets:
 
-    # check to ensure each value in the responses are in the appropriate format
-    for k, v in zip(top[0], top[1]):
-        assert type(k) == tuple
-        assert type(v) == float
+        top = top_authors(documents=d, n=10)
+
+        # check that it returns a tuple
+        assert type(top) == tuple
+
+        # check to ensure each value in the responses are in the appropriate format
+        for k, v in zip(top[0], top[1]):
+            assert type(k) == tuple
+            assert type(v) == float
 
 
 def test_normalization(sample_data) -> None:

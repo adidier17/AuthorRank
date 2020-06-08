@@ -12,7 +12,10 @@ def normalize(minimum: float, maximum: float, value: float) -> float:
     :return: a normalized that lies on the scale from [0, 1]
     """
 
-    z = (value - minimum) / (maximum - minimum)
+    try:
+        z = (value - minimum) / (maximum - minimum)
+    except ZeroDivisionError:
+        z = 0.
 
     return z
 

@@ -1,0 +1,180 @@
+{
+    "documents": [
+        {
+            "title": "Detecting spacecraft anomalies using lstms and nonparametric dynamic thresholding",
+            "authors": [
+                {
+                    "first_name": "Kyle",
+                    "last_name": "Hundman",
+                    "affiliation": {
+                        "name": "NASA Jet Propulsion Laboratory",
+                        "department": "Office of the Chief Information Officer"
+                    }
+                },
+                {
+                    "first_name": "Valentino",
+                    "last_name": "Constantinou",
+                    "affiliation": {
+                        "name": "NASA Jet Propulsion Laboratory",
+                        "department": "Office of the Chief Information Officer"
+                    }
+                },
+                {
+                    "first_name": "Christopher",
+                    "last_name": "Laporte",
+                    "affiliation": {
+                        "name": "NASA Jet Propulsion Laboratory",
+                        "department": "Office of the Chief Information Officer"
+                    }
+                },
+                {
+                    "first_name": "Ian",
+                    "last_name": "Colwell",
+                    "affiliation": {
+                        "name": "NASA Jet Propulsion Laboratory",
+                        "department": "Office of the Chief Information Officer"
+                    }
+                },
+                {
+                    "first_name": "Tom",
+                    "last_name": "Soderstrom",
+                    "affiliation": {
+                        "name": "NASA Jet Propulsion Laboratory",
+                        "department": "Office of the Chief Information Officer"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "PyNomaly: Anomaly detection using Local Outlier Probabilities (LoOP).",
+            "authors": [
+                {
+                    "first_name": "Valentino",
+                    "last_name": "Constantinou",
+                    "affiliation": {
+                        "name": "NASA Jet Propulsion Laboratory",
+                        "department": "Office of the Chief Information Officer"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Always lurking: understanding and mitigating bias in online human trafficking detection",
+            "authors": [
+                {
+                    "first_name": "Kyle",
+                    "last_name": "Hundman",
+                    "affiliation": {
+                        "name": "NASA Jet Propulsion Laboratory",
+                        "department": "Office of the Chief Information Officer"
+                    }
+                },
+                {
+                    "first_name": "Thamme",
+                    "last_name": "Gowda",
+                    "affiliation": {
+                        "name": "University of Southern California"
+                    }
+                },
+                {
+                    "first_name": "Mayank",
+                    "last_name": "Kejriwal",
+                    "affiliation": {
+                        "name": "University of Southern California"
+                    }
+                },
+                {
+                    "first_name": "Benedikt",
+                    "last_name": "Boecking",
+                    "affiliation": {
+                        "name": "Carnegie Mellon University"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Measurement Context Extraction from Text: Discovering Opportunities and Gaps in Earth Science",
+            "authors": [
+                {
+                    "first_name": "Kyle",
+                    "last_name": "Hundman",
+                    "affiliation": {
+                        "name": "NASA Jet Propulsion Laboratory",
+                        "department": "Office of the Chief Information Officer"
+                    }
+                },
+                {
+                    "first_name": "Chris",
+                    "last_name": "Mattmann",
+                    "affiliation": {
+                        "name": "University of Southern California",
+                        "department": "Computer Science Department"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "An approach for automatic and large scale image forensics",
+            "authors": [
+                {
+                    "first_name": "Thamme",
+                    "last_name": "Gowda",
+                    "affiliation": {
+                        "name": "University of Southern California"
+                    }
+                },
+                {
+                    "first_name": "Kyle",
+                    "last_name": "Hundman",
+                    "affiliation": {
+                        "name": "NASA Jet Propulsion Laboratory",
+                        "department": "Office of the Chief Information Officer"
+                    }
+                },
+                {
+                    "first_name": "Chris",
+                    "last_name": "Mattmann",
+                    "affiliation": {
+                        "name": "University of Southern California",
+                        "department": "Computer Science Department"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Search Analytics: Automated Learning, Analysis, and Search with Open Source",
+            "authors": [
+                {
+                    "first_name": "Kyle",
+                    "last_name": "Hundman",
+                    "affiliation": {
+                        "name": "NASA Jet Propulsion Laboratory",
+                        "department": "Office of the Chief Information Officer"
+                    }
+                },
+                {
+                    "first_name": "Chris",
+                    "last_name": "Mattmann",
+                    "affiliation": {
+                        "name": "University of Southern California",
+                        "department": "Computer Science Department"
+                    }
+                },
+                {
+                    "first_name": "Jason",
+                    "last_name": "Hyon",
+                    "affiliation": {
+                        "name": "NASA Jet Propulsion Laboratory"
+                    }
+                },
+                {
+                    "first_name": "Paul",
+                    "last_name": "Ramirez",
+                    "affiliation": {
+                        "name": "NASA Jet Propulsion Laboratory"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -12,6 +12,11 @@ and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 and `score.top_authors` functions, which provides users an indication of 
 how far along the processing is on the input documents. 
 
+### Fixed 
+- An ZeroDivisionError that would result in the top_authors calculation 
+failing in some cases. A dataset that results in this case has been 
+added to the testing suite and a fix developed.
+
 ## 0.0.2
 
 ### Changed 

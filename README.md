@@ -19,6 +19,7 @@ of research papers.
 - Python 3.5 - 3.8 
 - networkx >= 2.4
 - python-utils >= 2.4.0
+- scipy >= 1.4.1
 
 ## How To
 

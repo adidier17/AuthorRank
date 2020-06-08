@@ -1,7 +1,9 @@
 # imports
 from author_rank.graph import create, export_to_json
 from author_rank.score import top_authors
+from author_rank.utils import emit_progress_bar
 import json
+import os
 import pytest
 
 
@@ -63,8 +65,8 @@ def test_normalization(sample_data) -> None:
     :return: None
     """
 
-    # get the top authors for a set of documents
-    top = top_authors(documents=sample_data['documents'], normalize_scores=True)
+    # get the top authors for a set of documents and use the progress bar functionality
+    top = top_authors(documents=sample_data['documents'], normalize_scores=True, progress_bar=True)
 
     # check that it returns a tuple
     assert type(top) == tuple
@@ -78,3 +80,31 @@ def test_normalization(sample_data) -> None:
 
     # check to ensure that the first entry in the list is a value of 1
     assert top[1][0] == 1.0
+
+
+def test_progress_bar_emit(sample_data) -> None:
+    """
+    Test to ensure that the progress bar emits the proper string under varying conditions.
+    :param sample_data: the sample data
+    :return: None
+    """
+
+    progress = "="
+
+    # first, check that the progress bar emits a string
+    progress_out = emit_progress_bar(progress, index=1, total=10)
+    assert type(progress_out) == str
+
+    # check that the progress bar works when the number of observations is greater / less than the terminal width
+    progress_out = emit_progress_bar(progress, index=1, total=10)
+    assert type(progress_out) == str
+
+    progress_out = emit_progress_bar(progress, index=1, total=1000)
+    assert type(progress_out) == str
+
+    # next check that it returns a larger string when the index matches the block size
+    # we need to override python-utils get_terminal_size to return a fixed value for testing
+    os.environ["COLUMNS"] = "1000"
+    progress_out = emit_progress_bar(progress, index=500, total=1000)
+
+    assert progress_out == "=="

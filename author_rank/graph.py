@@ -3,15 +3,17 @@ from collections import Counter
 import itertools
 import networkx as nx
 from typing import List
+from author_rank.utils import emit_progress_bar
 
 
-def create(documents: List[dict], authorship_key: str = "authors", keys: set = None) -> 'nx.classes.digraph.DiGraph':
+def create(documents: List[dict], authorship_key: str = "authors", keys: set = None, progress_bar: bool = False) -> 'nx.classes.digraph.DiGraph':
 
     """
     Creates a directed graph object from the list of input documents which are represented as dictionaries.
     :param documents: a list of dictionaries which represent documents.
     :param authorship_key: the key in the document which contains a list of dictionaries representing authors.
     :param keys: a set that contains the keys to be used to create a UID for authors.
+    :param progress_bar: a boolean that indicates whether or not a progress bar should be emitted, default False.
     :return: a networkx DiGraph object.
     """
 
@@ -43,15 +45,19 @@ def create(documents: List[dict], authorship_key: str = "authors", keys: set = N
     edges_all = list()
 
     # process each document and create the edges with the appropriate weights
-    for doc in doc_authors:
-        if len(doc) > 1:
+    progress = "="
+    for doc in range(0, len(doc_authors)):
+        if len(doc_authors[doc]) > 1:
             author_ids = [tuple(d.values()) for d in flattened_list]
             pairs = (list(itertools.permutations(author_ids, 2)))
             # calculate g_i_j_k
-            exclusivity = 1 / (len(doc) - 1)
+            exclusivity = 1 / (len(doc_authors[doc]) - 1)
             edges_all.extend([{"edge": (x[0], x[1]), "weight": exclusivity} for x in pairs])
         else:
-            edges_all.extend([{"edge": (doc[0], doc[0]), "weight": 1}])
+            edges_all.extend([{"edge": (doc_authors[doc][0], doc_authors[doc][0]), "weight": 1}])
+
+        if progress_bar:
+            progress = emit_progress_bar(progress, doc+1, len(doc_authors))
 
     # sort the edges for processing
     edges_all_sorted = sorted(edges_all, key=lambda x: str(x["edge"]))

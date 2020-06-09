@@ -12,5 +12,5 @@ setup(
     keywords=['author_rank', 'PageRank', 'network', 'graph', 'edges', 'nodes', 'authorship'],
     classifiers=[],
     license='MIT',
-    install_requires=['networkx', 'numpy', 'scikit-learn']
+    install_requires=['networkx', 'python-utils', 'scipy']
 )

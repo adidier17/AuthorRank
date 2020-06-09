@@ -17,6 +17,9 @@ how far along the processing is on the input documents.
 failing in some cases. A dataset that results in this case has been 
 added to the testing suite and a fix developed.
 
+### Changed 
+- Libraries required listed in `setup.py`. 
+
 ## 0.0.2
 
 ### Changed 

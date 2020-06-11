@@ -1,7 +1,7 @@
 # imports
 from author_rank.graph import create, export_to_json
 from author_rank.score import top_authors
-from author_rank.utils import emit_progress_bar
+from author_rank.utils import emit_progress_bar, normalize
 import json
 import os
 import pytest
@@ -127,3 +127,25 @@ def test_progress_bar_emit(sample_data) -> None:
     progress_out = emit_progress_bar(progress, index=500, total=1000)
 
     assert progress_out == "=="
+
+
+def test_normalization_zerodivisionerror() -> None:
+    """
+    Test to ensure that when authors all have the same score,
+    they are all receive the same score of 1.0 after
+    normalization.
+    :return: None
+    """
+
+    # same scores
+    scores = [25.0, 25.0, 25.0]
+    minimum = min(scores)
+    maximum = max(scores)
+
+    # normalize
+    top = [normalize(minimum, maximum, s) for s in scores]
+
+    # test
+    assert len(top) == 3
+    for t in top:
+        assert t == 1.

@@ -1,7 +1,7 @@
 # imports
 from author_rank.graph import create, export_to_json
 from author_rank.score import top_authors
-from author_rank.utils import emit_progress_bar
+from author_rank.utils import emit_progress_bar, normalize
 import json
 import os
 import pytest
@@ -16,6 +16,21 @@ def sample_data() -> dict:
 
     # read in sample json
     with open("data/author_network.json", 'r') as f:
+        data = json.load(f)
+
+    return data
+
+
+@pytest.fixture()
+def zero_division_data() -> dict:
+    """
+    This fixture reads in sample data that manifests a ZeroDivisionError from the data directory for the purposes of 
+    testing the functionality under this condition.
+    :return: None
+    """
+
+    # read in sample json
+    with open("data/author_network_zero_division.json", 'r') as f:
         data = json.load(f)
 
     return data
@@ -37,7 +52,7 @@ def test_export_format(sample_data) -> None:
     assert type(export) == dict
 
 
-def test_top_author_format(sample_data) -> None:
+def test_top_author_format(sample_data, zero_division_data) -> None:
     """
     Test to ensure that the top_author is returning a tuple of two lists with the appropriate formatting for the
     output
@@ -46,15 +61,19 @@ def test_top_author_format(sample_data) -> None:
     """
 
     # get the top authors for a set of documents
-    top = top_authors(documents=sample_data['documents'])
+    datasets = [sample_data['documents'], zero_division_data["documents"]]
 
-    # check that it returns a tuple
-    assert type(top) == tuple
+    for d in datasets:
 
-    # check to ensure each value in the responses are in the appropriate format
-    for k, v in zip(top[0], top[1]):
-        assert type(k) == tuple
-        assert type(v) == float
+        top = top_authors(documents=d, n=10)
+
+        # check that it returns a tuple
+        assert type(top) == tuple
+
+        # check to ensure each value in the responses are in the appropriate format
+        for k, v in zip(top[0], top[1]):
+            assert type(k) == tuple
+            assert type(v) == float
 
 
 def test_normalization(sample_data) -> None:
@@ -108,3 +127,25 @@ def test_progress_bar_emit(sample_data) -> None:
     progress_out = emit_progress_bar(progress, index=500, total=1000)
 
     assert progress_out == "=="
+
+
+def test_normalization_zerodivisionerror() -> None:
+    """
+    Test to ensure that when authors all have the same score,
+    they are all receive the same score of 1.0 after
+    normalization.
+    :return: None
+    """
+
+    # same scores
+    scores = [25.0, 25.0, 25.0]
+    minimum = min(scores)
+    maximum = max(scores)
+
+    # normalize
+    top = [normalize(minimum, maximum, s) for s in scores]
+
+    # test
+    assert len(top) == 3
+    for t in top:
+        assert t == 1.

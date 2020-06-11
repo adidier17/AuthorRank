@@ -14,8 +14,12 @@ def normalize(minimum: float, maximum: float, value: float) -> float:
 
     try:
         z = (value - minimum) / (maximum - minimum)
+
+    # this error occurs when the minimum and maximum of a set of scores are identical to one another
+    # this situation may arise when all of the authors are evenly scored as a result of AuthorRank
+    # in this situation, set all of their scores to 1.0
     except ZeroDivisionError:
-        z = 0.
+        z = 1.
 
     return z
 

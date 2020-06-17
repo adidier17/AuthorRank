@@ -5,8 +5,7 @@ import networkx as nx
 from typing import List, Tuple
 
 
-# TODO: add the option to return the graph
-def top_authors(documents: List[dict], n: int = 5, normalize_scores: bool = False, authorship_key: str = "authors", keys: set = None) -> Tuple[List, List]:
+def top_authors(documents: List[dict], n: int = 5, normalize_scores: bool = False, authorship_key: str = "authors", keys: set = None, progress_bar: bool = False) -> Tuple[List, List]:
 
     """
     Returns the top n authors according to their author_rank scores from the constructed graph as well as their scores,
@@ -16,6 +15,7 @@ def top_authors(documents: List[dict], n: int = 5, normalize_scores: bool = Fals
     :param normalize_scores: a boolean to indicate whether or not to normalize the scores between 0 and 1.
     :param authorship_key: the key in the document which contains a list of dictionaries representing authors.
     :param keys: a set that contains the keys to be used to create a UID for authors.
+    :param progress_bar: a boolean that indicates whether or not a progress bar should be emitted, default False.
     :return: a tuple which contains two lists, one for authors and the other for their scores.
     """
 
@@ -25,7 +25,7 @@ def top_authors(documents: List[dict], n: int = 5, normalize_scores: bool = Fals
         keys = {"first_name", "last_name"}
 
     # create a directed graph that represents author relationships in the provide documents
-    graph = create(documents, authorship_key=authorship_key, keys=keys)
+    graph = create(documents, authorship_key=authorship_key, keys=keys, progress_bar=progress_bar)
 
     # apply the PageRank algorithm to the graph
     rank = nx.pagerank_scipy(graph)

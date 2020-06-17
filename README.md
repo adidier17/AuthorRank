@@ -2,7 +2,7 @@
 A modification of PageRank to find the most prestigious authors in a scientific collaboration network.
 
 [![Language](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue)](#)
-[![PyPi](https://img.shields.io/badge/pypi-0.0.2-blue.svg)](https://pypi.python.org/pypi/author_rank/0.0.2)
+[![PyPi](https://img.shields.io/badge/pypi-0.0.3-blue.svg)](https://pypi.python.org/pypi/author_rank/0.0.3)
 [![License](https://img.shields.io/github/license/adidier17/AuthorRank)](https://opensource.org/licenses/MIT)
 [![Coverage Status](https://coveralls.io/repos/github/adidier17/AuthorRank/badge.svg?branch=master)](https://coveralls.io/github/adidier17/AuthorRank?branch=master)
 [![Build Status](https://api.travis-ci.org/adidier17/AuthorRank.svg?branch=master)](https://travis-ci.org/adidier17/AuthorRank)
@@ -18,6 +18,8 @@ of research papers.
 ## Dependencies 
 - Python 3.5 - 3.8 
 - networkx >= 2.4
+- python-utils >= 2.4.0
+- scipy >= 1.4.1
 
 ## How To
 
@@ -129,6 +131,21 @@ top_authors(documents, normalize_scores=True, n=10)
 Setting _normalized_scores_ to `True` normalizes the AuthorRank scores 
 on a scale of 0 to 1 (inclusive), which may be helpful for interpretation.  
 
+### Specifying Authorship Keys 
+
+By default, AuthorRank looks for a list of authors - with each author 
+represented as a dictionary of keys and values - from each document 
+in the list of documents passed into `top_authors` or `create` using 
+the key `authors`, with the keys `first_name` and `last_name` as the 
+keys used to uniquely identify each author. However, if desired other keys 
+could be specified and utilized, as in the example below: 
+
+```python
+top_authors(documents, normalize_scores=True, n=10, authorship_key="creators", keys=set(["given", "family"]))
+```
+
+### Exporting the Co-Authorship Graph
+
 It is also possible to export the directed graph from the provided input data, 
 with weights, into a JSON format for use in visualization or additional 
 analysis:
@@ -138,6 +155,21 @@ from author_rank.graph import create, export_to_json
 
 G = create(documents=documents)
 export_to_json(G)
+```
+
+### Progress Bar 
+Whether using `graph.create` or `scores.top_authors`, the `progress_bar` 
+parameter can be used to indicate the progress of applying AuthorRank to 
+a set of documents. This can be helpful when processing larger corpora 
+of documents as it provides a rough indication of the remaining time 
+needed to complete execution. 
+
+```python
+from author_rank.graph import create
+from author_rank.score import top_authors
+
+create(documents=documents)
+top_authors(documents, normalize_scores=True, n=10, progress_bar=True)
 ```
 
 ## About
@@ -167,18 +199,21 @@ applications utilizing similar directed graphs (for example, it may be
 interesting to examine the [Enron email corpus](https://www.cs.cmu.edu/~enron/)).
 
 ## Contributing
-If you would like to contribute, please fork the repository and make 
-any changes locally prior to submitting a pull request. 
-Feel free to open an issue if you notice any erroneous behavior.
 
-## Versioning
-[Semantic versioning](http://semver.org/) is used for this project. If contributing, please conform to semantic
-versioning guidelines when submitting a pull request.
+Please use the issue tracker to report any erroneous behavior or desired 
+feature requests. 
 
-## License
-This project is licensed under the MIT license.
+If you would like to contribute to development, please fork the repository and make 
+any changes to a branch which corresponds to an open issue. Hot fixes 
+and bug fixes can be represented by branches with the prefix `fix/` versus 
+`feature/` for new capabilities or code improvements. Pull requests will 
+then be made from these branches into the repository's `dev` branch 
+prior to being pulled into `master`. Pull requests which are works in 
+progress or ready for merging should be indicated by their respective 
+prefixes ([WIP] and [MRG]). Pull requests with the [MRG] label will be 
+reviewed prior to being pulled into the `master` branch. 
 
-## Tests
+### Running Tests
 
 Tests are contained within the `tests` directory. To run tests for 
 AuthorRank, call pytest and pytest-cov via the command line:
@@ -187,7 +222,16 @@ AuthorRank, call pytest and pytest-cov via the command line:
 python3 -m pytest --cov=author_rank -vv
 ```
 
-Setting up a virtual environment for testing and development is recommended. 
+The tests included within the repository are automatically run on commit 
+to repository branches and any external pull requests 
+[using Travis CI](https://api.travis-ci.org/adidier17/AuthorRank.svg?branch=master)
+
+## Versioning
+[Semantic versioning](http://semver.org/) is used for this project. If contributing, please conform to semantic
+versioning guidelines when submitting a pull request.
+
+## License
+This project is licensed under the MIT license.
 
 ## References 
 

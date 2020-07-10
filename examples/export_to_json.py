@@ -1,5 +1,5 @@
 # imports
-from author_rank.graph import create, export_to_json
+import author_rank as ar
 import json
 
 
@@ -7,10 +7,15 @@ import json
 with open("../data/author_network.json", 'r') as f:
     data = json.load(f)
 
-# generate a graph
-G = create(documents=data['documents'])
+# create an AuthorRank object
+ar_graph = ar.Graph()
+
+# fit to the data
+ar_graph.fit(
+    documents=data["documents"]
+)
 
 # export them
-export = export_to_json(graph=G)
+export = ar_graph.as_json()
 
 print(json.dumps(export, indent=4))

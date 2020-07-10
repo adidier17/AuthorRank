@@ -1,6 +1,5 @@
 # imports
-from author_rank.graph import create, export_to_json
-from author_rank.score import top_authors
+import author_rank as ar
 from author_rank.utils import emit_progress_bar, normalize
 import json
 import os
@@ -43,11 +42,16 @@ def test_export_format(sample_data) -> None:
     :return: None
     """
 
-    # generate a graph
-    G = create(documents=sample_data['documents'])
+    # create an AuthorRank object
+    ar_graph = ar.Graph()
+
+    # fit to the data
+    ar_graph.fit(
+        documents=sample_data["documents"]
+    )
 
     # export them
-    export = export_to_json(graph=G)
+    export = ar_graph.as_json()
 
     assert type(export) == dict
 
@@ -65,7 +69,16 @@ def test_top_author_format(sample_data, zero_division_data) -> None:
 
     for d in datasets:
 
-        top = top_authors(documents=d, n=10)
+        # create an AuthorRank object
+        ar_graph = ar.Graph()
+
+        # fit to the data
+        ar_graph.fit(
+            documents=d
+        )
+
+        # get the top authors for a set of documents
+        top = ar_graph.top_authors()
 
         # check that it returns a tuple
         assert type(top) == tuple
@@ -84,8 +97,19 @@ def test_normalization(sample_data) -> None:
     :return: None
     """
 
-    # get the top authors for a set of documents and use the progress bar functionality
-    top = top_authors(documents=sample_data['documents'], normalize_scores=True, progress_bar=True)
+    # create an AuthorRank object
+    ar_graph = ar.Graph()
+
+    # fit to the data and use the progress bar
+    ar_graph.fit(
+        documents=sample_data['documents'],
+        progress_bar=True
+    )
+
+    # get the top authors for a set of documents and normalize the scores
+    top = ar_graph.top_authors(
+        normalize_scores=True
+    )
 
     # check that it returns a tuple
     assert type(top) == tuple

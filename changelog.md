@@ -4,6 +4,14 @@ All notable changes to `author_rank` will be documented in this Changelog.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) 
 and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 0.1.0
+
+### Changed 
+- The manner in which users interact with the library to more
+closely mirror the conventions of the [scikit-learn](https://scikit-learn.org/) 
+and [NetworkX](https://networkx.github.io/) libraries, as described in 
+[this issue](https://github.com/adidier17/AuthorRank/issues/10). 
+
 ## 0.0.3
 
 ### Added

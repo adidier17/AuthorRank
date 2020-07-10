@@ -2,7 +2,7 @@
 A modification of PageRank to find the most prestigious authors in a scientific collaboration network.
 
 [![Language](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue)](#)
-[![PyPi](https://img.shields.io/badge/pypi-0.0.3-blue.svg)](https://pypi.python.org/pypi/author_rank/0.0.3)
+[![PyPi](https://img.shields.io/badge/pypi-0.1.0-blue.svg)](https://pypi.python.org/pypi/author_rank/0.1.0)
 [![License](https://img.shields.io/github/license/adidier17/AuthorRank)](https://opensource.org/licenses/MIT)
 [![Coverage Status](https://coveralls.io/repos/github/adidier17/AuthorRank/badge.svg?branch=master)](https://coveralls.io/github/adidier17/AuthorRank?branch=master)
 [![Build Status](https://api.travis-ci.org/adidier17/AuthorRank.svg?branch=master)](https://travis-ci.org/adidier17/AuthorRank)
@@ -120,12 +120,19 @@ documents = [
 ```
 
 One can compute retrieve a ranked list of authors and their scores 
-according to the AuthorRank algortithm: 
+according to the AuthorRank algorithm: 
 
 ```python
-from author_rank.score import top_authors
+# create an AuthorRank object
+ar_graph = ar.Graph()
 
-top_authors(documents, normalize_scores=True, n=10)
+# fit to the data
+ar_graph.fit(
+    documents=documents
+)
+
+# get the top authors for a set of documents
+ar_graph.top_authors(normalize_scores=True, n=10)
 ```
 
 Setting _normalized_scores_ to `True` normalizes the AuthorRank scores 
@@ -135,13 +142,18 @@ on a scale of 0 to 1 (inclusive), which may be helpful for interpretation.
 
 By default, AuthorRank looks for a list of authors - with each author 
 represented as a dictionary of keys and values - from each document 
-in the list of documents passed into `top_authors` or `create` using 
+in the list of documents passed into `fit` using 
 the key `authors`, with the keys `first_name` and `last_name` as the 
 keys used to uniquely identify each author. However, if desired other keys 
 could be specified and utilized, as in the example below: 
 
 ```python
-top_authors(documents, normalize_scores=True, n=10, authorship_key="creators", keys=set(["given", "family"]))
+ar_graph.fit(
+    documents=documents,
+    authorship_key="creators", 
+    keys=set(["given", "family"])
+)
+ar_graph.top_authors(normalize_scores=True, n=10)
 ```
 
 ### Exporting the Co-Authorship Graph
@@ -151,25 +163,23 @@ with weights, into a JSON format for use in visualization or additional
 analysis:
 
 ```python
-from author_rank.graph import create, export_to_json
-
-G = create(documents=documents)
-export_to_json(G)
+export = ar_graph.as_json()
+print(json.dumps(export, indent=4))
 ```
 
 ### Progress Bar 
-Whether using `graph.create` or `scores.top_authors`, the `progress_bar` 
+When creating the AuthorRank graph, the `progress_bar` 
 parameter can be used to indicate the progress of applying AuthorRank to 
 a set of documents. This can be helpful when processing larger corpora 
 of documents as it provides a rough indication of the remaining time 
 needed to complete execution. 
 
 ```python
-from author_rank.graph import create
-from author_rank.score import top_authors
-
-create(documents=documents)
-top_authors(documents, normalize_scores=True, n=10, progress_bar=True)
+# fit to the data
+ar_graph.fit(
+    documents=documents,
+    progress_bar=True
+)
 ```
 
 ## About
@@ -222,7 +232,7 @@ python3 -m pytest --cov=author_rank -vv
 
 The tests included within the repository are automatically run on commit 
 to repository branches and any external pull requests 
-[using Travis CI](https://api.travis-ci.org/adidier17/AuthorRank.svg?branch=master)
+[using Travis CI](https://api.travis-ci.org/adidier17/AuthorRank.svg?branch=master). 
 
 ## Versioning
 [Semantic versioning](http://semver.org/) is used for this project. If contributing, please conform to semantic

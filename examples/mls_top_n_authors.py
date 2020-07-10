@@ -1,5 +1,4 @@
-from author_rank.graph import create, export_to_json
-from author_rank.score import top_authors
+import author_rank as ar
 import json
 
 # read in mls json
@@ -12,21 +11,25 @@ with open("../data/microwave_limb_sounder.json", 'r') as f:
 # subsetting to documents with a substring in the text
 chlorine_partitioning_docs = [d for d in docs if "chlorine partitioning" in d["text"]]
 
-# you can use a progress bar to indicate how far along processing is
-top = top_authors(
+# create an AuthorRank object
+ar_graph = ar.Graph()
+
+# fit to the data
+ar_graph.fit(
     documents=chlorine_partitioning_docs,
-    normalize_scores=True,
-    n=25,
+    progress_bar=True, # use a progress bar to indicate how far along processing is
     authorship_key="author",
-    keys=set(["given", "family"]),
-    progress_bar=True
+    keys=set(["given", "family"])
 )
 
-# alternatively, when a progress bar as you create a graph
-G = create(
-    documents=chlorine_partitioning_docs,
-    authorship_key="author",
-    keys=set(["given", "family"]),
-    progress_bar=True
+# get the top authors for a set of documents
+top = ar_graph.top_authors(
+    normalize_scores=True,
+    n=25
 )
+
+# print the results
+for i, j in zip(top[0], top[1]):
+    print(i, j)
+
 

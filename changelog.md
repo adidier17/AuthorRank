@@ -12,6 +12,14 @@ closely mirror the conventions of the [scikit-learn](https://scikit-learn.org/)
 and [NetworkX](https://networkx.github.io/) libraries, as described in 
 [this issue](https://github.com/adidier17/AuthorRank/issues/10). 
 
+### Added 
+- A warning to users when attempting to fit AuthorRank with a 
+document set that has a single author. AuthorRank requires at 
+least 2 authors in the document set. 
+- A warning in the case that users attempt to call `top_authors` 
+prior to `fit`. The AuthorRank approach must first be fit 
+to a set of documents before returning the top authors.
+
 ## 0.0.3
 
 ### Added

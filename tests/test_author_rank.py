@@ -173,3 +173,67 @@ def test_normalization_zerodivisionerror() -> None:
     assert len(top) == 3
     for t in top:
         assert t == 1.
+
+
+def test_single_author() -> None:
+    """
+    Tests the functionality of AuthorRank in the rare case when a single
+    author is present in the document set passed.
+    :return: None
+    """
+
+    # first, create a single author dataset
+    data = [
+        {
+          "title": "PyNomaly: Anomaly detection using Local Outlier Probabilities (LoOP).",
+          "authors": [
+            {
+              "first_name": "Valentino",
+              "last_name": "Constantinou",
+              "affiliation": {
+                "name": "NASA Jet Propulsion Laboratory",
+                "department": "Office of the Chief Information Officer"
+              }
+            }
+          ]
+        }
+    ]
+
+    # then attempt to fit to the data
+    # create an AuthorRank object
+    ar_graph = ar.Graph()
+
+    with pytest.warns(UserWarning) as record:
+        # fit to the data
+        ar_graph.fit(
+            documents=data
+        )
+
+    # check that the message matches
+    messages = [i.message.args[0] for i in record]
+    assert "Number of authors in document set must be greater than one. " \
+           "AuthorRank not fit to the data, please try again." in messages
+
+
+def test_no_fit() -> None:
+    """
+    Tests whether the AuthorRank approach has been fit to a set of documents
+    prior to calling top_authors, and checks for the correct UserWarning.
+    :return: None
+    """
+
+    # create an AuthorRank object
+    ar_graph = ar.Graph()
+
+    with pytest.warns(UserWarning) as record:
+        # try to fit top authors
+        ar_graph.top_authors(normalize_scores=True)
+
+    # check that the message matches
+    messages = [i.message.args[0] for i in record]
+    assert "AuthorRank must first be fit on a set of documents " \
+           "prior to calling top_authors." in messages
+
+
+
+

@@ -1,3 +1,4 @@
+from collections import Counter
 from python_utils.terminal import get_terminal_size
 import sys
 
@@ -49,3 +50,17 @@ def emit_progress_bar(progress: str, index: int, total: int) -> str:
     sys.stdout.write("[ %s ] %.2f%%" % (progress, percent * 100))
     sys.stdout.flush()
     return progress
+
+
+def check_author_count(counter: Counter) -> bool:
+    """
+    Takes a set of documents and counts the number of authors. If less than
+    2, returns False otherwise True.
+    :param counter: a Counter object for author counts.
+    :return: a boolean indicating whether or not the document set can be
+    analyzed (True for yes, no for False).
+    """
+
+    if len(counter) == 1:
+        return False
+    return True

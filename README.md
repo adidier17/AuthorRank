@@ -218,7 +218,7 @@ and bug fixes can be represented by branches with the prefix `fix/` versus
 then be made from these branches into the repository's `dev` branch 
 prior to being pulled into `master`. Pull requests which are works in 
 progress or ready for merging should be indicated by their respective 
-prefixes ([WIP] and [MRG]). Pull requests with the [MRG] label will be 
+prefixes (`[WIP]` and `[MRG]`). Pull requests with the `[MRG]` label will be 
 reviewed prior to being pulled into the `master` branch. 
 
 ### Running Tests

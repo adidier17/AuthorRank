@@ -11,6 +11,8 @@ and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 closely mirror the conventions of the [scikit-learn](https://scikit-learn.org/) 
 and [NetworkX](https://networkx.github.io/) libraries, as described in 
 [this issue](https://github.com/adidier17/AuthorRank/issues/10). 
+- Example code and Jupyter notebooks to align with the changes 
+described in the above line item. 
 
 ### Added 
 - A warning to users when attempting to fit AuthorRank with a 
@@ -19,6 +21,8 @@ least 2 authors in the document set.
 - A warning in the case that users attempt to call `top_authors` 
 prior to `fit`. The AuthorRank approach must first be fit 
 to a set of documents before returning the top authors.
+- A test to ensure that data processing occurs within a specified 
+time bound (in seconds). 
 
 ## 0.0.3
 

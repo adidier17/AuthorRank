@@ -8,3 +8,4 @@ venv
 build
 author_rank.egg-info
 htmlcov
+*.graffle

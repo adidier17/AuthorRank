@@ -199,8 +199,9 @@ collaboration. Unlike PageRank in which each node is assumed to transfer status 
 considering status in a collaboration, greater status should be given to authors who frequently
 coauthor together, and status should be diminished as the number of authors in a paper
 increases. Thus, edges are weighted according to frequency of co-authorship and total number
-of co-authors on articles according to the diagram shown below.
-![Co-AuthorshipGraph](images/Co-AuthorshipGraph.JPG)
+of co-authors on articles according to the diagram shown below (a high-resolution 
+figure can be found in the `images` directory).
+![Co-AuthorshipGraph](images/coauthorship_graph_750.png)
 
 The applicability of this approach is not confined to research 
 collaborations and this module could be extended into other useful 

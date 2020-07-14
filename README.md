@@ -248,5 +248,6 @@ This project is licensed under the MIT license.
 1. Xiaoming Liu, Johan Bollen, Michael L. Nelson, Herbert Van de Sompel, 
 Co-authorship networks in the digital library research community, 
 Information Processing & Management, Volume 41, Issue 6, 2005, 
-Pages 1462-1480, ISSN 0306-4573, http://dx.doi.org/10.1016/j.ipm.2005.03.012.
+Pages 1462-1480, ISSN 0306-4573, http://dx.doi.org/10.1016/j.ipm.2005.03.012. 
+[Pre-print PDF](https://arxiv.org/pdf/cs/0502056.pdf).
 

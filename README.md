@@ -201,6 +201,7 @@ coauthor together, and status should be diminished as the number of authors in a
 increases. Thus, edges are weighted according to frequency of co-authorship and total number
 of co-authors on articles according to the diagram shown below (a high-resolution 
 figure can be found in the `images` directory).
+
 ![Co-AuthorshipGraph](images/coauthorship_graph_750.png)
 
 The applicability of this approach is not confined to research 

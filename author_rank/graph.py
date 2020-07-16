@@ -50,6 +50,7 @@ class Graph:
         # unique combination of key values will serve as keys for each author
         flattened_list = list(itertools.chain.from_iterable(doc_authors))
         author_uid_tuples = [tuple(d.values()) for d in flattened_list]
+        # ajd_matrix = np.empty(shape=())
 
         # get overall counts of each author
         counts = Counter(author_uid_tuples)
@@ -66,7 +67,7 @@ class Graph:
             progress = "="
             for doc in range(0, len(doc_authors)):
                 if len(doc_authors[doc]) > 1:
-                    author_ids = [tuple(d.values()) for d in flattened_list]
+                    author_ids = [tuple(d.values()) for d in doc_authors[doc]]
                     pairs = (list(itertools.permutations(author_ids, 2)))
                     # calculate g_i_j_k
                     exclusivity = 1 / (len(doc_authors[doc]) - 1)

@@ -24,6 +24,11 @@ to a set of documents before returning the top authors.
 - A test to ensure that data processing occurs within a specified 
 time bound (in seconds). 
 
+### Fixed 
+- A bug whereby the incorrect list of authors per document 
+was being processed into the AuthorRank graph. 
+
+
 ## 0.0.3
 
 ### Added

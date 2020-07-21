@@ -15,7 +15,8 @@ class Graph:
         self._is_fit = False
 
     def fit(self, documents: List[dict], authorship_key: str = "authors",
-            keys: set = None, progress_bar: bool = False) -> 'nx.classes.digraph.DiGraph':
+            keys: set = None, progress_bar: bool = False,
+            parallel: bool = False) -> 'nx.classes.digraph.DiGraph':
 
         """
         Creates a directed graph object from the list of input documents which
@@ -27,6 +28,9 @@ class Graph:
         for authors.
         :param progress_bar: a boolean that indicates whether or not a progress
         bar should be emitted, default False.
+        :param parallel: a boolean that indicates whether parallel processing
+        should be used or not, which utilizes multiple cores to process data
+        more quickly.
         :return: a NetworkX DiGraph object.
         """
 
@@ -50,7 +54,6 @@ class Graph:
         # unique combination of key values will serve as keys for each author
         flattened_list = list(itertools.chain.from_iterable(doc_authors))
         author_uid_tuples = [tuple(d.values()) for d in flattened_list]
-        # ajd_matrix = np.empty(shape=())
 
         # get overall counts of each author
         counts = Counter(author_uid_tuples)
@@ -65,6 +68,7 @@ class Graph:
 
             # process each document, create the edges with the appropriate weights
             progress = "="
+            # TODO: parallel processing here
             for doc in range(0, len(doc_authors)):
                 if len(doc_authors[doc]) > 1:
                     author_ids = [tuple(d.values()) for d in doc_authors[doc]]
@@ -76,7 +80,8 @@ class Graph:
                     edges_all.extend([{"edge": (doc_authors[doc][0], doc_authors[doc][0]), "weight": 1}])
 
                 if progress_bar:
-                    progress = emit_progress_bar(progress, doc+1, len(doc_authors))
+                    # TODO: add progress bar to below as well, set doc author length to half?
+                    progress = emit_progress_bar(progress, doc+1, int(len(doc_authors) * 2.))
 
             # sort the edges for processing
             edges_all_sorted = sorted(edges_all, key=lambda x: str(x["edge"]))
@@ -84,16 +89,22 @@ class Graph:
 
             # normalize the edge weights and create the directed graph
             normalized = {}
-            for k, v in gb_object:
+            # TODO: parallel processing here
+            gb_object_list = list(gb_object)
+            for key_val in range(0, len(gb_object_list)):
                 try:
-                    v = list(v) # need to reassign
+                    v = list(gb_object_list[key_val][1]) # need to reassign
                     numerator = sum(d["weight"] for d in list(v))
-                    denominator = counts[k[0]]
-                    normalized[k] = numerator / denominator
+                    denominator = counts[gb_object_list[key_val][0][0]]
+                    normalized[gb_object_list[key_val][0]] = numerator / denominator
                 except TypeError:
                     # this occurs when an author is compared to one-self, which is
                     # not a valid scenario for the graph
                     pass
+
+                if progress_bar:
+                    # TODO: add progress bar to below as well, set doc author length to half?
+                    progress = emit_progress_bar(progress, key_val, len(gb_object_list), percent_offset=0.5)
 
             # create the directed graph
             edge_list = [(k[0], k[1], v) for k, v in normalized.items()]

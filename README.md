@@ -2,7 +2,7 @@
 A modification of PageRank to find the most prestigious authors in a scientific collaboration network.
 
 [![Language](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue)](#)
-[![PyPi](https://img.shields.io/badge/pypi-0.1.0-blue.svg)](https://pypi.python.org/pypi/author_rank/0.1.0)
+[![PyPi](https://img.shields.io/badge/pypi-0.1.1-blue.svg)](https://pypi.python.org/pypi/author_rank/0.1.1)
 [![License](https://img.shields.io/github/license/adidier17/AuthorRank)](https://opensource.org/licenses/MIT)
 [![Coverage Status](https://coveralls.io/repos/github/adidier17/AuthorRank/badge.svg?branch=main)](https://coveralls.io/github/adidier17/AuthorRank?branch=main)
 [![Build Status](https://api.travis-ci.org/adidier17/AuthorRank.svg?branch=main)](https://travis-ci.org/adidier17/AuthorRank)

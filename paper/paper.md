@@ -110,7 +110,7 @@ in which subsequent metrics and graph analysis algorithms may be applied.
 # Acknowledgements
 
 This effort was supported in part by the Jet Propulsion Laboratory (JPL), 
-managed by the California Institute of Technology on behalf of NASA
+managed by the California Institute of Technology on behalf of NASA.
 We acknowledge the support of the Foundry A-Team program and the 
 encouragement and constructive criticism of Miles Pellazar and [Asitang 
 Mishra](https://github.com/asitang). We would also like to thank 

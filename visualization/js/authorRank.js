@@ -296,8 +296,8 @@ function addScoresToGraph(graph, scores) {
 }
 
 Promise.all([
-    d3.json("data/chlorine_partitioning_mls_graph.json"),
-    d3.json("data/chlorine_partitioning_mls_scores.json"),
+    d3.json("data/cord_graph.json"),
+    d3.json("data/cord_scores.json"),
 ]).then(function (files) {
 
     // load the top authors

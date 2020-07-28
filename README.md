@@ -182,6 +182,13 @@ ar_graph.fit(
 )
 ```
 
+### Running the CORD-19 Examples
+
+Make sure to download the [CORD-19](https://www.semanticscholar.org/cord19) 
+dataset and adjust the file paths 
+in the examples appropriately for your version (indicated by a date). 
+The dataset is too large to be included in the repository. 
+
 ## About
 This library (of the same name) implements AuthorRank [1]. AuthorRank 
 is a modification of PageRank, Google's original algorithm for ranking 

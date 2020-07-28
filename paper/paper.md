@@ -55,8 +55,8 @@ on articles according to the diagram shown in the figure below.
 
 In the image below, AuthorRank is applied to a demonstration corpus - 
 academic publications related to the COVID-19 virus 
-from the CORD-19 dataset [wang-lo-2020-cord19] - and visualized 
-using the browser-based library d3.js [Bostock2011]. More specifically, 
+from the CORD-19 dataset [@wang-lo-2020-cord19] - and visualized 
+using the browser-based library d3.js [@Bostock2011]. More specifically, 
 the the results below show the top authors of documents that contain 
 the word "bronchiolitis" in the title. 
 The  capability to visualize the resulting top author network 
@@ -91,10 +91,10 @@ knowing one another and thus do not capture collaborative relationships
 as effectively as a co-authorship network. Many other co-authorship 
 networks have been explored, such as the Erdos Number Project [@DeCastro1999] which explored 
 relationships to the Hungarian mathematician and studying ACM 
-conferences [Smeaton2002, Nascimento2003], among others. These are distinct 
+conferences [@Smeaton2002, @Nascimento2003], among others. These are distinct 
 algorithms to AuthorRank and were introduced in the years prior. 
 
-The Python [Rossum1995] NetworkX [Hagberg2008] library implements a variety of graph centrality 
+The Python [@Rossum1995] NetworkX [@Hagberg2008] library implements a variety of graph centrality 
 algorithms and metrics of interest to applications examining co-authorship; 
 diameter, the number of components, a particular author's centrality 
 in the network, and others. However, these are metrics and approaches which 
@@ -115,7 +115,7 @@ We acknowledge the support of the Foundry A-Team program and the
 encouragement and constructive criticism of Miles Pellazar and [Asitang 
 Mishra](https://github.com/asitang). We would also like to thank 
 [Edward Barraza](https://github.com/edwardbarraza) and 
-[Sami Sahnoune](https://github.com/samisahn) for their contributions 
-to the interactive visualization. 
+[Sami Sahnoune](https://github.com/samisahn) for their feedback 
+of the interactive visualization. 
 
 # References

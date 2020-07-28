@@ -16,7 +16,7 @@ authors:
 affiliations:
  - name: NASA Jet Propulsion Laboratory, California Institute of Technology
    index: 1
-date: 17 February 2020
+date: 1 August 2020
 bibliography: paper.bib
 
 ---
@@ -51,7 +51,7 @@ number of authors in a paper increases. Thus, edges are weighted
 according to frequency of co-authorship and total number of co-authors 
 on articles according to the diagram shown in the figure below. 
 
-![Co-AuthorshipGraph](../images/coauthorship_graph.png)
+![AuthorRank graph construction and formulation.](../images/coauthorship_graph.png)
 
 In the image below, AuthorRank is applied to a demonstration corpus - 
 academic publications related to the COVID-19 virus 
@@ -65,7 +65,7 @@ capability to export the
 co-authorship network in a JSON format needed for visualization in d3.js, 
 and we provide some example code as part of this repository.
 
-![d3.js](../images/d3_cord.png)
+![d3.js visualization of "bronchiolitis" documents in the CORD-19 dataset](../images/d3_cord.png)
 
 The AuthorRank approach can be applied to the top results of a 
 search query (similar to the above filtering for documents with "bronchiolitis" 

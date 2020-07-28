@@ -186,8 +186,22 @@ ar_graph.fit(
 
 Make sure to download the [CORD-19](https://www.semanticscholar.org/cord19) 
 dataset and adjust the file paths 
-in the examples appropriately for your version (indicated by a date). 
-The dataset is too large to be included in the repository. 
+in the examples appropriately for your dataset version (indicated by a 
+date). The dataset is too large to be included in the repository and thus 
+needs to be downloaded separately. 
+
+To get started with the examples in the repository (using the same 
+version of the CORD-19 dataset), run the following: 
+
+```
+cd data
+mkdir CORD-19
+cd CORD-19
+wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-07-16.tar.gz
+tar -xf cord-19_2020-07-16.tar.gz
+rm cord-19_2020-07-16.tar.gz
+cd ../..
+```
 
 ## About
 This library (of the same name) implements AuthorRank [1]. AuthorRank 

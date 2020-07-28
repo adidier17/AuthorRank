@@ -297,5 +297,5 @@ def test_speed(mls_data) -> None:
 
     # assert the time is less than a particular amount
     spread = t1 - t0
-    assert spread < 180.
+    assert spread < 240.
 

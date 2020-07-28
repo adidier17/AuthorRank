@@ -59,6 +59,7 @@ def emit_progress_bar(progress: str, index: int, total: int, percent_offset: flo
 
     sys.stdout.write("[ %s ] %.2f%%" % (progress, percent * 100))
     sys.stdout.flush()
+
     return progress
 
 

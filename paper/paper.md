@@ -57,7 +57,7 @@ In the image below, AuthorRank is applied to a demonstration corpus -
 academic publications related to the COVID-19 virus 
 from the CORD-19 dataset [@wang-lo-2020-cord19] - and visualized 
 using the browser-based library d3.js [@Bostock2011]. More specifically, 
-the the results below show the top authors of documents that contain 
+the results below show the top authors of documents that contain 
 the word "bronchiolitis" in the title. 
 The  capability to visualize the resulting top author network 
 is not part of the AuthorRank package, but AuthorRank does provide the 
@@ -80,7 +80,7 @@ bodies of work) or used to identify subject matter experts on the
 results of a topical search through a set of academic papers (a corpus 
 of documents). AuthorRank could also be conceivably applied to an email 
 corpus (such as the [Enron corpus](https://www.cs.cmu.edu/~enron/)) to 
-identify those which most collaborated 
+identify those which most collaborated on
 a particular topic (as it is represented email).
 
 # Related Work 
@@ -100,7 +100,7 @@ diameter, the number of components, a particular author's centrality
 in the network, and others. However, these are metrics and approaches which 
 describe the graph itself or the role of a node within it, and the NetworkX 
 library - while highly relevant for understanding an authorship graph 
-and its functionality used as part of this library - it is not a 
+and its functionality is used as part of this library - it is not a 
 substitute for the creation of the co-authorship network. AuthorRank 
 provides the capability to create a 
 co-authorship network which provides indications of authors impact 

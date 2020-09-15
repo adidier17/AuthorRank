@@ -11,9 +11,9 @@ A modification of PageRank to find the most prestigious authors in a scientific 
 A key question in the analysis of collaborative networks is: 
 "Who are the most prestigious authors?" Answering this question can be 
 useful in identifying subject matter experts or in ranking search 
-results. This library implements an approach to determining 
-the most prestigious authors across a research network utilizing a body 
-of research papers. 
+results. This library implements [AuthorRank](http://dx.doi.org/10.1016/j.ipm.2005.03.01) - an approach by 
+Liu et. al. to determine the most prestigious authors across a 
+research network utilizing a body of research papers. 
 
 ## Dependencies 
 - Python 3.5 - 3.8 

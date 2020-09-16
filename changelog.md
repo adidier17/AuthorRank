@@ -4,6 +4,18 @@ All notable changes to `author_rank` will be documented in this Changelog.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) 
 and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 0.1.1
+
+### Changed 
+- The progress bar functionality such that it indicates progress on the 
+`.fit()` function across both the graph creation and scoring of authors 
+(previously the progress bar only covered the former). 
+
+### Fixed
+- A typo in `author_rank/__init__.py` that referred to the library as 
+`NetworkX` and not `AuthorRank`. 
+
+
 ## 0.1.0
 
 ### Changed 

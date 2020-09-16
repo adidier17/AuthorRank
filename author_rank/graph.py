@@ -2,6 +2,7 @@
 from author_rank.score import top_authors as top
 from author_rank.utils import emit_progress_bar, check_author_count
 from collections import Counter
+import copy
 import itertools
 import networkx as nx
 from typing import List, Tuple
@@ -13,6 +14,67 @@ class Graph:
     def __init__(self):
         self.graph = nx.DiGraph()
         self._is_fit = False
+        self._progress = "="
+        self._edges_all = list()
+        self._normalized = dict()
+        self._author_list = list()
+        self._counter = 0
+        self._gb_object_len = 0
+
+    def _extend_graph(self, authors_by_document: list, doc_index: int, progress_bar: bool) -> list:
+        """
+        Creates the AuthorRank graph based on the relationships between the
+        authors and returns the created edges.
+        :param authors_by_document: a list of lists - a list of authors by document.
+        :param doc_index: the integer position of the document to be processed.
+        :param progress_bar: a boolean indicating whether or not to use the progress bar.
+        :return: a list of edges based on the document's authorship.
+        """
+
+        if len(authors_by_document[doc_index]) > 1:
+            author_ids = [tuple(d.values()) for d in self._author_list]
+            pairs = (list(itertools.permutations(author_ids, 2)))
+            # calculate g_i_j_k
+            exclusivity = 1 / (len(authors_by_document[doc_index]) - 1)
+            edge = [{"edge": (x[0], x[1]), "weight": exclusivity} for x in pairs]
+        else:
+            edge = [{"edge": (authors_by_document[doc_index][0], authors_by_document[doc_index][0]), "weight": 1}]
+
+        self._edges_all.extend(edge)
+
+        if progress_bar:
+            self._progress = emit_progress_bar(self._progress, doc_index + 1, int(len(authors_by_document) * 2.))
+
+        return edge
+
+    def _weigh_graph(self, groupby: itertools.groupby, progress_bar: bool, author_counts: Counter) -> None:
+        """
+        Weighs the edges in the AuthorRank graph according to the approach outlined in the paper and
+        updates a normalization dictionary.
+        :param groupby: An itertools.groupby object.
+        :param progress_bar: a boolean indicating whether or not to use the progress bar.
+        :param author_counts: A collections Counter object that provides the document counts
+        for each author.
+        :return: None
+        """
+
+        # normalize the edge weights and create the directed graph
+        v = groupby[1]
+        k = groupby[0]
+        try:
+            v = list(v)  # need to reassign
+            numerator = sum(d["weight"] for d in list(v))
+            denominator = author_counts[k[0]]
+            self._normalized[k] = numerator / denominator
+        except TypeError:
+            # this occurs when an author is compared to one-self, which is
+            # not a valid scenario for the graph
+            pass
+
+        if progress_bar:
+            self._progress = emit_progress_bar(self._progress, self._counter, self._gb_object_len, percent_offset=0.5)
+
+        self._counter += 1
 
     def fit(self, documents: List[dict], authorship_key: str = "authors",
             keys: set = None, progress_bar: bool = False) -> 'nx.classes.digraph.DiGraph':
@@ -48,9 +110,8 @@ class Graph:
 
         # create a UID for each author based on the remaining keys
         # unique combination of key values will serve as keys for each author
-        flattened_list = list(itertools.chain.from_iterable(doc_authors))
-        author_uid_tuples = [tuple(d.values()) for d in flattened_list]
-        # ajd_matrix = np.empty(shape=())
+        self._author_list = list(itertools.chain.from_iterable(doc_authors))
+        author_uid_tuples = [tuple(d.values()) for d in self._author_list]
 
         # get overall counts of each author
         counts = Counter(author_uid_tuples)
@@ -60,43 +121,22 @@ class Graph:
             warnings.warn("Number of authors in document set must be greater than one. "
                           "AuthorRank not fit to the data, please try again.", UserWarning)
         else:
-            # create lists for the edges
-            edges_all = list()
-
             # process each document, create the edges with the appropriate weights
-            progress = "="
             for doc in range(0, len(doc_authors)):
-                if len(doc_authors[doc]) > 1:
-                    author_ids = [tuple(d.values()) for d in doc_authors[doc]]
-                    pairs = (list(itertools.permutations(author_ids, 2)))
-                    # calculate g_i_j_k
-                    exclusivity = 1 / (len(doc_authors[doc]) - 1)
-                    edges_all.extend([{"edge": (x[0], x[1]), "weight": exclusivity} for x in pairs])
-                else:
-                    edges_all.extend([{"edge": (doc_authors[doc][0], doc_authors[doc][0]), "weight": 1}])
-
-                if progress_bar:
-                    progress = emit_progress_bar(progress, doc+1, len(doc_authors))
+                self._extend_graph(doc_authors, doc, progress_bar)
 
             # sort the edges for processing
-            edges_all_sorted = sorted(edges_all, key=lambda x: str(x["edge"]))
+            edges_all_sorted = sorted(self._edges_all, key=lambda x: str(x["edge"]))
             gb_object = itertools.groupby(edges_all_sorted, key=lambda x: x["edge"])
 
-            # normalize the edge weights and create the directed graph
-            normalized = {}
+            self._counter = 0
+            self._gb_object_len = sum(1 for x in copy.deepcopy(gb_object))
+
             for k, v in gb_object:
-                try:
-                    v = list(v) # need to reassign
-                    numerator = sum(d["weight"] for d in list(v))
-                    denominator = counts[k[0]]
-                    normalized[k] = numerator / denominator
-                except TypeError:
-                    # this occurs when an author is compared to one-self, which is
-                    # not a valid scenario for the graph
-                    pass
+                self._weigh_graph((k, v), progress_bar, counts)
 
             # create the directed graph
-            edge_list = [(k[0], k[1], v) for k, v in normalized.items()]
+            edge_list = [(k[0], k[1], v) for k, v in self._normalized.items()]
             self.graph.add_weighted_edges_from(edge_list)
 
             self._is_fit = True

@@ -25,7 +25,7 @@ def normalize(minimum: float, maximum: float, value: float) -> float:
     return z
 
 
-def emit_progress_bar(progress: str, index: int, total: int) -> str:
+def emit_progress_bar(progress: str, index: int, total: int, percent_offset: float = 1e-9) -> str:
     """
     A progress bar that is continuously updated in Python's standard
     out.
@@ -34,11 +34,16 @@ def emit_progress_bar(progress: str, index: int, total: int) -> str:
     :param index: the current index of the iteration within the tracked
     process.
     :param total: the total length of the tracked process.
+    :param percent_offset: an offset in which to start the progress bar. 0.5 starts the
+    progress bar at 50%.
     :return: progress string.
     """
 
     w, h = get_terminal_size()
+    if percent_offset > 1e-9:
+        w = w * 0.5
     sys.stdout.write("\r")
+
     if total < w:
         block_size = int(w / total)
     else:
@@ -46,9 +51,15 @@ def emit_progress_bar(progress: str, index: int, total: int) -> str:
 
     if index % block_size == 0:
         progress += "="
+
     percent = index / total
+    if percent_offset > 1e-9:
+        percent_inverse = percent_offset ** -1
+        percent = percent_offset + (index / (total * percent_inverse))
+
     sys.stdout.write("[ %s ] %.2f%%" % (progress, percent * 100))
     sys.stdout.flush()
+
     return progress
 
 

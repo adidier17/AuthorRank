@@ -2,7 +2,7 @@
 A modification of PageRank to find the most prestigious authors in a scientific collaboration network.
 
 [![Language](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue)](#)
-[![PyPi](https://img.shields.io/badge/pypi-0.1.0-blue.svg)](https://pypi.python.org/pypi/author_rank/0.1.0)
+[![PyPi](https://img.shields.io/badge/pypi-0.1.1-blue.svg)](https://pypi.python.org/pypi/author_rank/0.1.1)
 [![License](https://img.shields.io/github/license/adidier17/AuthorRank)](https://opensource.org/licenses/MIT)
 [![Coverage Status](https://coveralls.io/repos/github/adidier17/AuthorRank/badge.svg?branch=main)](https://coveralls.io/github/adidier17/AuthorRank?branch=main)
 [![Build Status](https://api.travis-ci.org/adidier17/AuthorRank.svg?branch=main)](https://travis-ci.org/adidier17/AuthorRank)
@@ -11,9 +11,9 @@ A modification of PageRank to find the most prestigious authors in a scientific 
 A key question in the analysis of collaborative networks is: 
 "Who are the most prestigious authors?" Answering this question can be 
 useful in identifying subject matter experts or in ranking search 
-results. This library implements an approach to determining 
-the most prestigious authors across a research network utilizing a body 
-of research papers. 
+results. This library implements [AuthorRank](http://dx.doi.org/10.1016/j.ipm.2005.03.01) - an approach by 
+Liu et. al. to determine the most prestigious authors across a 
+research network utilizing a body of research papers. 
 
 ## Dependencies 
 - Python 3.5 - 3.8 
@@ -180,6 +180,27 @@ ar_graph.fit(
     documents=documents,
     progress_bar=True
 )
+```
+
+### Running the CORD-19 Examples
+
+Make sure to download the [CORD-19](https://www.semanticscholar.org/cord19) 
+dataset and adjust the file paths 
+in the examples appropriately for your dataset version (indicated by a 
+date). The dataset is too large to be included in the repository and thus 
+needs to be downloaded separately. 
+
+To get started with the examples in the repository (using the same 
+version of the CORD-19 dataset), run the following: 
+
+```
+cd data
+mkdir CORD-19
+cd CORD-19
+wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-07-16.tar.gz
+tar -xf cord-19_2020-07-16.tar.gz
+rm cord-19_2020-07-16.tar.gz
+cd ../..
 ```
 
 ## About

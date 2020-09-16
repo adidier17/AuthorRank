@@ -11,12 +11,12 @@ See https://github.com/adidier17/AuthorRank.
 
 import sys
 if sys.version_info[:2] < (3, 5):
-    m = "Python 3.5 or later is required for NetworkX (%d.%d detected)."
+    m = "Python 3.5 or later is required for AuthorRank (%d.%d detected)."
     raise ImportError(m % sys.version_info[:2])
 del sys
 
 __author__ = "Valentino Constantinou, Annie Didier"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 import author_rank.graph
 from author_rank.graph import *

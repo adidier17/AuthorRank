@@ -32,8 +32,8 @@ class Graph:
         """
 
         if len(authors_by_document[doc_index]) > 1:
-            author_ids = [tuple(d.values()) for d in self._author_list]
-            pairs = (list(itertools.permutations(author_ids, 2)))
+            # author_ids = [tuple(d.values()) for d in self._author_list]
+            pairs = (list(itertools.permutations(authors_by_document[doc_index], 2)))
             # calculate g_i_j_k
             exclusivity = 1 / (len(authors_by_document[doc_index]) - 1)
             edge = [{"edge": (x[0], x[1]), "weight": exclusivity} for x in pairs]
@@ -100,6 +100,7 @@ class Graph:
         # get the authorship from each of the documents
         # gets a list of lists
         doc_authors = [i[authorship_key] for i in documents]
+        doc_authors_tuples = [[tuple(d.values()) for d in doc] for doc in doc_authors]
 
         # remove keys and values that are not used as part of an author UID
         for doc in doc_authors:
@@ -110,12 +111,12 @@ class Graph:
 
         # create a UID for each author based on the remaining keys
         # unique combination of key values will serve as keys for each author
-        self._author_list = list(itertools.chain.from_iterable(doc_authors))
-        author_uid_tuples = [tuple(d.values()) for d in self._author_list]
+        # self._author_list = list(itertools.chain.from_iterable(doc_authors))
 
+        # author_uid_tuples = [tuple(d.values()) for d in self._author_list]
         # get overall counts of each author
-        counts = Counter(author_uid_tuples)
-
+        author_list = list(itertools.chain.from_iterable(doc_authors_tuples))
+        counts = Counter(author_list)
         acceptable_author_count = check_author_count(counts)
         if acceptable_author_count is False:
             warnings.warn("Number of authors in document set must be greater than one. "
@@ -123,7 +124,7 @@ class Graph:
         else:
             # process each document, create the edges with the appropriate weights
             for doc in range(0, len(doc_authors)):
-                self._extend_graph(doc_authors, doc, progress_bar)
+                self._extend_graph(doc_authors_tuples, doc, progress_bar)
 
             # sort the edges for processing
             edges_all_sorted = sorted(self._edges_all, key=lambda x: str(x["edge"]))

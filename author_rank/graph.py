@@ -100,7 +100,7 @@ class Graph:
         # get the authorship from each of the documents
         # gets a list of lists
         doc_authors = [i[authorship_key] for i in documents]
-        doc_authors_tuples = [[tuple(d.values()) for d in doc] for doc in doc_authors]
+
 
         # remove keys and values that are not used as part of an author UID
         for doc in doc_authors:
@@ -110,6 +110,7 @@ class Graph:
                     del author[unwanted_key]
 
         # create a UID for each author based on the remaining keys
+        doc_authors_tuples = [[tuple(d.values()) for d in doc] for doc in doc_authors]
         # unique combination of key values will serve as keys for each author
         # self._author_list = list(itertools.chain.from_iterable(doc_authors))
 

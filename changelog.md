@@ -4,8 +4,13 @@ All notable changes to `author_rank` will be documented in this Changelog.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) 
 and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## 0.1.1
+## 0.1.2 
+### Fixed
+- An identified issue that resulted in disconnected (i.e. non-co-authoring) 
+authors to be connected in the AuthorRank graph. Several code changes 
+were introduced to address this issue. 
 
+## 0.1.1
 ### Changed 
 - The progress bar functionality such that it indicates progress on the 
 `.fit()` function across both the graph creation and scoring of authors 
@@ -17,7 +22,6 @@ and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
 ## 0.1.0
-
 ### Changed 
 - The manner in which users interact with the library to more
 closely mirror the conventions of the [scikit-learn](https://scikit-learn.org/) 
@@ -42,7 +46,6 @@ was being processed into the AuthorRank graph.
 
 
 ## 0.0.3
-
 ### Added
 
 - A progress bar as an optional argument for creating the `graph.create` 
@@ -58,14 +61,12 @@ added to the testing suite and a fix developed.
 - Libraries required listed in `setup.py`. 
 
 ## 0.0.2
-
 ### Changed 
 
 - Updates the normalization of scores in `top_authors` to a pure Python 
 approach, removing the `numpy` and `scikit-learn` requirements. 
 
 ## 0.0.1
-
 ### Added
 - An example dataset in the `data` directory.
 - `examples` and `notebooks` directories that contain code that 

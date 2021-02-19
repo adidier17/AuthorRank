@@ -11,3 +11,4 @@ htmlcov
 *.graffle
 data/CORD-19
 paper/
+*.mypy_cache

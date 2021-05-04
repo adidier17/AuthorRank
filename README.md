@@ -123,6 +123,9 @@ One can compute retrieve a ranked list of authors and their scores
 according to the AuthorRank algorithm: 
 
 ```python
+# import AuthorRank
+import author_rank as ar
+
 # create an AuthorRank object
 ar_graph = ar.Graph()
 

@@ -1,0 +1,4346 @@
+{
+        "documents": [
+             {
+                "@score":"1",
+                "@id":"4747119",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"a/NRAdam",
+                            "text":"Nabil R. Adam"
+                         },
+                         {
+                            "@pid":"81/1859",
+                            "text":"Igg Adiwijaya"
+                         },
+                         {
+                            "@pid":"c/TCritchlow",
+                            "text":"Terence Critchlow"
+                         },
+                         {
+                            "@pid":"28/1095",
+                            "text":"Ron Musick"
+                         }
+                      ]
+                   },
+                   "title":"Detecting Data and Schema Changes in Scientific Documents.",
+                   "venue":"ADL",
+                   "pages":"160-170",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/AdamACM00",
+                   "doi":"10.1109/ADL.2000.848379",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848379",
+                   "url":"https://dblp.org/rec/conf/adl/AdamACM00"
+                },
+                "url":"URL#4747119"
+             },
+             {
+                "@score":"1",
+                "@id":"4747120",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"b/ClaudiodeSouzaBaptista",
+                            "text":"Cláudio de Souza Baptista"
+                         },
+                         {
+                            "@pid":"42/3102",
+                            "text":"Zarine Kemp"
+                         }
+                      ]
+                   },
+                   "title":"An Integrated Metamodel for Knowledge Representation in Geolibraries.",
+                   "venue":"ADL",
+                   "pages":"151-159",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/BaptistaK00",
+                   "doi":"10.1109/ADL.2000.848378",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848378",
+                   "url":"https://dblp.org/rec/conf/adl/BaptistaK00"
+                },
+                "url":"URL#4747120"
+             },
+             {
+                "@score":"1",
+                "@id":"4747121",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"b/KBohm",
+                         "text":"Klemens Böhm"
+                      }
+                   },
+                   "title":"On Extending the XML Engine with Query-Processing Capabilities.",
+                   "venue":"ADL",
+                   "pages":"127-138",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Bohm00",
+                   "doi":"10.1109/ADL.2000.848376",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848376",
+                   "url":"https://dblp.org/rec/conf/adl/Bohm00"
+                },
+                "url":"URL#4747121"
+             },
+             {
+                "@score":"1",
+                "@id":"4747122",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"b/ChBohm",
+                            "text":"Christian Böhm"
+                         },
+                         {
+                            "@pid":"13/2813",
+                            "text":"Bernhard Braunmüller"
+                         },
+                         {
+                            "@pid":"k/HansPeterKriegel",
+                            "text":"Hans-Peter Kriegel"
+                         },
+                         {
+                            "@pid":"77/4813",
+                            "text":"Matthias Schubert"
+                         }
+                      ]
+                   },
+                   "title":"Efficient Similarity Search in Digital Libraries.",
+                   "venue":"ADL",
+                   "pages":"193-199",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/BohmBKS00",
+                   "doi":"10.1109/ADL.2000.848382",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848382",
+                   "url":"https://dblp.org/rec/conf/adl/BohmBKS00"
+                },
+                "url":"URL#4747122"
+             },
+             {
+                "@score":"1",
+                "@id":"4747123",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"c/DiegoCalvanese",
+                            "text":"Diego Calvanese"
+                         },
+                         {
+                            "@pid":"c/TCatarci",
+                            "text":"Tiziana Catarci"
+                         },
+                         {
+                            "@pid":"s/GiuseppeSantucci",
+                            "text":"Giuseppe Santucci"
+                         }
+                      ]
+                   },
+                   "title":"Building a Digital Library of Newspaper Clippings - The Laurin Project.",
+                   "venue":"ADL",
+                   "pages":"15-26",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/CalvaneseCS00",
+                   "doi":"10.1109/ADL.2000.848366",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848366",
+                   "url":"https://dblp.org/rec/conf/adl/CalvaneseCS00"
+                },
+                "url":"URL#4747123"
+             },
+             {
+                "@score":"1",
+                "@id":"4747124",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"c/DougCampbell",
+                            "text":"Douglas M. Campbell"
+                         },
+                         {
+                            "@pid":"54/1939",
+                            "text":"Wendy R. Chen"
+                         },
+                         {
+                            "@pid":"91/243",
+                            "text":"Randy D. Smith"
+                         }
+                      ]
+                   },
+                   "title":"Copy Detection Systems for Digital Documents.",
+                   "venue":"ADL",
+                   "pages":"78-88",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/CampbellCS00",
+                   "doi":"10.1109/ADL.2000.848372",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848372",
+                   "url":"https://dblp.org/rec/conf/adl/CampbellCS00"
+                },
+                "url":"URL#4747124"
+             },
+             {
+                "@score":"1",
+                "@id":"4747125",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"47/3390",
+                            "text":"Jae-Heon Cheong"
+                         },
+                         {
+                            "@pid":"67/5511",
+                            "text":"Sang-goo Lee"
+                         }
+                      ]
+                   },
+                   "title":"A Boolean Query Processing with a Result Cache in Mediator Systems.",
+                   "venue":"ADL",
+                   "pages":"218-227",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/CheongL00",
+                   "doi":"10.1109/ADL.2000.848392",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848392",
+                   "url":"https://dblp.org/rec/conf/adl/CheongL00"
+                },
+                "url":"URL#4747125"
+             },
+             {
+                "@score":"1",
+                "@id":"4747126",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"c/BChidlovskii",
+                         "text":"Boris Chidlovskii"
+                      }
+                   },
+                   "title":"Using Regular Tree Automata as XML Schemas.",
+                   "venue":"ADL",
+                   "pages":"89-98",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Chidlovskii00",
+                   "doi":"10.1109/ADL.2000.848373",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848373",
+                   "url":"https://dblp.org/rec/conf/adl/Chidlovskii00"
+                },
+                "url":"URL#4747126"
+             },
+             {
+                "@score":"1",
+                "@id":"4747127",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"c/FabioCrestani",
+                         "text":"Fabio Crestani"
+                      }
+                   },
+                   "title":"Effects of Word Recognition Errors in Spoken Query Processing.",
+                   "venue":"ADL",
+                   "pages":"39-47",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Crestani00",
+                   "doi":"10.1109/ADL.2000.848368",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848368",
+                   "url":"https://dblp.org/rec/conf/adl/Crestani00"
+                },
+                "url":"URL#4747127"
+             },
+             {
+                "@score":"1",
+                "@id":"4747128",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"h/AHeuer",
+                            "text":"Andreas Heuer 0001"
+                         },
+                         {
+                            "@pid":"m/HolgerMeyer",
+                            "text":"Holger Meyer 0001"
+                         },
+                         {
+                            "@pid":"93/1493",
+                            "text":"Beate Porst"
+                         },
+                         {
+                            "@pid":"97/2949",
+                            "text":"Patrick Titzler"
+                         }
+                      ]
+                   },
+                   "title":"BlueView - Virtual Document Servers for Digital Libraries.",
+                   "venue":"ADL",
+                   "pages":"207-217",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/HeuerMPT00",
+                   "doi":"10.1109/ADL.2000.848387",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848387",
+                   "url":"https://dblp.org/rec/conf/adl/HeuerMPT00"
+                },
+                "url":"URL#4747128"
+             },
+             {
+                "@score":"1",
+                "@id":"4747129",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"15/7047",
+                            "text":"Jeroen Hoppenbrouwers"
+                         },
+                         {
+                            "@pid":"73/5045",
+                            "text":"Hans Paijmans"
+                         }
+                      ]
+                   },
+                   "title":"Invading the Fortress - How to Besiege Reinforced Information Bunkers.",
+                   "venue":"ADL",
+                   "pages":"27-35",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/HoppenbrouwersP00",
+                   "doi":"10.1109/ADL.2000.848367",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848367",
+                   "url":"https://dblp.org/rec/conf/adl/HoppenbrouwersP00"
+                },
+                "url":"URL#4747129"
+             },
+             {
+                "@score":"1",
+                "@id":"4747130",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"k/LatifurKhan",
+                            "text":"Latifur Khan"
+                         },
+                         {
+                            "@pid":"m/DennisMcLeod",
+                            "text":"Dennis McLeod"
+                         }
+                      ]
+                   },
+                   "title":"Audio Structuring and Personalized Retrieval Using Ontologies.",
+                   "venue":"ADL",
+                   "pages":"116-126",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/KhanM00",
+                   "doi":"10.1109/ADL.2000.848375",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848375",
+                   "url":"https://dblp.org/rec/conf/adl/KhanM00"
+                },
+                "url":"URL#4747130"
+             },
+             {
+                "@score":"1",
+                "@id":"4747131",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"88/1727",
+                            "text":"Dean Kuo"
+                         },
+                         {
+                            "@pid":"83/3105",
+                            "text":"Dione Smith"
+                         },
+                         {
+                            "@pid":"40/4685",
+                            "text":"Chris Gokey"
+                         }
+                      ]
+                   },
+                   "title":"Morphing Towards Interoperable Catalogues.",
+                   "venue":"ADL",
+                   "pages":"105-115",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/KuoSG00",
+                   "doi":"10.1109/ADL.2000.848374",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848374",
+                   "url":"https://dblp.org/rec/conf/adl/KuoSG00"
+                },
+                "url":"URL#4747131"
+             },
+             {
+                "@score":"1",
+                "@id":"4747132",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"o/GultekinOzsoyoglu",
+                            "text":"Gultekin Özsoyoglu"
+                         },
+                         {
+                            "@pid":"01/2558",
+                            "text":"Nevzat Hurkan Balkir"
+                         },
+                         {
+                            "@pid":"c/GrahamCormode",
+                            "text":"Graham Cormode"
+                         },
+                         {
+                            "@pid":"o/ZMeralOzsoyoglu",
+                            "text":"Z. Meral Özsoyoglu"
+                         }
+                      ]
+                   },
+                   "title":"Electronic Books in Digital Libraries.",
+                   "venue":"ADL",
+                   "pages":"5-14",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/OzsoyogluBCO00",
+                   "doi":"10.1109/ADL.2000.848365",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848365",
+                   "url":"https://dblp.org/rec/conf/adl/OzsoyogluBCO00"
+                },
+                "url":"URL#4747132"
+             },
+             {
+                "@score":"1",
+                "@id":"4747133",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"87/2860",
+                            "text":"Alexandrin Popescul"
+                         },
+                         {
+                            "@pid":"18/4772",
+                            "text":"Gary William Flake"
+                         },
+                         {
+                            "@pid":"96/6643",
+                            "text":"Steve Lawrence"
+                         },
+                         {
+                            "@pid":"u/LyleHUngar",
+                            "text":"Lyle H. Ungar"
+                         },
+                         {
+                            "@pid":"g/CLeeGiles",
+                            "text":"C. Lee Giles"
+                         }
+                      ]
+                   },
+                   "title":"Clustering and Identifying Temporal Trends in Document Databases.",
+                   "venue":"ADL",
+                   "pages":"173-182",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/PopesculFLUG00",
+                   "doi":"10.1109/ADL.2000.848380",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848380",
+                   "url":"https://dblp.org/rec/conf/adl/PopesculFLUG00"
+                },
+                "url":"URL#4747133"
+             },
+             {
+                "@score":"1",
+                "@id":"4747134",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"84/2490",
+                            "text":"Zhanzi Qiu"
+                         },
+                         {
+                            "@pid":"h/MatthiasHemmje",
+                            "text":"Matthias Hemmje"
+                         },
+                         {
+                            "@pid":"n/ErichJNeuhold",
+                            "text":"Erich J. Neuhold"
+                         }
+                      ]
+                   },
+                   "title":"Towards Supporting User-Defined Hypertext Contexts in Web Searching.",
+                   "venue":"ADL",
+                   "pages":"48-57",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/QiuHN00",
+                   "doi":"10.1109/ADL.2000.848369",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848369",
+                   "url":"https://dblp.org/rec/conf/adl/QiuHN00"
+                },
+                "url":"URL#4747134"
+             },
+             {
+                "@score":"1",
+                "@id":"4747135",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"63/2826",
+                            "text":"Hagit Shatkay"
+                         },
+                         {
+                            "@pid":"99/2755",
+                            "text":"W. John Wilbur"
+                         }
+                      ]
+                   },
+                   "title":"Finding Themes in Medline Documents - Probabilistic Similarity Search.",
+                   "venue":"ADL",
+                   "pages":"183-192",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ShatkayW00",
+                   "doi":"10.1109/ADL.2000.848381",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848381",
+                   "url":"https://dblp.org/rec/conf/adl/ShatkayW00"
+                },
+                "url":"URL#4747135"
+             },
+             {
+                "@score":"1",
+                "@id":"4747136",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"03/76",
+                         "text":"Anastassia Spiridou"
+                      }
+                   },
+                   "title":"A View System for CORBA-Wrapped Data Sources.",
+                   "venue":"ADL",
+                   "pages":"228-237",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Spiridou00",
+                   "doi":"10.1109/ADL.2000.848396",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848396",
+                   "url":"https://dblp.org/rec/conf/adl/Spiridou00"
+                },
+                "url":"URL#4747136"
+             },
+             {
+                "@score":"1",
+                "@id":"4747137",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"w/JensEWolff",
+                            "text":"Jens E. Wolff"
+                         },
+                         {
+                            "@pid":"79/2720",
+                            "text":"Holger Flörke"
+                         },
+                         {
+                            "@pid":"c/ABCremers",
+                            "text":"Armin B. Cremers"
+                         }
+                      ]
+                   },
+                   "title":"Searching and Browsing Collections of Structural Information.",
+                   "venue":"ADL",
+                   "pages":"141-150",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/WolffFC00",
+                   "doi":"10.1109/ADL.2000.848377",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848377",
+                   "url":"https://dblp.org/rec/conf/adl/WolffFC00"
+                },
+                "url":"URL#4747137"
+             },
+             {
+                "@score":"1",
+                "@id":"4747138",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"80/6818",
+                            "text":"Yanyan Yang"
+                         },
+                         {
+                            "@pid":"r/OmerFRana",
+                            "text":"Omer F. Rana"
+                         },
+                         {
+                            "@pid":"63/1816",
+                            "text":"Christos Georgousopoulos"
+                         },
+                         {
+                            "@pid":"w/DavidWWalker",
+                            "text":"David W. Walker"
+                         },
+                         {
+                            "@pid":"w/RoyWilliams",
+                            "text":"Roy Williams"
+                         }
+                      ]
+                   },
+                   "title":"Mobile Agents and the SARA Digital Library.",
+                   "venue":"ADL",
+                   "pages":"71-77",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/YangRGWW00",
+                   "doi":"10.1109/ADL.2000.848371",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848371",
+                   "url":"https://dblp.org/rec/conf/adl/YangRGWW00"
+                },
+                "url":"URL#4747138"
+             },
+             {
+                "@score":"1",
+                "@id":"4747139",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"78/2668",
+                            "text":"Changqing Zhang"
+                         },
+                         {
+                            "@pid":"m/WeiyiMeng",
+                            "text":"Weiyi Meng"
+                         },
+                         {
+                            "@pid":"35/3932",
+                            "text":"Zonghuan Wu"
+                         },
+                         {
+                            "@pid":"z/ZhongfeiMarkZhang",
+                            "text":"Zhongfei Zhang"
+                         }
+                      ]
+                   },
+                   "title":"WebSSQL - A Query Language for Multimedia Web Documents.",
+                   "venue":"ADL",
+                   "pages":"58-67",
+                   "year":"2000",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ZhangMWZ00",
+                   "doi":"10.1109/ADL.2000.848370",
+                   "ee":"https://doi.org/10.1109/ADL.2000.848370",
+                   "url":"https://dblp.org/rec/conf/adl/ZhangMWZ00"
+                },
+                "url":"URL#4747139"
+             },
+             {
+                "@score":"1",
+                "@id":"4787306",
+                "info":{
+                   "title":"Proceedings of IEEE Advances in Digital Libraries 2000 (ADL 2000), Washington, DC, USA, May 22-24, 2000",
+                   "venue":"ADL",
+                   "publisher":"IEEE Computer Society",
+                   "year":"2000",
+                   "type":"Editorship",
+                   "key":"conf/adl/2000",
+                   "ee":"https://ieeexplore.ieee.org/xpl/conhome/6863/proceeding",
+                   "url":"https://dblp.org/rec/conf/adl/2000"
+                },
+                "url":"URL#4787306"
+             },
+             {
+                "@score":"1",
+                "@id":"4820040",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"a/NRAdam",
+                            "text":"Nabil R. Adam"
+                         },
+                         {
+                            "@pid":"59/4588",
+                            "text":"J. H. Bredekamp"
+                         },
+                         {
+                            "@pid":"s/AlexanderSSzalay",
+                            "text":"Alexander S. Szalay"
+                         },
+                         {
+                            "@pid":"14/283",
+                            "text":"George Djorgoski"
+                         },
+                         {
+                            "@pid":"00/213",
+                            "text":"George Lake"
+                         }
+                      ]
+                   },
+                   "title":"Digital Sky - Panel.",
+                   "venue":"ADL",
+                   "pages":"148",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/AdamBSDL99",
+                   "doi":"10.1109/ADL.1999.777709",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777709",
+                   "url":"https://dblp.org/rec/conf/adl/AdamBSDL99"
+                },
+                "url":"URL#4820040"
+             },
+             {
+                "@score":"1",
+                "@id":"4820041",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"b/ABruggemannKlein",
+                            "text":"Anne Brüggemann-Klein"
+                         },
+                         {
+                            "@pid":"05/1398",
+                            "text":"Stefan Hermann"
+                         },
+                         {
+                            "@pid":"w/DerickWood",
+                            "text":"Derick Wood"
+                         }
+                      ]
+                   },
+                   "title":"The Visual Specification of Context.",
+                   "venue":"ADL",
+                   "pages":"28-36",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Bruggemann-KleinHW99",
+                   "doi":"10.1109/ADL.1999.777688",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777688",
+                   "url":"https://dblp.org/rec/conf/adl/Bruggemann-KleinHW99"
+                },
+                "url":"URL#4820041"
+             },
+             {
+                "@score":"1",
+                "@id":"4820042",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"c/MGChristel",
+                            "text":"Michael G. Christel"
+                         },
+                         {
+                            "@pid":"h/AlexanderGHauptmann",
+                            "text":"Alexander G. Hauptmann"
+                         },
+                         {
+                            "@pid":"59/2372",
+                            "text":"Adrienne Warmack"
+                         },
+                         {
+                            "@pid":"18/6026",
+                            "text":"Scott A. Crosby"
+                         }
+                      ]
+                   },
+                   "title":"Adjustable Filmstrips and Skims as Abstractions for a Digital Video Library.",
+                   "venue":"ADL",
+                   "pages":"98-104",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ChristelHWC99",
+                   "doi":"10.1109/ADL.1999.777702",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777702",
+                   "url":"https://dblp.org/rec/conf/adl/ChristelHWC99"
+                },
+                "url":"URL#4820042"
+             },
+             {
+                "@score":"1",
+                "@id":"4820043",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"96/5179",
+                            "text":"Fiona C. Coutinho"
+                         },
+                         {
+                            "@pid":"e/CarolineMEastman",
+                            "text":"Caroline M. Eastman"
+                         },
+                         {
+                            "@pid":"50/2132",
+                            "text":"Christopher B. Hare"
+                         },
+                         {
+                            "@pid":"99/2357",
+                            "text":"Robert F. Skinder"
+                         }
+                      ]
+                   },
+                   "title":"Integrating Digital Resources into a Traditional University Research Library.",
+                   "venue":"ADL",
+                   "pages":"88",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/CoutinhoEHS99",
+                   "doi":"10.1109/ADL.1999.777697",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777697",
+                   "url":"https://dblp.org/rec/conf/adl/CoutinhoEHS99"
+                },
+                "url":"URL#4820043"
+             },
+             {
+                "@score":"1",
+                "@id":"4820044",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"c/FabioCrestani",
+                            "text":"Fabio Crestani"
+                         },
+                         {
+                            "@pid":"59/4274",
+                            "text":"Puay Leng Lee"
+                         }
+                      ]
+                   },
+                   "title":"WebSCSA - Web Search by Constrained Spreading Activation.",
+                   "venue":"ADL",
+                   "pages":"163-170",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/CrestaniL99",
+                   "doi":"10.1109/ADL.1999.777711",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777711",
+                   "url":"https://dblp.org/rec/conf/adl/CrestaniL99"
+                },
+                "url":"URL#4820044"
+             },
+             {
+                "@score":"1",
+                "@id":"4820045",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"37/1664",
+                         "text":"James Johnson Duderstadt"
+                      }
+                   },
+                   "title":"Beyond the Endless Frontier - The Future of Research University in the Digital Age.",
+                   "venue":"ADL",
+                   "pages":"2-3",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Duderstadt99",
+                   "doi":"10.1109/ADL.1999.777684",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777684",
+                   "url":"https://dblp.org/rec/conf/adl/Duderstadt99"
+                },
+                "url":"URL#4820045"
+             },
+             {
+                "@score":"1",
+                "@id":"4820046",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"d/SusanTDumais",
+                         "text":"Susan T. Dumais"
+                      }
+                   },
+                   "title":"Beyond Content-Based Retrieval - Modeling Domains, Users and Interaction.",
+                   "venue":"ADL",
+                   "pages":"144-145",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Dumais99",
+                   "doi":"10.1109/ADL.1999.777708",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777708",
+                   "url":"https://dblp.org/rec/conf/adl/Dumais99"
+                },
+                "url":"URL#4820046"
+             },
+             {
+                "@score":"1",
+                "@id":"4820047",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"19/134",
+                         "text":"Michael Fingerhut"
+                      }
+                   },
+                   "title":"The IRCAM Multimedia Library - A Digital Music Library.",
+                   "venue":"ADL",
+                   "pages":"129-140",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Fingerhut99",
+                   "doi":"10.1109/ADL.1999.777705",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777705",
+                   "url":"https://dblp.org/rec/conf/adl/Fingerhut99"
+                },
+                "url":"URL#4820047"
+             },
+             {
+                "@score":"1",
+                "@id":"4820048",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"32/667",
+                         "text":"Howard Frank"
+                      }
+                   },
+                   "title":"Digital Libraries and Technology - A New 21st Century Business Model.",
+                   "venue":"ADL",
+                   "pages":"72",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Frank99",
+                   "doi":"10.1109/ADL.1999.10003",
+                   "ee":"http://doi.ieeecomputersociety.org/10.1109/ADL.1999.10003",
+                   "url":"https://dblp.org/rec/conf/adl/Frank99"
+                },
+                "url":"URL#4820048"
+             },
+             {
+                "@score":"1",
+                "@id":"4820049",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"53/1498",
+                            "text":"Milton Halem"
+                         },
+                         {
+                            "@pid":"34/6007",
+                            "text":"Susan Hoban"
+                         }
+                      ]
+                   },
+                   "title":"Digital Earth - Panel.",
+                   "venue":"ADL",
+                   "pages":"96",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/HalemH99",
+                   "doi":"10.1109/ADL.1999.777701",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777701",
+                   "url":"https://dblp.org/rec/conf/adl/HalemH99"
+                },
+                "url":"URL#4820049"
+             },
+             {
+                "@score":"1",
+                "@id":"4820050",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"59/3255",
+                            "text":"William R. Hersh"
+                         },
+                         {
+                            "@pid":"97/4190",
+                            "text":"Susan Price"
+                         },
+                         {
+                            "@pid":"41/1963",
+                            "text":"Benjamin Chan"
+                         },
+                         {
+                            "@pid":"75/3501",
+                            "text":"Dale Kraemer"
+                         },
+                         {
+                            "@pid":"79/964",
+                            "text":"Lynetta Sacherek"
+                         },
+                         {
+                            "@pid":"36/2505",
+                            "text":"Daniel Olson"
+                         }
+                      ]
+                   },
+                   "title":"System and User Attributes Associated with Successful Searching.",
+                   "venue":"ADL",
+                   "pages":"60-70",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/HershPCKSO99",
+                   "doi":"10.1109/ADL.1999.777691",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777691",
+                   "url":"https://dblp.org/rec/conf/adl/HershPCKSO99"
+                },
+                "url":"URL#4820050"
+             },
+             {
+                "@score":"1",
+                "@id":"4820051",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"s/SilviaHollfelder",
+                            "text":"Silvia Hollfelder"
+                         },
+                         {
+                            "@pid":"94/1477",
+                            "text":"André Everts"
+                         },
+                         {
+                            "@pid":"t/UlrichThiel",
+                            "text":"Ulrich Thiel"
+                         }
+                      ]
+                   },
+                   "title":"Concept-Based Browsing in Video Libraries.",
+                   "venue":"ADL",
+                   "pages":"105-115",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/HollfelderET99",
+                   "doi":"10.1109/ADL.1999.777703",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777703",
+                   "url":"https://dblp.org/rec/conf/adl/HollfelderET99"
+                },
+                "url":"URL#4820051"
+             },
+             {
+                "@score":"1",
+                "@id":"4820052",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"00/647",
+                            "text":"Chinatsu Horii"
+                         },
+                         {
+                            "@pid":"56/4803",
+                            "text":"Masakazu Imai"
+                         },
+                         {
+                            "@pid":"21/2722",
+                            "text":"Kunihiro Chihara"
+                         }
+                      ]
+                   },
+                   "title":"Conceptual Information Retrieval of Technical Papers for Digital Libraries.",
+                   "venue":"ADL",
+                   "pages":"171-178",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/HoriiIC99",
+                   "doi":"10.1109/ADL.1999.777712",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777712",
+                   "url":"https://dblp.org/rec/conf/adl/HoriiIC99"
+                },
+                "url":"URL#4820052"
+             },
+             {
+                "@score":"1",
+                "@id":"4820053",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"15/5475",
+                            "text":"Michael J. Hu"
+                         },
+                         {
+                            "@pid":"55/25",
+                            "text":"Ye Jian"
+                         }
+                      ]
+                   },
+                   "title":"MD2L - Content Description of Multimedia Documents for Efficient Process and Search/Retrieval.",
+                   "venue":"ADL",
+                   "pages":"200-213",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/HuJ99",
+                   "doi":"10.1109/ADL.1999.777715",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777715",
+                   "url":"https://dblp.org/rec/conf/adl/HuJ99"
+                },
+                "url":"URL#4820053"
+             },
+             {
+                "@score":"1",
+                "@id":"4820054",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"79/1833",
+                            "text":"J. Steven Hughes"
+                         },
+                         {
+                            "@pid":"68/5314",
+                            "text":"Susan K. McMahon"
+                         }
+                      ]
+                   },
+                   "title":"The Planetary Data System - Distributed Inventory System.",
+                   "venue":"ADL",
+                   "pages":"86",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/HughesM99",
+                   "doi":"10.1109/ADL.1999.777695",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777695",
+                   "url":"https://dblp.org/rec/conf/adl/HughesM99"
+                },
+                "url":"URL#4820054"
+             },
+             {
+                "@score":"1",
+                "@id":"4820055",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"25/4064",
+                            "text":"Gerd Kaupp"
+                         },
+                         {
+                            "@pid":"70/4506",
+                            "text":"M. Haak"
+                         },
+                         {
+                            "@pid":"62/1580",
+                            "text":"G. Gauglitz"
+                         },
+                         {
+                            "@pid":"23/5626",
+                            "text":"H.-J. Schneider"
+                         },
+                         {
+                            "@pid":"63/3643",
+                            "text":"R. Moll"
+                         },
+                         {
+                            "@pid":"23/6461",
+                            "text":"H. Schmelz"
+                         },
+                         {
+                            "@pid":"65/4821",
+                            "text":"T. Fröhlich"
+                         }
+                      ]
+                   },
+                   "title":"A Plea for Publishing without Loss of Data.",
+                   "venue":"ADL",
+                   "pages":"87",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/KauppHGSMSF99",
+                   "doi":"10.1109/ADL.1999.777696",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777696",
+                   "url":"https://dblp.org/rec/conf/adl/KauppHGSMSF99"
+                },
+                "url":"URL#4820055"
+             },
+             {
+                "@score":"1",
+                "@id":"4820056",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"61/2512",
+                            "text":"Frank Klaproth"
+                         },
+                         {
+                            "@pid":"39/1019",
+                            "text":"Winfried Muehl"
+                         },
+                         {
+                            "@pid":"63/1539",
+                            "text":"Ralf Schimmer"
+                         }
+                      ]
+                   },
+                   "title":"A Meta Data Model for Distributed Library Systems - Building a Magic Mirror (XML/RDF) for RDBs.",
+                   "venue":"ADL",
+                   "pages":"89",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/KlaprothMS99",
+                   "doi":"10.1109/ADL.1999.777698",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777698",
+                   "url":"https://dblp.org/rec/conf/adl/KlaprothMS99"
+                },
+                "url":"URL#4820056"
+             },
+             {
+                "@score":"1",
+                "@id":"4820057",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"14/3377",
+                            "text":"Bertin Klein"
+                         },
+                         {
+                            "@pid":"05/3102",
+                            "text":"Andreas Abecker"
+                         }
+                      ]
+                   },
+                   "title":"Distributed Knowledge-Based Parsing for Document Analysis and Understanding.",
+                   "venue":"ADL",
+                   "pages":"6-15",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/KleinA99",
+                   "doi":"10.1109/ADL.1999.777686",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777686",
+                   "url":"https://dblp.org/rec/conf/adl/KleinA99"
+                },
+                "url":"URL#4820057"
+             },
+             {
+                "@score":"1",
+                "@id":"4820058",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"62/5449",
+                         "text":"Marc Krellenstein"
+                      }
+                   },
+                   "title":"The Commercial View - Shipping the Digital Library V1.0.",
+                   "venue":"ADL",
+                   "pages":"92-93",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Krellenstein99",
+                   "doi":"10.1109/ADL.1999.777700",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777700",
+                   "url":"https://dblp.org/rec/conf/adl/Krellenstein99"
+                },
+                "url":"URL#4820058"
+             },
+             {
+                "@score":"1",
+                "@id":"4820059",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"31/5064",
+                            "text":"Éric Leclercq"
+                         },
+                         {
+                            "@pid":"b/DjamalBenslimane",
+                            "text":"Djamal Benslimane"
+                         },
+                         {
+                            "@pid":"27/3959",
+                            "text":"Kokou Yétongnon"
+                         }
+                      ]
+                   },
+                   "title":"Semantic Mediation for Cooperative Spatial Information Systems - The AMUN Data Model.",
+                   "venue":"ADL",
+                   "pages":"16-27",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/LeclercqBY99",
+                   "doi":"10.1109/ADL.1999.777687",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777687",
+                   "url":"https://dblp.org/rec/conf/adl/LeclercqBY99"
+                },
+                "url":"URL#4820059"
+             },
+             {
+                "@score":"1",
+                "@id":"4820060",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"05/4291",
+                            "text":"Daniel W. Lozier"
+                         },
+                         {
+                            "@pid":"84/1330",
+                            "text":"Bruce R. Miller"
+                         },
+                         {
+                            "@pid":"92/173",
+                            "text":"Bonita V. Saunders"
+                         }
+                      ]
+                   },
+                   "title":"Design of a Digital Mathematical Library for Science, Technology and Education.",
+                   "venue":"ADL",
+                   "pages":"118-128",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/LozierMS99",
+                   "doi":"10.1109/ADL.1999.777704",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777704",
+                   "url":"https://dblp.org/rec/conf/adl/LozierMS99"
+                },
+                "url":"URL#4820060"
+             },
+             {
+                "@score":"1",
+                "@id":"4820061",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"50/4639",
+                         "text":"Alexa T. McCray"
+                      }
+                   },
+                   "title":"Digital Libraries Initiative, Phase 2 - Panel.",
+                   "venue":"ADL",
+                   "pages":"216",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/McCray99",
+                   "doi":"10.1109/ADL.1999.777716",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777716",
+                   "url":"https://dblp.org/rec/conf/adl/McCray99"
+                },
+                "url":"URL#4820061"
+             },
+             {
+                "@score":"1",
+                "@id":"4820062",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"50/4639",
+                            "text":"Alexa T. McCray"
+                         },
+                         {
+                            "@pid":"12/6375",
+                            "text":"Marie E. Gallagher"
+                         },
+                         {
+                            "@pid":"04/5311",
+                            "text":"Michael A. Flannick"
+                         }
+                      ]
+                   },
+                   "title":"Extending the Role of Metadata in a Digital Library System.",
+                   "venue":"ADL",
+                   "pages":"190-199",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/McCrayGF99",
+                   "doi":"10.1109/ADL.1999.777714",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777714",
+                   "url":"https://dblp.org/rec/conf/adl/McCrayGF99"
+                },
+                "url":"URL#4820062"
+             },
+             {
+                "@score":"1",
+                "@id":"4820063",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"11/1651",
+                            "text":"Jill O&apos;Neill"
+                         },
+                         {
+                            "@pid":"24/5708",
+                            "text":"Richard Hulser"
+                         },
+                         {
+                            "@pid":"15/1411",
+                            "text":"Susan Kesner"
+                         },
+                         {
+                            "@pid":"71/6014",
+                            "text":"Val Tucci"
+                         },
+                         {
+                            "@pid":"61/3819",
+                            "text":"John Tagler"
+                         },
+                         {
+                            "@pid":"01/2622",
+                            "text":"Chris Leonard"
+                         }
+                      ]
+                   },
+                   "title":"The Publishing Industry and Generational Changes in Product Development - Panel.",
+                   "venue":"ADL",
+                   "pages":"142",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ONeilHKTTL99",
+                   "doi":"10.1109/ADL.1999.777706",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777706",
+                   "url":"https://dblp.org/rec/conf/adl/ONeilHKTTL99"
+                },
+                "url":"URL#4820063"
+             },
+             {
+                "@score":"1",
+                "@id":"4820064",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"o/CarlosOrdonez",
+                            "text":"Carlos Ordonez 0001"
+                         },
+                         {
+                            "@pid":"o/EdwardOmiecinski",
+                            "text":"Edward Omiecinski"
+                         }
+                      ]
+                   },
+                   "title":"Discovering Association Rules Based on Image Content.",
+                   "venue":"ADL",
+                   "pages":"38-49",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/OrdonezO99",
+                   "doi":"10.1109/ADL.1999.777689",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777689",
+                   "url":"https://dblp.org/rec/conf/adl/OrdonezO99"
+                },
+                "url":"URL#4820064"
+             },
+             {
+                "@score":"1",
+                "@id":"4820065",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"p/CatherinePlaisant",
+                            "text":"Catherine Plaisant"
+                         },
+                         {
+                            "@pid":"41/3751",
+                            "text":"Maya Venkatraman"
+                         },
+                         {
+                            "@pid":"72/2801",
+                            "text":"Kawin Ngamkajornwiwat"
+                         },
+                         {
+                            "@pid":"22/3802",
+                            "text":"Randy Barth"
+                         },
+                         {
+                            "@pid":"41/2016",
+                            "text":"Bob Harberts"
+                         },
+                         {
+                            "@pid":"85/6013",
+                            "text":"W. Wenlanng"
+                         }
+                      ]
+                   },
+                   "title":"Refining Query Previews Techniques for Data with Multivalued Attributes - The Case of NASA EOSDIS.",
+                   "venue":"ADL",
+                   "pages":"50-59",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/PlaisantVNBHW99",
+                   "doi":"10.1109/ADL.1999.777690",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777690",
+                   "url":"https://dblp.org/rec/conf/adl/PlaisantVNBHW99"
+                },
+                "url":"URL#4820065"
+             },
+             {
+                "@score":"1",
+                "@id":"4820066",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"81/249",
+                         "text":"Rudi Schmiede"
+                      }
+                   },
+                   "title":"Digital Library Activities in Germany The German Digital Library Program GLOBAL INFO.",
+                   "venue":"ADL",
+                   "pages":"73-83",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Schmiede99",
+                   "doi":"10.1109/ADL.1999.777694",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777694",
+                   "url":"https://dblp.org/rec/conf/adl/Schmiede99"
+                },
+                "url":"URL#4820066"
+             },
+             {
+                "@score":"1",
+                "@id":"4820067",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"20/221",
+                            "text":"Pubudu C. H. Wariyapola"
+                         },
+                         {
+                            "@pid":"46/2649",
+                            "text":"Nicholas M. Patrikalakis"
+                         },
+                         {
+                            "@pid":"97/165",
+                            "text":"Stephen L. Abrams"
+                         },
+                         {
+                            "@pid":"89/3194",
+                            "text":"Pierre Elisseeff"
+                         },
+                         {
+                            "@pid":"91/2588",
+                            "text":"Allan R. Robinson"
+                         },
+                         {
+                            "@pid":"34/556",
+                            "text":"Henrik Schmidt"
+                         },
+                         {
+                            "@pid":"93/257",
+                            "text":"Knut Streitlien"
+                         }
+                      ]
+                   },
+                   "title":"Ontology and Metadata Creation for the Poseidon Distributed Coastal Zone Management System.",
+                   "venue":"ADL",
+                   "pages":"180-189",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/WariyapolaPAERSS99",
+                   "doi":"10.1109/ADL.1999.777713",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777713",
+                   "url":"https://dblp.org/rec/conf/adl/WariyapolaPAERSS99"
+                },
+                "url":"URL#4820067"
+             },
+             {
+                "@score":"1",
+                "@id":"4820068",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"y/ClementTYu",
+                            "text":"Clement T. Yu"
+                         },
+                         {
+                            "@pid":"70/4830",
+                            "text":"King-Lup Liu"
+                         },
+                         {
+                            "@pid":"23/7",
+                            "text":"Wensheng Wu"
+                         },
+                         {
+                            "@pid":"m/WeiyiMeng",
+                            "text":"Weiyi Meng"
+                         },
+                         {
+                            "@pid":"r/NaphtaliRishe",
+                            "text":"Naphtali Rishe"
+                         }
+                      ]
+                   },
+                   "title":"Finding the Most Similar Documents across Multiple Text Databases.",
+                   "venue":"ADL",
+                   "pages":"150-162",
+                   "year":"1999",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/YuLWMR99",
+                   "doi":"10.1109/ADL.1999.777710",
+                   "ee":"https://doi.org/10.1109/ADL.1999.777710",
+                   "url":"https://dblp.org/rec/conf/adl/YuLWMR99"
+                },
+                "url":"URL#4820068"
+             },
+             {
+                "@score":"1",
+                "@id":"4855594",
+                "info":{
+                   "title":"Proceedings of the IEEE Forum on Research and Technology Advances in Digital Libraries, Baltimore, Maryland, USA, May 19-21, 1999",
+                   "venue":"ADL",
+                   "publisher":"IEEE Computer Society",
+                   "year":"1999",
+                   "type":"Editorship",
+                   "key":"conf/adl/1999",
+                   "ee":"https://ieeexplore.ieee.org/xpl/conhome/6298/proceeding",
+                   "url":"https://dblp.org/rec/conf/adl/1999"
+                },
+                "url":"URL#4855594"
+             },
+             {
+                "@score":"1",
+                "@id":"4885293",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"a/MaristellaAgosti",
+                            "text":"Maristella Agosti"
+                         },
+                         {
+                            "@pid":"c/FabioCrestani",
+                            "text":"Fabio Crestani"
+                         },
+                         {
+                            "@pid":"34/194",
+                            "text":"Massimo Melucci"
+                         }
+                      ]
+                   },
+                   "title":"Electronic Publishing, Storage, Dissemination and Retrieval of a Scientific Journal through the Web.",
+                   "venue":"ADL",
+                   "pages":"137-146",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/AgostiCM98",
+                   "doi":"10.1109/ADL.1998.670388",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670388",
+                   "url":"https://dblp.org/rec/conf/adl/AgostiCM98"
+                },
+                "url":"URL#4885293"
+             },
+             {
+                "@score":"1",
+                "@id":"4885294",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"a/HAhonen",
+                            "text":"Helena Ahonen"
+                         },
+                         {
+                            "@pid":"h/OskariHeinonen",
+                            "text":"Oskari Heinonen"
+                         },
+                         {
+                            "@pid":"k/MikaKlemettinen",
+                            "text":"Mika Klemettinen"
+                         },
+                         {
+                            "@pid":"v/InkeriAVerkamo",
+                            "text":"A. Inkeri Verkamo"
+                         }
+                      ]
+                   },
+                   "title":"Applying Data Mining Techniques for Descriptive Phrase Extraction in Digital Document Collections.",
+                   "venue":"ADL",
+                   "pages":"2-11",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/AhonenHKV98",
+                   "doi":"10.1109/ADL.1998.670374",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670374",
+                   "url":"https://dblp.org/rec/conf/adl/AhonenHKV98"
+                },
+                "url":"URL#4885294"
+             },
+             {
+                "@score":"1",
+                "@id":"4885295",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"14/4311",
+                            "text":"Kate Beard"
+                         },
+                         {
+                            "@pid":"09/6141",
+                            "text":"Vyjayanti Sharma"
+                         }
+                      ]
+                   },
+                   "title":"Multilevel and Graphical Views of Metadata.",
+                   "venue":"ADL",
+                   "pages":"256-265",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/BeardS98",
+                   "doi":"10.1109/ADL.1998.670426",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670426",
+                   "url":"https://dblp.org/rec/conf/adl/BeardS98"
+                },
+                "url":"URL#4885295"
+             },
+             {
+                "@score":"1",
+                "@id":"4885296",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"b/KBohm",
+                            "text":"Klemens Böhm"
+                         },
+                         {
+                            "@pid":"a/KarlAberer",
+                            "text":"Karl Aberer"
+                         },
+                         {
+                            "@pid":"o/MTamerOzsu",
+                            "text":"M. Tamer Özsu"
+                         },
+                         {
+                            "@pid":"79/1901",
+                            "text":"Kathrin Gayer"
+                         }
+                      ]
+                   },
+                   "title":"Query Optimization for Structured Documents Based on Knowledge on the Document Type Definition.",
+                   "venue":"ADL",
+                   "pages":"196-205",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/BohmAOG98",
+                   "doi":"10.1109/ADL.1998.670397",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670397",
+                   "url":"https://dblp.org/rec/conf/adl/BohmAOG98"
+                },
+                "url":"URL#4885296"
+             },
+             {
+                "@score":"1",
+                "@id":"4885297",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"55/3290",
+                         "text":"Marcia J. Bossy"
+                      }
+                   },
+                   "title":"Making Sense of Scientific Information on WorldWideWeb - WWW-TED.",
+                   "venue":"ADL",
+                   "pages":"238-244",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Bossy98",
+                   "doi":"10.1109/ADL.1998.670424",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670424",
+                   "url":"https://dblp.org/rec/conf/adl/Bossy98"
+                },
+                "url":"URL#4885297"
+             },
+             {
+                "@score":"1",
+                "@id":"4885298",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"13/2448",
+                            "text":"Jong Jin Chae"
+                         },
+                         {
+                            "@pid":"35/4322",
+                            "text":"Debargha Mukherjee"
+                         },
+                         {
+                            "@pid":"m/BSManjunath",
+                            "text":"B. S. Manjunath"
+                         }
+                      ]
+                   },
+                   "title":"A Robust Data Hiding Technique Using Multidimensional Lattices.",
+                   "venue":"ADL",
+                   "pages":"319-326",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ChaeMM98",
+                   "doi":"10.1109/ADL.1998.670432",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670432",
+                   "url":"https://dblp.org/rec/conf/adl/ChaeMM98"
+                },
+                "url":"URL#4885298"
+             },
+             {
+                "@score":"1",
+                "@id":"4885299",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"94/1405",
+                            "text":"Jimmy H. P. Chim"
+                         },
+                         {
+                            "@pid":"l/RynsonWHLau",
+                            "text":"Rynson W. H. Lau"
+                         },
+                         {
+                            "@pid":"l/HongVaLeong",
+                            "text":"Hong Va Leong"
+                         },
+                         {
+                            "@pid":"35/5958",
+                            "text":"Antonio Si"
+                         }
+                      ]
+                   },
+                   "title":"Multi-Resolution Cache Management in Digital Virtual Library.",
+                   "venue":"ADL",
+                   "pages":"66-75",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ChimLLS98",
+                   "doi":"10.1109/ADL.1998.670381",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670381",
+                   "url":"https://dblp.org/rec/conf/adl/ChimLLS98"
+                },
+                "url":"URL#4885299"
+             },
+             {
+                "@score":"1",
+                "@id":"4885300",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"05/3428",
+                            "text":"Ron Daniel Jr."
+                         },
+                         {
+                            "@pid":"l/CarlLagoze",
+                            "text":"Carl Lagoze"
+                         },
+                         {
+                            "@pid":"53/5618",
+                            "text":"Sandra Payette"
+                         }
+                      ]
+                   },
+                   "title":"A Metadata Architecture for Digital Libraries.",
+                   "venue":"ADL",
+                   "pages":"276-288",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/DanielLP98",
+                   "doi":"10.1109/ADL.1998.670428",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670428",
+                   "url":"https://dblp.org/rec/conf/adl/DanielLP98"
+                },
+                "url":"URL#4885300"
+             },
+             {
+                "@score":"1",
+                "@id":"4885301",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"38/271",
+                         "text":"Tuong Dao"
+                      }
+                   },
+                   "title":"An Indexing Model for Structured Documents to Support Queries on Content, Structure, and Attributes.",
+                   "venue":"ADL",
+                   "pages":"88-97",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Dao98",
+                   "doi":"10.1109/ADL.1998.670383",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670383",
+                   "url":"https://dblp.org/rec/conf/adl/Dao98"
+                },
+                "url":"URL#4885301"
+             },
+             {
+                "@score":"1",
+                "@id":"4885302",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"d/ChabaneDjeraba",
+                            "text":"Chabane Djeraba"
+                         },
+                         {
+                            "@pid":"07/3066",
+                            "text":"Marinette Bouet"
+                         },
+                         {
+                            "@pid":"24/5003",
+                            "text":"Henri Briand"
+                         }
+                      ]
+                   },
+                   "title":"Concept-Based Query in Visual Information Systems.",
+                   "venue":"ADL",
+                   "pages":"299-308",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/DjerabaBB98",
+                   "doi":"10.1109/ADL.1998.670430",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670430",
+                   "url":"https://dblp.org/rec/conf/adl/DjerabaBB98"
+                },
+                "url":"URL#4885302"
+             },
+             {
+                "@score":"1",
+                "@id":"4885303",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"46/6083",
+                            "text":"Jianlin Feng"
+                         },
+                         {
+                            "@pid":"18/1197",
+                            "text":"Yucai Feng"
+                         }
+                      ]
+                   },
+                   "title":"Binary Partition Based Algorithms for Mining Association Rules.",
+                   "venue":"ADL",
+                   "pages":"30-34",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/FengF98",
+                   "doi":"10.1109/ADL.1998.670377",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670377",
+                   "url":"https://dblp.org/rec/conf/adl/FengF98"
+                },
+                "url":"URL#4885303"
+             },
+             {
+                "@score":"1",
+                "@id":"4885304",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"39/2781",
+                            "text":"Steven Geffner"
+                         },
+                         {
+                            "@pid":"a/DivyakantAgrawal",
+                            "text":"Divyakant Agrawal"
+                         },
+                         {
+                            "@pid":"a/AmrElAbbadi",
+                            "text":"Amr El Abbadi"
+                         },
+                         {
+                            "@pid":"35/156",
+                            "text":"Terence R. Smith"
+                         },
+                         {
+                            "@pid":"20/2110",
+                            "text":"Mary Larsgaard"
+                         }
+                      ]
+                   },
+                   "title":"Smart Indexes for Efficient Browsing of Library Collections.",
+                   "venue":"ADL",
+                   "pages":"107-116",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/GeffnerAASL98",
+                   "doi":"10.1109/ADL.1998.670385",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670385",
+                   "url":"https://dblp.org/rec/conf/adl/GeffnerAASL98"
+                },
+                "url":"URL#4885304"
+             },
+             {
+                "@score":"1",
+                "@id":"4885305",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"g/AndrewVGoldberg",
+                            "text":"Andrew V. Goldberg"
+                         },
+                         {
+                            "@pid":"30/171",
+                            "text":"Peter N. Yianilos"
+                         }
+                      ]
+                   },
+                   "title":"Towards an Archival Intermemory.",
+                   "venue":"ADL",
+                   "pages":"147-156",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/GoldbergY98",
+                   "doi":"10.1109/ADL.1998.670389",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670389",
+                   "url":"https://dblp.org/rec/conf/adl/GoldbergY98"
+                },
+                "url":"URL#4885305"
+             },
+             {
+                "@score":"1",
+                "@id":"4885306",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"h/PatrickHaffner",
+                            "text":"Patrick Haffner"
+                         },
+                         {
+                            "@pid":"30/1046",
+                            "text":"Léon Bottou"
+                         },
+                         {
+                            "@pid":"63/5870",
+                            "text":"Paul G. Howard"
+                         },
+                         {
+                            "@pid":"s/PYSimard",
+                            "text":"Patrice Y. Simard"
+                         },
+                         {
+                            "@pid":"56/953",
+                            "text":"Yoshua Bengio"
+                         },
+                         {
+                            "@pid":"l/YannLeCun",
+                            "text":"Yann LeCun"
+                         }
+                      ]
+                   },
+                   "title":"Browsing through High Quality Document Images with DjVu.",
+                   "venue":"ADL",
+                   "pages":"309-318",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/HaffnerBHSBC98",
+                   "doi":"10.1109/ADL.1998.670431",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670431",
+                   "url":"https://dblp.org/rec/conf/adl/HaffnerBHSBC98"
+                },
+                "url":"URL#4885306"
+             },
+             {
+                "@score":"1",
+                "@id":"4885307",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"35/6146",
+                            "text":"J. J. Han"
+                         },
+                         {
+                            "@pid":"73/5275",
+                            "text":"J. H. Choi"
+                         },
+                         {
+                            "@pid":"27/5546",
+                            "text":"J. J. Park"
+                         },
+                         {
+                            "@pid":"03/6260",
+                            "text":"J. D. Yang"
+                         },
+                         {
+                            "@pid":"50/2786",
+                            "text":"J. K. Lee"
+                         }
+                      ]
+                   },
+                   "title":"An Object-Based Information Retrieval Model - Toward the Structural Construction of Thesauri.",
+                   "venue":"ADL",
+                   "pages":"117-125",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/HanCPYL98",
+                   "doi":"10.1109/ADL.1998.670386",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670386",
+                   "url":"https://dblp.org/rec/conf/adl/HanCPYL98"
+                },
+                "url":"URL#4885307"
+             },
+             {
+                "@score":"1",
+                "@id":"4885308",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"h/AlexanderGHauptmann",
+                            "text":"Alexander G. Hauptmann"
+                         },
+                         {
+                            "@pid":"w/MichaelJWitbrock",
+                            "text":"Michael J. Witbrock"
+                         }
+                      ]
+                   },
+                   "title":"Story Segmentation and Detection of Commercials in Broadcast News Video.",
+                   "venue":"ADL",
+                   "pages":"168-179",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/HauptmannW98",
+                   "doi":"10.1109/ADL.1998.670392",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670392",
+                   "url":"https://dblp.org/rec/conf/adl/HauptmannW98"
+                },
+                "url":"URL#4885308"
+             },
+             {
+                "@score":"1",
+                "@id":"4885309",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"60/5978",
+                            "text":"Wen-Syan Li"
+                         },
+                         {
+                            "@pid":"s/JHShim",
+                            "text":"Junho Shim"
+                         },
+                         {
+                            "@pid":"c/KSelcukCandan",
+                            "text":"K. Selçuk Candan"
+                         },
+                         {
+                            "@pid":"29/2567",
+                            "text":"Yoshinori Hara"
+                         }
+                      ]
+                   },
+                   "title":"WebDB - A Web Query System and Its Modeling, Language, and Implementation.",
+                   "venue":"ADL",
+                   "pages":"216-227",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/LiSCH98",
+                   "doi":"10.1109/ADL.1998.670422",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670422",
+                   "url":"https://dblp.org/rec/conf/adl/LiSCH98"
+                },
+                "url":"URL#4885309"
+             },
+             {
+                "@score":"1",
+                "@id":"4885310",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"m/BSManjunath",
+                         "text":"B. S. Manjunath"
+                      }
+                   },
+                   "title":"Image Processing in the Alexandria Digital Library Project.",
+                   "venue":"ADL",
+                   "pages":"180-187",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Manjunath98",
+                   "doi":"10.1109/ADL.1998.670393",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670393",
+                   "url":"https://dblp.org/rec/conf/adl/Manjunath98"
+                },
+                "url":"URL#4885310"
+             },
+             {
+                "@score":"1",
+                "@id":"4885311",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"08/6242",
+                            "text":"Rodger J. McNab"
+                         },
+                         {
+                            "@pid":"w/IanHWitten",
+                            "text":"Ian H. Witten"
+                         },
+                         {
+                            "@pid":"24/6208",
+                            "text":"Stefan J. Boddie"
+                         }
+                      ]
+                   },
+                   "title":"Distributed Digital Library Architecture Incorporating Different Index Styles.",
+                   "venue":"ADL",
+                   "pages":"36-45",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/McNabWB98",
+                   "doi":"10.1109/ADL.1998.670378",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670378",
+                   "url":"https://dblp.org/rec/conf/adl/McNabWB98"
+                },
+                "url":"URL#4885311"
+             },
+             {
+                "@score":"1",
+                "@id":"4885312",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"c/FabioCrestani",
+                            "text":"Fabio Crestani"
+                         },
+                         {
+                            "@pid":"34/194",
+                            "text":"Massimo Melucci"
+                         }
+                      ]
+                   },
+                   "title":"A Methodology for the Enhancement of a Hypertext Version of a Textbook by the Automatic Insertion of Links in the Subject Index.",
+                   "venue":"ADL",
+                   "pages":"157-166",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Melucci98",
+                   "doi":"10.1109/ADL.1998.670390",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670390",
+                   "url":"https://dblp.org/rec/conf/adl/Melucci98"
+                },
+                "url":"URL#4885312"
+             },
+             {
+                "@score":"1",
+                "@id":"4885313",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"31/6702",
+                            "text":"William E. Moen"
+                         },
+                         {
+                            "@pid":"76/3407",
+                            "text":"Erin L. Stewart"
+                         },
+                         {
+                            "@pid":"79/301",
+                            "text":"Charles R. McClure"
+                         }
+                      ]
+                   },
+                   "title":"Assessing Metadata Quality - Findings and Methodological Considerations from an Evaluation of the U.S. Government Information Locator Service (GILS).",
+                   "venue":"ADL",
+                   "pages":"246-255",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/MoenSM98",
+                   "doi":"10.1109/ADL.1998.670425",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670425",
+                   "url":"https://dblp.org/rec/conf/adl/MoenSM98"
+                },
+                "url":"URL#4885313"
+             },
+             {
+                "@score":"1",
+                "@id":"4885314",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"41/993",
+                            "text":"Christian Mönch"
+                         },
+                         {
+                            "@pid":"57/6455",
+                            "text":"Oswald Drobnik"
+                         }
+                      ]
+                   },
+                   "title":"Integrating New Document Types into Digital Libraries.",
+                   "venue":"ADL",
+                   "pages":"56-65",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/MonchD98",
+                   "doi":"10.1109/ADL.1998.670380",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670380",
+                   "url":"https://dblp.org/rec/conf/adl/MonchD98"
+                },
+                "url":"URL#4885314"
+             },
+             {
+                "@score":"1",
+                "@id":"4885315",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"n/MichaelLNelson",
+                            "text":"Michael L. Nelson"
+                         },
+                         {
+                            "@pid":"m/KurtMaly",
+                            "text":"Kurt Maly"
+                         },
+                         {
+                            "@pid":"94/6831",
+                            "text":"Stewart N. T. Shen"
+                         },
+                         {
+                            "@pid":"28/4965",
+                            "text":"Mohammad Zubair"
+                         }
+                      ]
+                   },
+                   "title":"NCSTRL+ - Adding Multi-Discipline and Multi-Genre Support to the Dienst Protocol Using Clusters and Buckets.",
+                   "venue":"ADL",
+                   "pages":"128-136",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/NelsonMSZ98",
+                   "doi":"10.1109/ADL.1998.670387",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670387",
+                   "url":"https://dblp.org/rec/conf/adl/NelsonMSZ98"
+                },
+                "url":"URL#4885315"
+             },
+             {
+                "@score":"1",
+                "@id":"4885316",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"n/WeeKeongNg",
+                            "text":"Wee Keong Ng"
+                         },
+                         {
+                            "@pid":"l/EePengLim",
+                            "text":"Ee-Peng Lim"
+                         },
+                         {
+                            "@pid":"87/3363",
+                            "text":"C.-T. Huang"
+                         },
+                         {
+                            "@pid":"b/SSBhowmick",
+                            "text":"Sourav S. Bhowmick"
+                         },
+                         {
+                            "@pid":"84/5048",
+                            "text":"Fengqiong Qin"
+                         }
+                      ]
+                   },
+                   "title":"Web Warehousing - An Algebra for Web Information.",
+                   "venue":"ADL",
+                   "pages":"228-237",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/NgLHBQ98",
+                   "doi":"10.1109/ADL.1998.670423",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670423",
+                   "url":"https://dblp.org/rec/conf/adl/NgLHBQ98"
+                },
+                "url":"URL#4885316"
+             },
+             {
+                "@score":"1",
+                "@id":"4885317",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"97/2735",
+                            "text":"Ralf Nikolai"
+                         },
+                         {
+                            "@pid":"69/1286",
+                            "text":"A. Traupe"
+                         },
+                         {
+                            "@pid":"45/6455",
+                            "text":"Ralf Kramer"
+                         }
+                      ]
+                   },
+                   "title":"Thesaurus Federations - A Framework for the Flexible Integration of Heterogeneous, Autonomous Thesauri.",
+                   "venue":"ADL",
+                   "pages":"46-55",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/NikolaiTK98",
+                   "doi":"10.1109/ADL.1998.670379",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670379",
+                   "url":"https://dblp.org/rec/conf/adl/NikolaiTK98"
+                },
+                "url":"URL#4885317"
+             },
+             {
+                "@score":"1",
+                "@id":"4885318",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"24/4750",
+                            "text":"Yukio Ohsawa"
+                         },
+                         {
+                            "@pid":"04/5082",
+                            "text":"Nels E. Benson"
+                         },
+                         {
+                            "@pid":"23/5332",
+                            "text":"Masahiko Yachida"
+                         }
+                      ]
+                   },
+                   "title":"KeyGraph - Automatic Indexing by Co-Occurrence Graph Based on Building Construction Metaphor.",
+                   "venue":"ADL",
+                   "pages":"12-18",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/OhsawaBY98",
+                   "doi":"10.1109/ADL.1998.670375",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670375",
+                   "url":"https://dblp.org/rec/conf/adl/OhsawaBY98"
+                },
+                "url":"URL#4885318"
+             },
+             {
+                "@score":"1",
+                "@id":"4885319",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"92/3491",
+                            "text":"Marshall Ramsey"
+                         },
+                         {
+                            "@pid":"53/1323",
+                            "text":"Thian-Huat Ong"
+                         },
+                         {
+                            "@pid":"c/HsinchunChen",
+                            "text":"Hsinchun Chen"
+                         }
+                      ]
+                   },
+                   "title":"Multilingual Input System for the Web - An Open Multimedia Approach of Keyboard and Handwriting Recognition for Chinese and Japanese.",
+                   "venue":"ADL",
+                   "pages":"188-194",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/RamseyOC98",
+                   "doi":"10.1109/ADL.1998.670394",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670394",
+                   "url":"https://dblp.org/rec/conf/adl/RamseyOC98"
+                },
+                "url":"URL#4885319"
+             },
+             {
+                "@score":"1",
+                "@id":"4885320",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"30/2760",
+                            "text":"Kshitij Shah"
+                         },
+                         {
+                            "@pid":"s/AmitPSheth",
+                            "text":"Amit P. Sheth"
+                         }
+                      ]
+                   },
+                   "title":"Logical Information Modeling of Web-Accessible Heterogeneous Digital Assets.",
+                   "venue":"ADL",
+                   "pages":"266-275",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ShahS98",
+                   "doi":"10.1109/ADL.1998.670427",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670427",
+                   "url":"https://dblp.org/rec/conf/adl/ShahS98"
+                },
+                "url":"URL#4885320"
+             },
+             {
+                "@score":"1",
+                "@id":"4885321",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"97/1141",
+                            "text":"Nina Wacholder"
+                         },
+                         {
+                            "@pid":"93/4846",
+                            "text":"Celina Imielinska"
+                         },
+                         {
+                            "@pid":"k/JudithKlavans",
+                            "text":"Judith Klavans"
+                         },
+                         {
+                            "@pid":"62/970",
+                            "text":"Ewa Soliz"
+                         },
+                         {
+                            "@pid":"94/2500",
+                            "text":"Pat Molholt"
+                         }
+                      ]
+                   },
+                   "title":"Semantic Relations in a Medical Digital Library.",
+                   "venue":"ADL",
+                   "pages":"290-298",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/WacholderIKSM98",
+                   "doi":"10.1109/ADL.1998.670429",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670429",
+                   "url":"https://dblp.org/rec/conf/adl/WacholderIKSM98"
+                },
+                "url":"URL#4885321"
+             },
+             {
+                "@score":"1",
+                "@id":"4885322",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"73/6148",
+                            "text":"Toyohide Watanabe"
+                         },
+                         {
+                            "@pid":"98/5458",
+                            "text":"N. T. Champa Jayawardana"
+                         },
+                         {
+                            "@pid":"10/5776",
+                            "text":"Taketoshi Ushiama"
+                         }
+                      ]
+                   },
+                   "title":"Personal Interface Mechanism on Digital Library.",
+                   "venue":"ADL",
+                   "pages":"76-85",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/WatanabeJU98",
+                   "doi":"10.1109/ADL.1998.670382",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670382",
+                   "url":"https://dblp.org/rec/conf/adl/WatanabeJU98"
+                },
+                "url":"URL#4885322"
+             },
+             {
+                "@score":"1",
+                "@id":"4885323",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"w/StephanWiesener",
+                            "text":"Stephan Wiesener"
+                         },
+                         {
+                            "@pid":"34/6217",
+                            "text":"H. Haddouti"
+                         },
+                         {
+                            "@pid":"b/RudolfBayer",
+                            "text":"Rudolf Bayer"
+                         }
+                      ]
+                   },
+                   "title":"Advanced Hypermedia Indexing of Documents in a Deductive Database System.",
+                   "venue":"ADL",
+                   "pages":"98-106",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/WiesenerHB98",
+                   "doi":"10.1109/ADL.1998.670384",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670384",
+                   "url":"https://dblp.org/rec/conf/adl/WiesenerHB98"
+                },
+                "url":"URL#4885323"
+             },
+             {
+                "@score":"1",
+                "@id":"4885324",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"81/5750",
+                            "text":"Jongpil Yoon"
+                         },
+                         {
+                            "@pid":"98/3660",
+                            "text":"Sung-Hyuk Kim"
+                         }
+                      ]
+                   },
+                   "title":"A Three-Level User Interface to Multimedia Digital Libraries with Relaxation and Restriction.",
+                   "venue":"ADL",
+                   "pages":"206-215",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/YoonK98",
+                   "doi":"10.1109/ADL.1998.670421",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670421",
+                   "url":"https://dblp.org/rec/conf/adl/YoonK98"
+                },
+                "url":"URL#4885324"
+             },
+             {
+                "@score":"1",
+                "@id":"4885325",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"z/OsmarRZaiane",
+                            "text":"Osmar R. Zaïane"
+                         },
+                         {
+                            "@pid":"54/6871",
+                            "text":"Man Xin"
+                         },
+                         {
+                            "@pid":"h/JiaweiHan",
+                            "text":"Jiawei Han 0001"
+                         }
+                      ]
+                   },
+                   "title":"Discovering Web Access Patterns and Trends by Applying OLAP and Data Mining Technology on Web Logs.",
+                   "venue":"ADL",
+                   "pages":"19-29",
+                   "year":"1998",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ZaianeXH98",
+                   "doi":"10.1109/ADL.1998.670376",
+                   "ee":"https://doi.org/10.1109/ADL.1998.670376",
+                   "url":"https://dblp.org/rec/conf/adl/ZaianeXH98"
+                },
+                "url":"URL#4885325"
+             },
+             {
+                "@score":"1",
+                "@id":"4917162",
+                "info":{
+                   "title":"Proceedings of the IEEE Forum on Reasearch and Technology Advances in Digital Libraries, IEEE ADL &apos;98, Santa Barbara, California, USA, April 22-24, 1998",
+                   "venue":"ADL",
+                   "publisher":"IEEE Computer Society",
+                   "year":"1998",
+                   "type":"Editorship",
+                   "key":"conf/adl/1998",
+                   "ee":"https://ieeexplore.ieee.org/xpl/conhome/5492/proceeding",
+                   "url":"https://dblp.org/rec/conf/adl/1998"
+                },
+                "url":"URL#4917162"
+             },
+             {
+                "@score":"1",
+                "@id":"4944253",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"a/AVAho",
+                            "text":"Alfred V. Aho"
+                         },
+                         {
+                            "@pid":"c/ShihFuChang",
+                            "text":"Shih-Fu Chang"
+                         },
+                         {
+                            "@pid":"m/KathleenMcKeown",
+                            "text":"Kathleen R. McKeown"
+                         },
+                         {
+                            "@pid":"r/DragomirRRadev",
+                            "text":"Dragomir R. Radev"
+                         },
+                         {
+                            "@pid":"s/JohnRSmith",
+                            "text":"John R. Smith"
+                         },
+                         {
+                            "@pid":"66/5080",
+                            "text":"Kazi A. Zaman"
+                         }
+                      ]
+                   },
+                   "title":"Columbia Digital News System An Environment for Briefing and Search over Multimedia Information.",
+                   "venue":"ADL",
+                   "pages":"82-94",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/AhoCMRSZ97",
+                   "doi":"10.1109/ADL.1997.601203",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601203",
+                   "url":"https://dblp.org/rec/conf/adl/AhoCMRSZ97"
+                },
+                "url":"URL#4944253"
+             },
+             {
+                "@score":"1",
+                "@id":"4944254",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"19/1644",
+                            "text":"X. Cheng"
+                         },
+                         {
+                            "@pid":"80/3975",
+                            "text":"Ron Dolin"
+                         },
+                         {
+                            "@pid":"86/5398",
+                            "text":"Michael O. Neary"
+                         },
+                         {
+                            "@pid":"p/SunilPrabhakar",
+                            "text":"Sunil Prabhakar"
+                         },
+                         {
+                            "@pid":"37/673",
+                            "text":"Kothuri Venkata Ravi Kanth"
+                         },
+                         {
+                            "@pid":"01/5150",
+                            "text":"Daniel Wu"
+                         },
+                         {
+                            "@pid":"a/DivyakantAgrawal",
+                            "text":"Divyakant Agrawal"
+                         },
+                         {
+                            "@pid":"a/AmrElAbbadi",
+                            "text":"Amr El Abbadi"
+                         },
+                         {
+                            "@pid":"48/3564",
+                            "text":"Michael Freeston"
+                         },
+                         {
+                            "@pid":"s/AmbujKSingh",
+                            "text":"Ambuj K. Singh"
+                         },
+                         {
+                            "@pid":"35/156",
+                            "text":"Terence R. Smith"
+                         },
+                         {
+                            "@pid":"s/JWSu",
+                            "text":"Jianwen Su"
+                         }
+                      ]
+                   },
+                   "title":"Scalable Access Within the Context of Digital Libraries.",
+                   "venue":"ADL",
+                   "pages":"70-81",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ChengDNPKWAAFSSS97",
+                   "doi":"10.1109/ADL.1997.601202",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601202",
+                   "url":"https://dblp.org/rec/conf/adl/ChengDNPKWAAFSSS97"
+                },
+                "url":"URL#4944254"
+             },
+             {
+                "@score":"1",
+                "@id":"4944255",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"75/1772",
+                            "text":"Michael P. D&apos;Alessandro"
+                         },
+                         {
+                            "@pid":"76/938",
+                            "text":"Jeffrey R. Galvin"
+                         },
+                         {
+                            "@pid":"26/4071",
+                            "text":"James J. Choi"
+                         },
+                         {
+                            "@pid":"63/4496",
+                            "text":"William E. Erkonen"
+                         },
+                         {
+                            "@pid":"64/6957",
+                            "text":"Louis G. Crist"
+                         }
+                      ]
+                   },
+                   "title":"Continuing Medical Education to the Point of Care Using a Digital Library and Intimate Computers.",
+                   "venue":"ADL",
+                   "pages":"95-101",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/DAlessandroGCEC97",
+                   "doi":"10.1109/ADL.1997.601204",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601204",
+                   "url":"https://dblp.org/rec/conf/adl/DAlessandroGCEC97"
+                },
+                "url":"URL#4944255"
+             },
+             {
+                "@score":"1",
+                "@id":"4944256",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"46/468",
+                            "text":"Marianne Doerr"
+                         },
+                         {
+                            "@pid":"34/6217",
+                            "text":"H. Haddouti"
+                         },
+                         {
+                            "@pid":"w/StephanWiesener",
+                            "text":"Stephan Wiesener"
+                         }
+                      ]
+                   },
+                   "title":"The German National Bibliography 1601-1700 - Digital Images in a Cooperative Cataloging Project.",
+                   "venue":"ADL",
+                   "pages":"50-55",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/DorrHW97",
+                   "doi":"10.1109/ADL.1997.601199",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601199",
+                   "url":"https://dblp.org/rec/conf/adl/DorrHW97"
+                },
+                "url":"URL#4944256"
+             },
+             {
+                "@score":"1",
+                "@id":"4944257",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"e/AEndres",
+                         "text":"Albert Endres"
+                      }
+                   },
+                   "title":"Digital Library and Electronic Publishing Activities of German Professional Societies.",
+                   "venue":"ADL",
+                   "pages":"63-68",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Endres97",
+                   "doi":"10.1109/ADL.1997.601201",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601201",
+                   "url":"https://dblp.org/rec/conf/adl/Endres97"
+                },
+                "url":"URL#4944257"
+             },
+             {
+                "@score":"1",
+                "@id":"4944258",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"29/3336",
+                         "text":"Hans Geleijnse"
+                      }
+                   },
+                   "title":"Moving from the Digital to the Virtual Library - The Tilburg Experience.",
+                   "venue":"ADL",
+                   "pages":"56-62",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Geleijnse97",
+                   "doi":"10.1109/ADL.1997.601200",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601200",
+                   "url":"https://dblp.org/rec/conf/adl/Geleijnse97"
+                },
+                "url":"URL#4944258"
+             },
+             {
+                "@score":"1",
+                "@id":"4944259",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"14/3377",
+                            "text":"Bertin Klein"
+                         },
+                         {
+                            "@pid":"f/PeterFankhauser",
+                            "text":"Peter Fankhauser"
+                         }
+                      ]
+                   },
+                   "title":"Error Tolerant Document Structure Analysis.",
+                   "venue":"ADL",
+                   "pages":"116-127",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/KleinF97",
+                   "doi":"10.1109/ADL.1997.601207",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601207",
+                   "url":"https://dblp.org/rec/conf/adl/KleinF97"
+                },
+                "url":"URL#4944259"
+             },
+             {
+                "@score":"1",
+                "@id":"4944260",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"l/EePengLim",
+                            "text":"Ee-Peng Lim"
+                         },
+                         {
+                            "@pid":"n/WeeKeongNg",
+                            "text":"Wee Keong Ng"
+                         }
+                      ]
+                   },
+                   "title":"A Relational Interface for Heterogeneous Information Sources.",
+                   "venue":"ADL",
+                   "pages":"128-139",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/LimN97",
+                   "doi":"10.1109/ADL.1997.601208",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601208",
+                   "url":"https://dblp.org/rec/conf/adl/LimN97"
+                },
+                "url":"URL#4944260"
+             },
+             {
+                "@score":"1",
+                "@id":"4944261",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"71/6385",
+                            "text":"Jean Michel Marie-Julie"
+                         },
+                         {
+                            "@pid":"18/26",
+                            "text":"Hassane Essafi"
+                         }
+                      ]
+                   },
+                   "title":"Digital Image Indexing and Retrieval by Content Using the Fractal Transform for Multimedia Databases.",
+                   "venue":"ADL",
+                   "pages":"2-12",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Marie-JulieE97",
+                   "doi":"10.1109/ADL.1997.601195",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601195",
+                   "url":"https://dblp.org/rec/conf/adl/Marie-JulieE97"
+                },
+                "url":"URL#4944261"
+             },
+             {
+                "@score":"1",
+                "@id":"4944262",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"42/1367",
+                            "text":"Sanya Mitaim"
+                         },
+                         {
+                            "@pid":"78/5416",
+                            "text":"Bart Kosko"
+                         }
+                      ]
+                   },
+                   "title":"Neural Fuzzy Agents that Learn a User&apos;s Preference Map.",
+                   "venue":"ADL",
+                   "pages":"25-35",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/MitaimK97",
+                   "doi":"10.1109/ADL.1997.601197",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601197",
+                   "url":"https://dblp.org/rec/conf/adl/MitaimK97"
+                },
+                "url":"URL#4944262"
+             },
+             {
+                "@score":"1",
+                "@id":"4944263",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"30/1163",
+                            "text":"Arijit Sengupta"
+                         },
+                         {
+                            "@pid":"d/AndrewDillon",
+                            "text":"Andrew Dillon"
+                         }
+                      ]
+                   },
+                   "title":"Query by Templates - A Generalized Approach for Visual Query Formulation for Text Dominated Databases.",
+                   "venue":"ADL",
+                   "pages":"36-47",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/SenguptaD97",
+                   "doi":"10.1109/ADL.1997.601198",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601198",
+                   "url":"https://dblp.org/rec/conf/adl/SenguptaD97"
+                },
+                "url":"URL#4944263"
+             },
+             {
+                "@score":"1",
+                "@id":"4944264",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"w/JamesZeWang",
+                            "text":"James Ze Wang"
+                         },
+                         {
+                            "@pid":"w/GioWiederhold",
+                            "text":"Gio Wiederhold"
+                         },
+                         {
+                            "@pid":"84/3405",
+                            "text":"Oscar Firschein"
+                         },
+                         {
+                            "@pid":"w/ShaXinWei",
+                            "text":"Sha Xin Wei"
+                         }
+                      ]
+                   },
+                   "title":"Wavelet-Based Image Indexing Techniques with Partial Sketch Retrieval Capability.",
+                   "venue":"ADL",
+                   "pages":"13-24",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/WangWFW97",
+                   "doi":"10.1109/ADL.1997.601196",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601196",
+                   "url":"https://dblp.org/rec/conf/adl/WangWFW97"
+                },
+                "url":"URL#4944264"
+             },
+             {
+                "@score":"1",
+                "@id":"4944265",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"w/MarianneWinslett",
+                            "text":"Marianne Winslett"
+                         },
+                         {
+                            "@pid":"36/244",
+                            "text":"Neil Ching"
+                         },
+                         {
+                            "@pid":"50/4464",
+                            "text":"Vicki Ellen Jones"
+                         },
+                         {
+                            "@pid":"05/4248",
+                            "text":"Igor Slepchin"
+                         }
+                      ]
+                   },
+                   "title":"Assuring Security and Privacy for Digital Library Transactions on the Web - Client and Server Security Policies.",
+                   "venue":"ADL",
+                   "pages":"140-152",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/WinslettCJS97",
+                   "doi":"10.1109/ADL.1997.601210",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601210",
+                   "url":"https://dblp.org/rec/conf/adl/WinslettCJS97"
+                },
+                "url":"URL#4944265"
+             },
+             {
+                "@score":"1",
+                "@id":"4944266",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"z/AidongZhang",
+                            "text":"Aidong Zhang"
+                         },
+                         {
+                            "@pid":"81/5486",
+                            "text":"Thomas V. Johnson"
+                         }
+                      ]
+                   },
+                   "title":"A Framework for Supporting Quality-Based Multimedia Presentation in Educational Digital Libraries.",
+                   "venue":"ADL",
+                   "pages":"102-113",
+                   "year":"1997",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ZhangJ97",
+                   "doi":"10.1109/ADL.1997.601205",
+                   "ee":"https://doi.org/10.1109/ADL.1997.601205",
+                   "url":"https://dblp.org/rec/conf/adl/ZhangJ97"
+                },
+                "url":"URL#4944266"
+             },
+             {
+                "@score":"1",
+                "@id":"4972227",
+                "info":{
+                   "title":"4th International Forum on Research and Technology Advances in Digital Libraries (ADL &apos;97), Washington, DC, USA, May 7-9, 1997",
+                   "venue":"ADL",
+                   "publisher":"IEEE Computer Society",
+                   "year":"1997",
+                   "type":"Editorship",
+                   "key":"conf/adl/1997",
+                   "ee":"https://ieeexplore.ieee.org/xpl/conhome/4757/proceeding",
+                   "url":"https://dblp.org/rec/conf/adl/1997"
+                },
+                "url":"URL#4972227"
+             },
+             {
+                "@score":"1",
+                "@id":"4997876",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"00/5318",
+                            "text":"Daniel Andresen"
+                         },
+                         {
+                            "@pid":"67/1120-9",
+                            "text":"Tao Yang 0009"
+                         },
+                         {
+                            "@pid":"e/OEgecioglu",
+                            "text":"Ömer Egecioglu"
+                         },
+                         {
+                            "@pid":"i/OscarHIbarra",
+                            "text":"Oscar H. Ibarra"
+                         },
+                         {
+                            "@pid":"35/156",
+                            "text":"Terence R. Smith"
+                         }
+                      ]
+                   },
+                   "title":"Scalability Issues for High Performance Digital Libraries on the World Wide Web.",
+                   "venue":"ADL",
+                   "pages":"139-148",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/AndresenYEIS96",
+                   "doi":"10.1109/ADL.1996.502524",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502524",
+                   "url":"https://dblp.org/rec/conf/adl/AndresenYEIS96"
+                },
+                "url":"URL#4997876"
+             },
+             {
+                "@score":"1",
+                "@id":"4997877",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"36/244",
+                            "text":"Neil Ching"
+                         },
+                         {
+                            "@pid":"50/4464",
+                            "text":"Vicki Ellen Jones"
+                         },
+                         {
+                            "@pid":"w/MarianneWinslett",
+                            "text":"Marianne Winslett"
+                         }
+                      ]
+                   },
+                   "title":"Authorization in the Digital Library - Secure Access to Services Across Enterprise Boundaries.",
+                   "venue":"ADL",
+                   "pages":"110-119",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ChingJW96",
+                   "doi":"10.1109/ADL.1996.502521",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502521",
+                   "url":"https://dblp.org/rec/conf/adl/ChingJW96"
+                },
+                "url":"URL#4997877"
+             },
+             {
+                "@score":"1",
+                "@id":"4997878",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"12/396",
+                            "text":"David M. Choy"
+                         },
+                         {
+                            "@pid":"83/6616",
+                            "text":"Cynthia Dwork"
+                         },
+                         {
+                            "@pid":"l/JeffreyBLotspiech",
+                            "text":"Jeffrey B. Lotspiech"
+                         },
+                         {
+                            "@pid":"20/5163",
+                            "text":"Laura C. Anderson"
+                         },
+                         {
+                            "@pid":"80/3851",
+                            "text":"Stephen K. Boyer"
+                         },
+                         {
+                            "@pid":"03/1381",
+                            "text":"Richard Dievendorff"
+                         },
+                         {
+                            "@pid":"49/24",
+                            "text":"Thomas D. Griffin"
+                         },
+                         {
+                            "@pid":"15/1091",
+                            "text":"Bruce A. Hoenig"
+                         },
+                         {
+                            "@pid":"27/3552",
+                            "text":"M. J. Jackson"
+                         },
+                         {
+                            "@pid":"61/3029",
+                            "text":"W. Kaka"
+                         },
+                         {
+                            "@pid":"37/1356",
+                            "text":"James M. McCrossin"
+                         },
+                         {
+                            "@pid":"31/1064",
+                            "text":"Alex M. Miller"
+                         },
+                         {
+                            "@pid":"40/2480",
+                            "text":"Robert J. T. Morris"
+                         },
+                         {
+                            "@pid":"60/4413",
+                            "text":"Norman J. Pass"
+                         }
+                      ]
+                   },
+                   "title":"A Digital Library System for Periodicals Distribution.",
+                   "venue":"ADL",
+                   "pages":"95-103",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ChoyDLABDGHJKMMMP96",
+                   "doi":"10.1109/ADL.1996.502520",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502520",
+                   "url":"https://dblp.org/rec/conf/adl/ChoyDLABDGHJKMMMP96"
+                },
+                "url":"URL#4997878"
+             },
+             {
+                "@score":"1",
+                "@id":"4997879",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"c/IngemarJCox",
+                            "text":"Ingemar J. Cox"
+                         },
+                         {
+                            "@pid":"92/3848",
+                            "text":"Matthew L. Miller"
+                         },
+                         {
+                            "@pid":"94/6804",
+                            "text":"Stephen M. Omohundro"
+                         },
+                         {
+                            "@pid":"30/171",
+                            "text":"Peter N. Yianilos"
+                         }
+                      ]
+                   },
+                   "title":"Target Testing and the PicHunter Bayesian Multimedia Retrieval System.",
+                   "venue":"ADL",
+                   "pages":"66-75",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/CoxMOY96",
+                   "doi":"10.1109/ADL.1996.502517",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502517",
+                   "url":"https://dblp.org/rec/conf/adl/CoxMOY96"
+                },
+                "url":"URL#4997879"
+             },
+             {
+                "@score":"1",
+                "@id":"4997880",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"75/1772",
+                            "text":"Michael P. D&apos;Alessandro"
+                         },
+                         {
+                            "@pid":"76/938",
+                            "text":"Jeffrey R. Galvin"
+                         },
+                         {
+                            "@pid":"00/5409",
+                            "text":"Donna M. D&apos;Alessandro"
+                         },
+                         {
+                            "@pid":"63/4496",
+                            "text":"William E. Erkonen"
+                         },
+                         {
+                            "@pid":"83/5491",
+                            "text":"David S. Curry"
+                         },
+                         {
+                            "@pid":"18/2030",
+                            "text":"Teresa A. Choi"
+                         }
+                      ]
+                   },
+                   "title":"The Iowa Health Book - Creating, Organizing, and Distributing a Digital Medical Library of Multimedia Consumer Health Information on the Internet to Improve Rural Health Care by Increasing Rural Patient Access to Information.",
+                   "venue":"ADL",
+                   "pages":"28-34",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/DAlessandroGDECC96",
+                   "doi":"10.1109/ADL.1996.502513",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502513",
+                   "url":"https://dblp.org/rec/conf/adl/DAlessandroGDECC96"
+                },
+                "url":"URL#4997880"
+             },
+             {
+                "@score":"1",
+                "@id":"4997881",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"21/4399",
+                            "text":"Khoa Doan"
+                         },
+                         {
+                            "@pid":"p/CatherinePlaisant",
+                            "text":"Catherine Plaisant"
+                         },
+                         {
+                            "@pid":"s/BShneiderman",
+                            "text":"Ben Shneiderman"
+                         }
+                      ]
+                   },
+                   "title":"Query Previews in Networked Information Systems.",
+                   "venue":"ADL",
+                   "pages":"120-129",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/DoanPS96",
+                   "doi":"10.1109/ADL.1996.502522",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502522",
+                   "url":"https://dblp.org/rec/conf/adl/DoanPS96"
+                },
+                "url":"URL#4997881"
+             },
+             {
+                "@score":"1",
+                "@id":"4997882",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"48/1786",
+                            "text":"Pamela Drew"
+                         },
+                         {
+                            "@pid":"82/4657",
+                            "text":"Jerry Ying"
+                         }
+                      ]
+                   },
+                   "title":"GeoChange - An Experiment in Wide-Area Database Services for Geographic Information Exchange.",
+                   "venue":"ADL",
+                   "pages":"14-23",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/DrewY96",
+                   "doi":"10.1109/ADL.1996.502512",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502512",
+                   "url":"https://dblp.org/rec/conf/adl/DrewY96"
+                },
+                "url":"URL#4997882"
+             },
+             {
+                "@score":"1",
+                "@id":"4997883",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"74/880",
+                            "text":"Robert Franceschini"
+                         },
+                         {
+                            "@pid":"m/AmarMukherjee",
+                            "text":"Amar Mukherjee"
+                         }
+                      ]
+                   },
+                   "title":"Data Compression Using Encrypted Text.",
+                   "venue":"ADL",
+                   "pages":"130-138",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/FranceschiniM96",
+                   "doi":"10.1109/ADL.1996.502523",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502523",
+                   "url":"https://dblp.org/rec/conf/adl/FranceschiniM96"
+                },
+                "url":"URL#4997883"
+             },
+             {
+                "@score":"1",
+                "@id":"4997884",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"l/MichaelELesk",
+                         "text":"Michael Lesk"
+                      }
+                   },
+                   "title":"Digital Libraries Meet Electronic Commerce - On-Screen Intellectual Property.",
+                   "venue":"ADL",
+                   "pages":"58-64",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Lesk96",
+                   "doi":"10.1109/ADL.1996.502516",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502516",
+                   "url":"https://dblp.org/rec/conf/adl/Lesk96"
+                },
+                "url":"URL#4997884"
+             },
+             {
+                "@score":"1",
+                "@id":"4997885",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"69/3663",
+                            "text":"L. Rodney Long"
+                         },
+                         {
+                            "@pid":"74/650",
+                            "text":"Michael J. Gill"
+                         },
+                         {
+                            "@pid":"t/GeorgeRThoma",
+                            "text":"George R. Thoma"
+                         }
+                      ]
+                   },
+                   "title":"High Speed Satellite Access to Biomedical Text/Image Databases.",
+                   "venue":"ADL",
+                   "pages":"35-44",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/LongGT96",
+                   "doi":"10.1109/ADL.1996.502514",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502514",
+                   "url":"https://dblp.org/rec/conf/adl/LongGT96"
+                },
+                "url":"URL#4997885"
+             },
+             {
+                "@score":"1",
+                "@id":"4997886",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"l/DanielPLopresti",
+                         "text":"Daniel P. Lopresti"
+                      }
+                   },
+                   "title":"Robust Retrieval of Noisy Text.",
+                   "venue":"ADL",
+                   "pages":"76-85",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Lopresti96",
+                   "doi":"10.1109/ADL.1996.502518",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502518",
+                   "url":"https://dblp.org/rec/conf/adl/Lopresti96"
+                },
+                "url":"URL#4997886"
+             },
+             {
+                "@score":"1",
+                "@id":"4997887",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"20/2786",
+                            "text":"Henry J. Lowe"
+                         },
+                         {
+                            "@pid":"20/6250",
+                            "text":"William K. Walker"
+                         },
+                         {
+                            "@pid":"54/3770",
+                            "text":"Stacey E. Polonkey"
+                         },
+                         {
+                            "@pid":"34/5483",
+                            "text":"Fuchun Jiang"
+                         },
+                         {
+                            "@pid":"30/3100",
+                            "text":"John K. Vries"
+                         },
+                         {
+                            "@pid":"50/4639",
+                            "text":"Alexa T. McCray"
+                         }
+                      ]
+                   },
+                   "title":"The Image Engine HPCC Project - A Medical Digital Library System using Agent-Based Technology to Create an Integrated View of the Electronic Medical Record.",
+                   "venue":"ADL",
+                   "pages":"45-56",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/LoweWPJVM96",
+                   "doi":"10.1109/ADL.1996.502515",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502515",
+                   "url":"https://dblp.org/rec/conf/adl/LoweWPJVM96"
+                },
+                "url":"URL#4997887"
+             },
+             {
+                "@score":"1",
+                "@id":"4997888",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"s/MichailSalampasis",
+                            "text":"Michail Salampasis"
+                         },
+                         {
+                            "@pid":"t/JohnTait",
+                            "text":"John Tait"
+                         },
+                         {
+                            "@pid":"61/7020",
+                            "text":"Colin Hardy"
+                         }
+                      ]
+                   },
+                   "title":"An Agent-Based Hypermedia Framework for Designing and Developing Digital Libraries.",
+                   "venue":"ADL",
+                   "pages":"5-13",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/SalampasisTH96",
+                   "doi":"10.1109/ADL.1996.502511",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502511",
+                   "url":"https://dblp.org/rec/conf/adl/SalampasisTH96"
+                },
+                "url":"URL#4997888"
+             },
+             {
+                "@score":"1",
+                "@id":"4997889",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"w/StephanWiesener",
+                            "text":"Stephan Wiesener"
+                         },
+                         {
+                            "@pid":"67/4381",
+                            "text":"Wolfgang L. J. Kowarschick"
+                         },
+                         {
+                            "@pid":"b/RudolfBayer",
+                            "text":"Rudolf Bayer"
+                         }
+                      ]
+                   },
+                   "title":"SemaLink - An Approach For Semantic Browsing Through Large Distributed Document Spaces.",
+                   "venue":"ADL",
+                   "pages":"86-94",
+                   "year":"1996",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/WiesenerKB96",
+                   "doi":"10.1109/ADL.1996.502519",
+                   "ee":"https://doi.org/10.1109/ADL.1996.502519",
+                   "url":"https://dblp.org/rec/conf/adl/WiesenerKB96"
+                },
+                "url":"URL#4997889"
+             },
+             {
+                "@score":"1",
+                "@id":"5022397",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"a/NRAdam",
+                            "text":"Nabil R. Adam"
+                         },
+                         {
+                            "@pid":"b/BKBhargava",
+                            "text":"Bharat K. Bhargava"
+                         },
+                         {
+                            "@pid":"53/1498",
+                            "text":"Milton Halem"
+                         },
+                         {
+                            "@pid":"y/YelenaYesha",
+                            "text":"Yelena Yesha"
+                         }
+                      ]
+                   },
+                   "title":"Digital Libraries, Research and Technology Advances, ADL &apos;95 Forum, McLean, Virginia, USA, May 15-17, 1995, Selected Papers",
+                   "venue":[
+                      "ADL",
+                      "Lecture Notes in Computer Science"
+                   ],
+                   "volume":"1082",
+                   "publisher":"Springer",
+                   "year":"1996",
+                   "type":"Editorship",
+                   "key":"conf/adl/1995",
+                   "doi":"10.1007/BFB0024597",
+                   "ee":"https://doi.org/10.1007/BFb0024597",
+                   "url":"https://dblp.org/rec/conf/adl/1995"
+                },
+                "url":"URL#5022397"
+             },
+             {
+                "@score":"1",
+                "@id":"5022398",
+                "info":{
+                   "title":"Proceedings of the Third Forum on Research and Technology Advances in Digital Library, ADL &apos;96, Washington, DC, USA, May 13-15, 1996",
+                   "venue":"ADL",
+                   "publisher":"IEEE Computer Society",
+                   "year":"1996",
+                   "type":"Editorship",
+                   "key":"conf/adl/1996",
+                   "ee":"https://ieeexplore.ieee.org/xpl/conhome/3741/proceeding",
+                   "url":"https://dblp.org/rec/conf/adl/1996"
+                },
+                "url":"URL#5022398"
+             },
+             {
+                "@score":"1",
+                "@id":"5045685",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"a/RobertBAllen",
+                         "text":"Robert B. Allen"
+                      }
+                   },
+                   "title":"Interface Issues for Interactive Multimedia Documents.",
+                   "venue":"ADL",
+                   "pages":"179-189",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Allen95",
+                   "doi":"10.1007/BFB0024611",
+                   "ee":"https://doi.org/10.1007/BFb0024611",
+                   "url":"https://dblp.org/rec/conf/adl/Allen95"
+                },
+                "url":"URL#5045685"
+             },
+             {
+                "@score":"1",
+                "@id":"5045686",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"00/1648",
+                         "text":"James H. Billington"
+                      }
+                   },
+                   "title":"The Library of Congrss&apos;s National Digital Library.",
+                   "venue":"ADL",
+                   "pages":"17-25",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Billington95",
+                   "doi":"10.1007/BFB0024599",
+                   "ee":"https://doi.org/10.1007/BFb0024599",
+                   "url":"https://dblp.org/rec/conf/adl/Billington95"
+                },
+                "url":"URL#5045686"
+             },
+             {
+                "@score":"1",
+                "@id":"5045687",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"83/1418",
+                            "text":"Ronald F. Boisvert"
+                         },
+                         {
+                            "@pid":"65/6437",
+                            "text":"Shirley Browne"
+                         },
+                         {
+                            "@pid":"d/JackDongarra",
+                            "text":"Jack J. Dongarra"
+                         },
+                         {
+                            "@pid":"24/802",
+                            "text":"Eric Grosse"
+                         }
+                      ]
+                   },
+                   "title":"Digital Software and Data Repositories for Support of Scientific Computing.",
+                   "venue":"ADL",
+                   "pages":"103-114",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/BoisvertBDG95",
+                   "doi":"10.1007/BFB0024606",
+                   "ee":"https://doi.org/10.1007/BFb0024606",
+                   "url":"https://dblp.org/rec/conf/adl/BoisvertBDG95"
+                },
+                "url":"URL#5045687"
+             },
+             {
+                "@score":"1",
+                "@id":"5045688",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"01/458",
+                            "text":"Athman Bouguettaya"
+                         },
+                         {
+                            "@pid":"m/StephenMilliner",
+                            "text":"Stephen Milliner"
+                         }
+                      ]
+                   },
+                   "title":"Data Discovery in Large Scale Heterogeneous and Autonomous Databases.",
+                   "venue":"ADL",
+                   "pages":"149-166",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/BouguettayaM95",
+                   "doi":"10.1007/BFB0024609",
+                   "ee":"https://doi.org/10.1007/BFb0024609",
+                   "url":"https://dblp.org/rec/conf/adl/BouguettayaM95"
+                },
+                "url":"URL#5045688"
+             },
+             {
+                "@score":"1",
+                "@id":"5045689",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"12/396",
+                            "text":"David M. Choy"
+                         },
+                         {
+                            "@pid":"03/1381",
+                            "text":"Richard Dievendorff"
+                         },
+                         {
+                            "@pid":"83/6616",
+                            "text":"Cynthia Dwork"
+                         },
+                         {
+                            "@pid":"l/JeffreyBLotspiech",
+                            "text":"Jeffrey B. Lotspiech"
+                         },
+                         {
+                            "@pid":"40/2480",
+                            "text":"Robert J. T. Morris"
+                         },
+                         {
+                            "@pid":"60/4413",
+                            "text":"Norman J. Pass"
+                         },
+                         {
+                            "@pid":"20/5163",
+                            "text":"Laura C. Anderson"
+                         },
+                         {
+                            "@pid":"82/2228",
+                            "text":"Alan E. Bell"
+                         },
+                         {
+                            "@pid":"80/3851",
+                            "text":"Stephen K. Boyer"
+                         },
+                         {
+                            "@pid":"49/24",
+                            "text":"Thomas D. Griffin"
+                         },
+                         {
+                            "@pid":"15/1091",
+                            "text":"Bruce A. Hoenig"
+                         },
+                         {
+                            "@pid":"37/1356",
+                            "text":"James M. McCrossin"
+                         },
+                         {
+                            "@pid":"31/1064",
+                            "text":"Alex M. Miller"
+                         },
+                         {
+                            "@pid":"31/607",
+                            "text":"Florian Pestoni"
+                         },
+                         {
+                            "@pid":"64/5195",
+                            "text":"Deidra S. Picciano"
+                         }
+                      ]
+                   },
+                   "title":"The Almaden Distributed Digital Library System.",
+                   "venue":"ADL",
+                   "pages":"203-220",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ChoyDDLMPABBGHMMPP95",
+                   "doi":"10.1007/BFB0024613",
+                   "ee":"https://doi.org/10.1007/BFb0024613",
+                   "url":"https://dblp.org/rec/conf/adl/ChoyDDLMPABBGHMMPP95"
+                },
+                "url":"URL#5045689"
+             },
+             {
+                "@score":"1",
+                "@id":"5045690",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"15/6510",
+                         "text":"France Cordova"
+                      }
+                   },
+                   "title":"Communicating NASA&apos;s Science to the Public.",
+                   "venue":"ADL",
+                   "pages":"1-16",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Cordova95",
+                   "doi":"10.1007/BFB0024598",
+                   "ee":"https://doi.org/10.1007/BFb0024598",
+                   "url":"https://dblp.org/rec/conf/adl/Cordova95"
+                },
+                "url":"URL#5045690"
+             },
+             {
+                "@score":"1",
+                "@id":"5045691",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"33/1433",
+                            "text":"James R. Davis"
+                         },
+                         {
+                            "@pid":"l/CarlLagoze",
+                            "text":"Carl Lagoze"
+                         },
+                         {
+                            "@pid":"k/DeanBKrafft",
+                            "text":"Dean B. Krafft"
+                         }
+                      ]
+                   },
+                   "title":"Dienst - Building a Production technical Report Server.",
+                   "venue":"ADL",
+                   "pages":"259-271",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/DavisLK95",
+                   "doi":"10.1007/BFB0024616",
+                   "ee":"https://doi.org/10.1007/BFb0024616",
+                   "url":"https://dblp.org/rec/conf/adl/DavisLK95"
+                },
+                "url":"URL#5045691"
+             },
+             {
+                "@score":"1",
+                "@id":"5045692",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"d/BipinCDesai",
+                            "text":"Bipin C. Desai"
+                         },
+                         {
+                            "@pid":"s/StanSwiercz",
+                            "text":"Stan Swiercz"
+                         }
+                      ]
+                   },
+                   "title":"WebJournal - Visualization of a Web Journey.",
+                   "venue":"ADL",
+                   "pages":"63-80",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/DesaiS95",
+                   "doi":"10.1007/BFB0024604",
+                   "ee":"https://doi.org/10.1007/BFb0024604",
+                   "url":"https://dblp.org/rec/conf/adl/DesaiS95"
+                },
+                "url":"URL#5045692"
+             },
+             {
+                "@score":"1",
+                "@id":"5045693",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"14/4551",
+                            "text":"Christoph Fischer"
+                         },
+                         {
+                            "@pid":"f/JFrew",
+                            "text":"James Frew"
+                         },
+                         {
+                            "@pid":"20/2110",
+                            "text":"Mary Larsgaard"
+                         },
+                         {
+                            "@pid":"35/156",
+                            "text":"Terence R. Smith"
+                         },
+                         {
+                            "@pid":"52/1078",
+                            "text":"Qi Zheng"
+                         }
+                      ]
+                   },
+                   "title":"Alexandria Digital Library - Rapid Prototype and Metadata Schema.",
+                   "venue":"ADL",
+                   "pages":"221-241",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/FischerFLSZ95",
+                   "doi":"10.1007/BFB0024614",
+                   "ee":"https://doi.org/10.1007/BFb0024614",
+                   "url":"https://dblp.org/rec/conf/adl/FischerFLSZ95"
+                },
+                "url":"URL#5045693"
+             },
+             {
+                "@score":"1",
+                "@id":"5045694",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"17/5249",
+                            "text":"Nahum D. Gershon"
+                         },
+                         {
+                            "@pid":"62/5549",
+                            "text":"William Ruh"
+                         },
+                         {
+                            "@pid":"50/6780",
+                            "text":"Joshua LeVasseur"
+                         },
+                         {
+                            "@pid":"11/5962",
+                            "text":"Joel Winstead"
+                         }
+                      ]
+                   },
+                   "title":"Searching and Discovery of Resources in Digital Libraries.",
+                   "venue":"ADL",
+                   "pages":"191-199",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/GershonRLW95",
+                   "doi":"10.1007/BFB0024612",
+                   "ee":"https://doi.org/10.1007/BFb0024612",
+                   "url":"https://dblp.org/rec/conf/adl/GershonRLW95"
+                },
+                "url":"URL#5045694"
+             },
+             {
+                "@score":"1",
+                "@id":"5045695",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"m/AMyka",
+                            "text":"Andreas Myka"
+                         },
+                         {
+                            "@pid":"39/985",
+                            "text":"Ulrich Güntzer"
+                         }
+                      ]
+                   },
+                   "title":"Fuzzy Full-Text Searches in OCR Databases.",
+                   "venue":"ADL",
+                   "pages":"131-145",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/MykaG95",
+                   "doi":"10.1007/BFB0024608",
+                   "ee":"https://doi.org/10.1007/BFb0024608",
+                   "url":"https://dblp.org/rec/conf/adl/MykaG95"
+                },
+                "url":"URL#5045695"
+             },
+             {
+                "@score":"1",
+                "@id":"5045696",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"76/4130",
+                            "text":"Anisoara Nica"
+                         },
+                         {
+                            "@pid":"r/EARundensteiner",
+                            "text":"Elke A. Rundensteiner"
+                         }
+                      ]
+                   },
+                   "title":"Uniform Structured Document Handling using a Constraint-based Object Approach.",
+                   "venue":"ADL",
+                   "pages":"83-101",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/NicaR95",
+                   "doi":"10.1007/BFB0024605",
+                   "ee":"https://doi.org/10.1007/BFb0024605",
+                   "url":"https://dblp.org/rec/conf/adl/NicaR95"
+                },
+                "url":"URL#5045696"
+             },
+             {
+                "@score":"1",
+                "@id":"5045697",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"r/RajReddy",
+                         "text":"Raj Reddy"
+                      }
+                   },
+                   "title":"The Universal Library - Intelligent Agents and Information on Demand.",
+                   "venue":"ADL",
+                   "pages":"27-34",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Reddy95",
+                   "doi":"10.1007/BFB0024600",
+                   "ee":"https://doi.org/10.1007/BFb0024600",
+                   "url":"https://dblp.org/rec/conf/adl/Reddy95"
+                },
+                "url":"URL#5045697"
+             },
+             {
+                "@score":"1",
+                "@id":"5045698",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"01/4473",
+                            "text":"Mark E. Rorvig"
+                         },
+                         {
+                            "@pid":"39/3301",
+                            "text":"Mark W. Hutchison"
+                         },
+                         {
+                            "@pid":"84/1947",
+                            "text":"Robert O. Shelton"
+                         },
+                         {
+                            "@pid":"15/2058",
+                            "text":"Stephanie L. Smith"
+                         },
+                         {
+                            "@pid":"43/2902",
+                            "text":"Marwan E. Yazbeck"
+                         }
+                      ]
+                   },
+                   "title":"An Intelligent Agent for the K-12 Educational Community.",
+                   "venue":"ADL",
+                   "pages":"167-177",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/RorvigHSSY95",
+                   "doi":"10.1007/BFB0024610",
+                   "ee":"https://doi.org/10.1007/BFb0024610",
+                   "url":"https://dblp.org/rec/conf/adl/RorvigHSSY95"
+                },
+                "url":"URL#5045698"
+             },
+             {
+                "@score":"1",
+                "@id":"5045699",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"77/2373",
+                            "text":"Michael A. Shepherd"
+                         },
+                         {
+                            "@pid":"w/CarolynRWatters",
+                            "text":"Carolyn R. Watters"
+                         },
+                         {
+                            "@pid":"24/1537",
+                            "text":"Forbes J. Burkowski"
+                         }
+                      ]
+                   },
+                   "title":"Digital Libraries for Electronic News.",
+                   "venue":"ADL",
+                   "pages":"55-62",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ShepherdWB95",
+                   "doi":"10.1007/BFB0024603",
+                   "ee":"https://doi.org/10.1007/BFb0024603",
+                   "url":"https://dblp.org/rec/conf/adl/ShepherdWB95"
+                },
+                "url":"URL#5045699"
+             },
+             {
+                "@score":"1",
+                "@id":"5045700",
+                "info":{
+                   "authors":{
+                      "author":{
+                         "@pid":"60/1648",
+                         "text":"Larry Smarr"
+                      }
+                   },
+                   "title":"Building a Scalable America.",
+                   "venue":"ADL",
+                   "pages":"35-42",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/Smarr95",
+                   "doi":"10.1007/BFB0024601",
+                   "ee":"https://doi.org/10.1007/BFb0024601",
+                   "url":"https://dblp.org/rec/conf/adl/Smarr95"
+                },
+                "url":"URL#5045700"
+             },
+             {
+                "@score":"1",
+                "@id":"5045701",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"w/StephanWiesener",
+                            "text":"Stephan Wiesener"
+                         },
+                         {
+                            "@pid":"67/4381",
+                            "text":"Wolfgang L. J. Kowarschick"
+                         },
+                         {
+                            "@pid":"v/PavelVogel",
+                            "text":"Pavel Vogel"
+                         },
+                         {
+                            "@pid":"b/RudolfBayer",
+                            "text":"Rudolf Bayer"
+                         }
+                      ]
+                   },
+                   "title":"Semantic Hypermedia Retrieval in Digital Libraries.",
+                   "venue":"ADL",
+                   "pages":"115-129",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/WiesenerKVB95",
+                   "doi":"10.1007/BFB0024607",
+                   "ee":"https://doi.org/10.1007/BFb0024607",
+                   "url":"https://dblp.org/rec/conf/adl/WiesenerKVB95"
+                },
+                "url":"URL#5045701"
+             },
+             {
+                "@score":"1",
+                "@id":"5045702",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"w/WayneWolf",
+                            "text":"Wayne H. Wolf"
+                         },
+                         {
+                            "@pid":"15/5622",
+                            "text":"Bede Liu"
+                         },
+                         {
+                            "@pid":"04/245",
+                            "text":"Andrew Wolfe"
+                         },
+                         {
+                            "@pid":"78/1288",
+                            "text":"Minerva M. Yeung"
+                         },
+                         {
+                            "@pid":"09/4145",
+                            "text":"Boon-Lock Yeo"
+                         },
+                         {
+                            "@pid":"49/4379",
+                            "text":"Daniel Markham"
+                         }
+                      ]
+                   },
+                   "title":"Video as Scholary Material in the Digital Library.",
+                   "venue":"ADL",
+                   "pages":"45-53",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/WolfLWYYM95",
+                   "doi":"10.1007/BFB0024602",
+                   "ee":"https://doi.org/10.1007/BFb0024602",
+                   "url":"https://dblp.org/rec/conf/adl/WolfLWYYM95"
+                },
+                "url":"URL#5045702"
+             },
+             {
+                "@score":"1",
+                "@id":"5045703",
+                "info":{
+                   "authors":{
+                      "author":[
+                         {
+                            "@pid":"57/2702",
+                            "text":"Dian G. Zhao"
+                         },
+                         {
+                            "@pid":"12/1384",
+                            "text":"Anne Ramsden"
+                         }
+                      ]
+                   },
+                   "title":"The ELINOR Electronic Library.",
+                   "venue":"ADL",
+                   "pages":"243-258",
+                   "year":"1995",
+                   "type":"Conference and Workshop Papers",
+                   "key":"conf/adl/ZhaoR95",
+                   "doi":"10.1007/BFB0024615",
+                   "ee":"https://doi.org/10.1007/BFb0024615",
+                   "url":"https://dblp.org/rec/conf/adl/ZhaoR95"
+                },
+                "url":"URL#5045703"
+             }
+          ]
+       }
+    

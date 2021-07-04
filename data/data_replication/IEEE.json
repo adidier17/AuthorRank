@@ -69,10 +69,10 @@
                 "@id":"4747121",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"b/KBohm",
                          "text":"Klemens Böhm"
-                      }
+                      }]
                    },
                    "title":"On Extending the XML Engine with Query-Processing Capabilities.",
                    "venue":"ADL",
@@ -219,10 +219,10 @@
                 "@id":"4747126",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"c/BChidlovskii",
                          "text":"Boris Chidlovskii"
-                      }
+                      }]
                    },
                    "title":"Using Regular Tree Automata as XML Schemas.",
                    "venue":"ADL",
@@ -241,10 +241,10 @@
                 "@id":"4747127",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"c/FabioCrestani",
                          "text":"Fabio Crestani"
-                      }
+                      }]
                    },
                    "title":"Effects of Word Recognition Errors in Spoken Query Processing.",
                    "venue":"ADL",
@@ -523,10 +523,10 @@
                 "@id":"4747136",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"03/76",
                          "text":"Anastassia Spiridou"
-                      }
+                      }]
                    },
                    "title":"A View System for CORBA-Wrapped Data Sources.",
                    "venue":"ADL",
@@ -840,10 +840,10 @@
                 "@id":"4820045",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"37/1664",
                          "text":"James Johnson Duderstadt"
-                      }
+                      }]
                    },
                    "title":"Beyond the Endless Frontier - The Future of Research University in the Digital Age.",
                    "venue":"ADL",
@@ -862,10 +862,10 @@
                 "@id":"4820046",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"d/SusanTDumais",
                          "text":"Susan T. Dumais"
-                      }
+                      }]
                    },
                    "title":"Beyond Content-Based Retrieval - Modeling Domains, Users and Interaction.",
                    "venue":"ADL",
@@ -884,10 +884,10 @@
                 "@id":"4820047",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"19/134",
                          "text":"Michael Fingerhut"
-                      }
+                      }]
                    },
                    "title":"The IRCAM Multimedia Library - A Digital Music Library.",
                    "venue":"ADL",
@@ -906,10 +906,10 @@
                 "@id":"4820048",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"32/667",
                          "text":"Howard Frank"
-                      }
+                      }]
                    },
                    "title":"Digital Libraries and Technology - A New 21st Century Business Model.",
                    "venue":"ADL",
@@ -1228,10 +1228,10 @@
                 "@id":"4820058",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"62/5449",
                          "text":"Marc Krellenstein"
-                      }
+                      }]
                    },
                    "title":"The Commercial View - Shipping the Digital Library V1.0.",
                    "venue":"ADL",
@@ -1314,10 +1314,10 @@
                 "@id":"4820061",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"50/4639",
                          "text":"Alexa T. McCray"
-                      }
+                      }]
                    },
                    "title":"Digital Libraries Initiative, Phase 2 - Panel.",
                    "venue":"ADL",
@@ -1484,10 +1484,10 @@
                 "@id":"4820066",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"81/249",
                          "text":"Rudi Schmiede"
-                      }
+                      }]
                    },
                    "title":"Digital Library Activities in Germany The German Digital Library Program GLOBAL INFO.",
                    "venue":"ADL",
@@ -1741,10 +1741,10 @@
                 "@id":"4885297",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"55/3290",
                          "text":"Marcia J. Bossy"
-                      }
+                      }]
                    },
                    "title":"Making Sense of Scientific Information on WorldWideWeb - WWW-TED.",
                    "venue":"ADL",
@@ -1863,10 +1863,10 @@
                 "@id":"4885301",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"38/271",
                          "text":"Tuong Dao"
-                      }
+                      }]
                    },
                    "title":"An Indexing Model for Structured Documents to Support Queries on Content, Structure, and Attributes.",
                    "venue":"ADL",
@@ -2161,10 +2161,10 @@
                 "@id":"4885310",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"m/BSManjunath",
                          "text":"B. S. Manjunath"
-                      }
+                      }]
                    },
                    "title":"Image Processing in the Alexandria Digital Library Project.",
                    "venue":"ADL",
@@ -2866,10 +2866,10 @@
                 "@id":"4944257",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"e/AEndres",
                          "text":"Albert Endres"
-                      }
+                      }]
                    },
                    "title":"Digital Library and Electronic Publishing Activities of German Professional Societies.",
                    "venue":"ADL",
@@ -2888,10 +2888,10 @@
                 "@id":"4944258",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"29/3336",
                          "text":"Hans Geleijnse"
-                      }
+                      }]
                    },
                    "title":"Moving from the Digital to the Virtual Library - The Tilburg Experience.",
                    "venue":"ADL",
@@ -3481,10 +3481,10 @@
                 "@id":"4997884",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"l/MichaelELesk",
                          "text":"Michael Lesk"
-                      }
+                      }]
                    },
                    "title":"Digital Libraries Meet Electronic Commerce - On-Screen Intellectual Property.",
                    "venue":"ADL",
@@ -3535,10 +3535,10 @@
                 "@id":"4997886",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"l/DanielPLopresti",
                          "text":"Daniel P. Lopresti"
-                      }
+                      }]
                    },
                    "title":"Robust Retrieval of Noisy Text.",
                    "venue":"ADL",
@@ -3720,10 +3720,10 @@
                 "@id":"5045685",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"a/RobertBAllen",
                          "text":"Robert B. Allen"
-                      }
+                      }]
                    },
                    "title":"Interface Issues for Interactive Multimedia Documents.",
                    "venue":"ADL",
@@ -3742,10 +3742,10 @@
                 "@id":"5045686",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"00/1648",
                          "text":"James H. Billington"
-                      }
+                      }]
                    },
                    "title":"The Library of Congrss&apos;s National Digital Library.",
                    "venue":"ADL",
@@ -3908,10 +3908,10 @@
                 "@id":"5045690",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"15/6510",
                          "text":"France Cordova"
-                      }
+                      }]
                    },
                    "title":"Communicating NASA&apos;s Science to the Public.",
                    "venue":"ADL",
@@ -4122,10 +4122,10 @@
                 "@id":"5045697",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"r/RajReddy",
                          "text":"Raj Reddy"
-                      }
+                      }]
                    },
                    "title":"The Universal Library - Intelligent Agents and Information on Demand.",
                    "venue":"ADL",
@@ -4216,10 +4216,10 @@
                 "@id":"5045700",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"60/1648",
                          "text":"Larry Smarr"
-                      }
+                      }]
                    },
                    "title":"Building a Scalable America.",
                    "venue":"ADL",

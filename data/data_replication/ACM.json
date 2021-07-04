@@ -105,10 +105,10 @@
                 "@id":"4754115",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"b/KatyBorner",
                          "text":"Katy Börner"
-                      }
+                      }]
                    },
                    "title":"Extracting and visualizing semantic structures in retrieval results for browsing.",
                    "venue":"ACM DL",
@@ -155,10 +155,10 @@
                 "@id":"4754117",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"38/1667",
                          "text":"Robert F. Chavez"
-                      }
+                      }]
                    },
                    "title":"Generating and reintegrating geospatial data.",
                    "venue":"ACM DL",
@@ -1053,10 +1053,10 @@
                 "@id":"4754145",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"13/5554",
                          "text":"Bob Pritchett"
-                      }
+                      }]
                    },
                    "title":"KeyLinking - dynamic hypertext in a digital library.",
                    "venue":"ACM DL",
@@ -1171,10 +1171,10 @@
                 "@id":"4754149",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"22/5651",
                          "text":"Susan Leigh Star"
-                      }
+                      }]
                    },
                    "title":"&quot;It&apos;s infrastructure all the way down&quot; (keynote address).",
                    "venue":"ACM DL",
@@ -1437,10 +1437,10 @@
                 "@id":"4754157",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"28/6105",
                          "text":"Joanna L. Wolfe"
-                      }
+                      }]
                    },
                    "title":"Effects of annotations on student readers and writers.",
                    "venue":"ACM DL",
@@ -1527,10 +1527,10 @@
                 "@id":"4825799",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"51/5809",
                          "text":"Alice M. Agogino"
-                      }
+                      }]
                    },
                    "title":"Visions for a Digital Library for Science, Mathematics, Engineering and Technology Education (SMETE).",
                    "venue":"ACM DL",
@@ -1721,10 +1721,10 @@
                 "@id":"4825805",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"27/3679",
                          "text":"Howard Besser"
-                      }
+                      }]
                    },
                    "title":"The Making of America II - Structural and Administrative Metadata Standards for Distributed Repositories.",
                    "venue":"ACM DL",
@@ -1743,10 +1743,10 @@
                 "@id":"4825807",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"18/2888",
                          "text":"Ann Peterson Bishop"
-                      }
+                      }]
                    },
                    "title":"Making Digital Libraries Go - Comparing Use Across Genres.",
                    "venue":"ACM DL",
@@ -1857,10 +1857,10 @@
                 "@id":"4825812",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"81/1802",
                          "text":"Donald Byrd"
-                      }
+                      }]
                    },
                    "title":"A Scrollbar-Based Visualization for Document Navigation.",
                    "venue":"ACM DL",
@@ -1987,10 +1987,10 @@
                 "@id":"4825817",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"c/FabioCrestani",
                          "text":"Fabio Crestani"
-                      }
+                      }]
                    },
                    "title":"Vocal Access to a Newspaper Archive - Design Issues and Preliminary Investigations.",
                    "venue":"ACM DL",
@@ -2441,10 +2441,10 @@
                 "@id":"4825835",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"60/1317",
                          "text":"Leah S. Larkey"
-                      }
+                      }]
                    },
                    "title":"A Patent Search and Classification System.",
                    "venue":"ACM DL",
@@ -2495,10 +2495,10 @@
                 "@id":"4825837",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"01/5390",
                          "text":"Barry M. Leiner"
-                      }
+                      }]
                    },
                    "title":"The Future of Digital Library Research.",
                    "venue":"ACM DL",
@@ -2517,10 +2517,10 @@
                 "@id":"4825838",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"01/5390",
                          "text":"Barry M. Leiner"
-                      }
+                      }]
                    },
                    "title":"D-Lib Working Group on Metrics for Digital Libraries.",
                    "venue":"ACM DL",
@@ -2539,10 +2539,10 @@
                 "@id":"4825840",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"56/432",
                          "text":"Joo-Hwee Lim"
-                      }
+                      }]
                    },
                    "title":"Learnable Visual Keywords for Image Classification.",
                    "venue":"ACM DL",
@@ -2753,10 +2753,10 @@
                 "@id":"4825847",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"32/1017",
                          "text":"John Ockerbloom"
-                      }
+                      }]
                    },
                    "title":"Managing Diverse Data Formats in Digital Libraries.",
                    "venue":"ACM DL",
@@ -2775,10 +2775,10 @@
                 "@id":"4825848",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"03/6317",
                          "text":"Soyeon Park"
-                      }
+                      }]
                    },
                    "title":"User Preferences When Searching Individual and Integrated Full-Text Databases.",
                    "venue":"ACM DL",
@@ -2893,10 +2893,10 @@
                 "@id":"4825854",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"r/LuisMateusRocha",
                          "text":"Luis Mateus Rocha"
-                      }
+                      }]
                    },
                    "title":"TalkMine and the Adaptive Recommendation Project.",
                    "venue":"ACM DL",
@@ -3003,10 +3003,10 @@
                 "@id":"4825859",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"78/4473",
                          "text":"Yin Leng Theng"
-                      }
+                      }]
                    },
                    "title":"&quot;Lostness&quot; and Digital Libraries.",
                    "venue":"ACM DL",
@@ -3249,10 +3249,10 @@
                 "@id":"4890729",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"49/6566",
                          "text":"Bryce Allen"
-                      }
+                      }]
                    },
                    "title":"Information Space Representation in Interactive Systems - Relationship to Spatial Abilities.",
                    "venue":"ACM DL",
@@ -3415,10 +3415,10 @@
                 "@id":"4890734",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"18/2888",
                          "text":"Ann Peterson Bishop"
-                      }
+                      }]
                    },
                    "title":"Digital Libraries and Knowledge Disaggregation - The Use of Journal Article Components.",
                    "venue":"ACM DL",
@@ -3837,10 +3837,10 @@
                 "@id":"4890748",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"90/1082",
                          "text":"Steve Jones"
-                      }
+                      }]
                    },
                    "title":"Dynamic Query Result Previews for a Digital Library.",
                    "venue":"ACM DL",
@@ -3891,10 +3891,10 @@
                 "@id":"4890750",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"63/3219",
                          "text":"Yasusi Kanada"
-                      }
+                      }]
                    },
                    "title":"Axis-Specified Search - A Fine-Grained Full-Text Search Method for Gathering and Structuring Excerpts.",
                    "venue":"ACM DL",
@@ -3941,10 +3941,10 @@
                 "@id":"4890752",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"08/1187",
                          "text":"Douglas A. Kranch"
-                      }
+                      }]
                    },
                    "title":"Preserving Electronic Documents.",
                    "venue":"ACM DL",
@@ -4067,10 +4067,10 @@
                 "@id":"4890756",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"23/914",
                          "text":"David M. Levy"
-                      }
+                      }]
                    },
                    "title":"Heroic Measures - Reflections on the Rossibility and Purpose of Digital Preservation.",
                    "venue":"ACM DL",
@@ -4125,10 +4125,10 @@
                 "@id":"4890758",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"m/CCMarshall",
                          "text":"Catherine C. Marshall"
-                      }
+                      }]
                    },
                    "title":"Making Metadata - A Study of Metadata Creation for a Mixed Physical-Digital Collection.",
                    "venue":"ACM DL",
@@ -4175,10 +4175,10 @@
                 "@id":"4890760",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"86/6096",
                          "text":"Roger Price"
-                      }
+                      }]
                    },
                    "title":"Beyond SGML.",
                    "venue":"ACM DL",
@@ -4681,10 +4681,10 @@
                 "@id":"4890775",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"w/PeterWeinstein",
                          "text":"Peter Weinstein"
-                      }
+                      }]
                    },
                    "title":"Ontology-Based Metadata - Transforming the MARC Legacy.",
                    "venue":"ACM DL",
@@ -4867,10 +4867,10 @@
                 "@id":"4949663",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"68/4556",
                          "text":"Joseph A. Busch"
-                      }
+                      }]
                    },
                    "title":"Thesauri and Metadata (Workshop).",
                    "venue":"ACM DL",
@@ -5249,10 +5249,10 @@
                 "@id":"4949674",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"73/6414",
                          "text":"Michel Crampes"
-                      }
+                      }]
                    },
                    "title":"Auto-adaptive Illustration through Conceptual Evocation.",
                    "venue":"ACM DL",
@@ -5299,10 +5299,10 @@
                 "@id":"4949676",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"f/EdwardAFox",
                          "text":"Edward A. Fox"
-                      }
+                      }]
                    },
                    "title":"Education and Curriculum Development for Multimedia, Hypertext and Information Access - Focus on Figital Libraries and Information Retrieval (Workshop).",
                    "venue":"ACM DL",
@@ -5359,10 +5359,10 @@
                 "@id":"4949678",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"00/4818",
                          "text":"Bernard J. Jansen"
-                      }
+                      }]
                    },
                    "title":"An Information Retrieval Application for Simulated Annealing (Poster).",
                    "venue":"ACM DL",
@@ -5381,10 +5381,10 @@
                 "@id":"4949679",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"33/6569",
                          "text":"Slava Kalyuga"
-                      }
+                      }]
                    },
                    "title":"Cognitive Load Effects and Design of Computer Based Instruction (Poster).",
                    "venue":"ACM DL",
@@ -5527,10 +5527,10 @@
                 "@id":"4949684",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"23/914",
                          "text":"David M. Levy"
-                      }
+                      }]
                    },
                    "title":"I Read the News Today, Oh Boy - Reading and Attention in Digital Libraries.",
                    "venue":"ACM DL",
@@ -5605,10 +5605,10 @@
                 "@id":"4949686",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"m/CCMarshall",
                          "text":"Catherine C. Marshall"
-                      }
+                      }]
                    },
                    "title":"Annotation - From Paper Books to Digital Library.",
                    "venue":"ACM DL",
@@ -5751,10 +5751,10 @@
                 "@id":"4949691",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"68/753",
                          "text":"Yuri Quintana"
-                      }
+                      }]
                    },
                    "title":"Organization and Retrieval in a Pictorial Digital Library.",
                    "venue":"ACM DL",
@@ -5985,10 +5985,10 @@
                 "@id":"4949699",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"37/5972",
                          "text":"Fei Song"
-                      }
+                      }]
                    },
                    "title":"Neighboring Graphs as Alternative Organizations for Information Retrieval (Poster).",
                    "venue":"ACM DL",
@@ -6007,10 +6007,10 @@
                 "@id":"4949700",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"35/2213",
                          "text":"Atsuhiro Takasu"
-                      }
+                      }]
                    },
                    "title":"Bibliographic Integration in Digital Document Libraries (Poster).",
                    "venue":"ACM DL",
@@ -6093,10 +6093,10 @@
                 "@id":"4949703",
                 "info":{
                    "authors":{
-                      "author":{
+                      "author":[{
                          "@pid":"20/1984",
                          "text":"Susanna S. Y. Tsang"
-                      }
+                      }]
                    },
                    "title":"Multilingual Newspaper Clippings Image Database (Poster).",
                    "venue":"ACM DL",

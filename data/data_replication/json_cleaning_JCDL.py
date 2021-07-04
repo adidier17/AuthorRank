@@ -3,17 +3,20 @@ from nameparser import HumanName
 
 with open('JCDL.json') as f:
   data = json.load(f)
+  
+num_items = len(data['documents'])
 
-# for each item, delete unnecessary author info
-for i in range(1000):
+# For each item, delete unnecessary author info
+for i in range(num_items):
     try:
         for j in range(len(data['documents'][i]['info']['authors']['author'])):
             del data['documents'][i]['info']['authors']['author'][j]['@pid']
     except KeyError:
+        print('No author(s) for entry ' + data['documents'][i]['info']['title'])
         pass  
 
-# for each item, delete unnecessary info if it exists
-for i in range(1000):
+# For each item, delete unnecessary info if it exists
+for i in range(num_items):
     del data['documents'][i]['@score']
     del data['documents'][i]['@id']
     del data['documents'][i]['url']
@@ -26,10 +29,12 @@ for i in range(1000):
     try:
         del data['documents'][i]['info']['pages']
     except KeyError:
+        print("Missing page numbers for entry " + data['documents'][i]['info']['title'])
         pass  
     try:
         del data['documents'][i]['info']['doi']
     except KeyError:
+        print("Missing doi for entry " + data['documents'][i]['info']['title'])
         pass     
 
 # UNCOMMENT BELOW 2 LINES WHEN RUNNING FOR THE FIRST TIME
@@ -38,10 +43,10 @@ for i in range(1000):
 
  # I took JCDL_cleaned and manually removed some errors (extra spaces, etc). Opening up this edited version...
 with open('JCDL_cleaned.json') as f:
-  data = json.load(f)
+    data = json.load(f)
 
-# split each author name string according to common naming formats  
-for i in range(1000):
+# Split each author name string according to common naming formats  
+for i in range(num_items):
     try:
         for j in range(len(data['documents'][i]['info']['authors']['author'])):
             name = HumanName(data['documents'][i]['info']['authors']['author'][j]['text']).as_dict(False)
@@ -59,19 +64,19 @@ for i in range(1000):
             # delete the original text field that contained the author's full name, since names are split now   
             del data['documents'][i]['info']['authors']['author'][j]['text']
     except KeyError:
+        # Missing authors Key Error already accounted for previously, so just pass
         pass
 
-# re-level the JSON data; 'info' and 'author' fields not needed            
-for i in range(1000):
+# Re-level the JSON data; 'info' and 'author' fields not needed            
+for i in range(num_items):
     try:
         data['documents'][i] = data['documents'][i]['info']
         data['documents'][i]['authors'] = data['documents'][i]['authors']['author']
     except KeyError:
+        # Missing authors Key Error already accounted for previously, so just pass
         pass                   
              
-# save to new json
+# Save to new json
 with open('JCDL_final.json', 'w') as json_file:
     json.dump(data, json_file)   
-   
-
 

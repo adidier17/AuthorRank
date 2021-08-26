@@ -31,16 +31,18 @@ class Graph:
         :return: a list of edges based on the document's authorship.
         """
 
+        edge = None
         if len(authors_by_document[doc_index]) > 1:
             # author_ids = [tuple(d.values()) for d in self._author_list]
             pairs = (list(itertools.permutations(authors_by_document[doc_index], 2)))
             # calculate g_i_j_k
             exclusivity = 1 / (len(authors_by_document[doc_index]) - 1)
             edge = [{"edge": (x[0], x[1]), "weight": exclusivity} for x in pairs]
-        else:
+        elif len(authors_by_document[doc_index]) == 1:
             edge = [{"edge": (authors_by_document[doc_index][0], authors_by_document[doc_index][0]), "weight": 1}]
 
-        self._edges_all.extend(edge)
+        if edge is not None:
+            self._edges_all.extend(edge)
 
         if progress_bar:
             self._progress = emit_progress_bar(self._progress, doc_index + 1, int(len(authors_by_document) * 2.))

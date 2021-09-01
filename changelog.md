@@ -4,6 +4,13 @@ All notable changes to `author_rank` will be documented in this Changelog.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) 
 and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## 0.1.3
+### Fixed 
+- An issue that caused AuthorRank to fail when documents 
+without authors are accidentally provided as part of the
+set of documents. Additional checks have been added to
+`author_rank/graph.py`.
+
 ## 0.1.2 
 ### Fixed
 - An identified issue that resulted in disconnected (i.e. non-co-authoring) 

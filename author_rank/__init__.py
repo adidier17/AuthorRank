@@ -16,7 +16,7 @@ if sys.version_info[:2] < (3, 5):
 del sys
 
 __author__ = "Valentino Constantinou, Annie Didier"
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 
 import author_rank.graph
 from author_rank.graph import *

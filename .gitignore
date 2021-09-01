@@ -10,3 +10,5 @@ author_rank.egg-info
 htmlcov
 *.graffle
 data/CORD-19
+paper/
+*.mypy_cache

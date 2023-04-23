@@ -19,7 +19,7 @@ install:
 
 # run tests
 script:
-  - python -m pytest --cov=author_rank
+  - coverage run --source=author-rank pytest /tests
 
 # report results
 after_success:

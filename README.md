@@ -16,10 +16,10 @@ Liu et. al. to determine the most prestigious authors across a
 research network utilizing a body of research papers. 
 
 ## Dependencies 
-- Python 3.5 - 3.8 
-- networkx >= 2.4
-- python-utils >= 2.4.0
-- scipy >= 1.4.1
+- Python 3.5 - 3.11 
+- networkx == 2.6.3
+- python-utils == 3.5.2
+- scipy == 1.7.3
 
 ## How To
 

@@ -31,8 +31,8 @@ jobs:
     steps:
       - checkout
       - run:
-        name: install author-rank requirements
-        command: pip install -r requirements.txt
+          name: install author-rank requirements
+          command: pip install -r requirements.txt
       - run:
           name: install author-rank
           command: python setup.py -q install # Installs the package, along with the main requirements via requirements.txt

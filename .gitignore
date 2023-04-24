@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+venv
+*.pyc
+.pytest_cache
+.coverage
+.ipynb_checkpoints
+build
+author_rank.egg-info
+htmlcov
+*.graffle
+data/CORD-19
+paper/
+*.mypy_cache

@@ -1,0 +1,143 @@
+{
+    "documents": [
+    {
+        "authors": [
+                {
+                    "first_name": "Marcin",
+                    "last_name": "Witek"
+                }
+            ],
+            "title": "DUST AND CONVECTION ON MARS: EDDY-DIFFUSIVITY/MASS-FLUX PARAMETERIZATION"
+        },
+        {
+            "authors": [
+                {
+                    "first_name": "Joel",
+                    "last_name": "Benito"
+                }
+            ],
+            "title": "MARS ASCENT VEHICLE DRIVING TECHNOLOGIES FOR MARS SAMPLE RETURN"
+        },
+        {
+            "authors": [
+                {
+                    "first_name": "Charles",
+                    "last_name": "Whetsel"
+                },
+                {
+                    "first_name": "Mike",
+                    "last_name": "Malin"
+                },
+                {
+                    "first_name": "Adam",
+                    "last_name": "Nelessen"
+                },
+                {
+                    "first_name": "Kevin",
+                    "last_name": "DeBruin"
+                },
+                {
+                    "first_name": "Barry",
+                    "last_name": "Colman"
+                },
+                {
+                    "first_name": "Al",
+                    "last_name": "Nash"
+                },
+                {
+                    "first_name": "Tony",
+                    "last_name": "Freeman"
+                },
+                {
+                    "first_name": "Brian",
+                    "last_name": "Wilcox"
+                },
+                {
+                    "first_name": "Roger",
+                    "last_name": "Klemm"
+                },
+                {
+                    "first_name": "Terri",
+                    "last_name": "Anderson"
+                },
+                {
+                    "first_name": "Lou",
+                    "last_name": "Giersch"
+                },
+                {
+                    "first_name": "Justin",
+                    "last_name": "Boland"
+                },
+                {
+                    "first_name": "Chris",
+                    "last_name": "Webster"
+                },
+                {
+                    "first_name": "Hoppy",
+                    "last_name": "Price"
+                },
+                {
+                    "first_name": "Dan",
+                    "last_name": "McCleese"
+                },
+                {
+                    "first_name": "Rich",
+                    "last_name": "Zurek"
+                },
+                {
+                    "first_name": "Justice",
+                    "last_name": "Mason"
+                },
+                {
+                    "first_name": "Issa",
+                    "last_name": "Nesnas"
+                },
+                {
+                    "first_name": "Jeff",
+                    "last_name": "Stuart"
+                },
+                {
+                    "first_name": "Andrew",
+                    "last_name": "Mitchell"
+                },
+                {
+                    "first_name": "Paul",
+                    "last_name": "Woodmansee"
+                },
+                {
+                    "first_name": "Lori",
+                    "last_name": "Shiraishi"
+                },
+                {
+                    "first_name": "Michael",
+                    "last_name": "Mischna"
+                },
+                {
+                    "first_name": "Sylvian",
+                    "last_name": "Piqueux"
+                },
+                {
+                    "first_name": "Bill",
+                    "last_name": "Smythe"
+                },
+                {
+                    "first_name": "David",
+                    "last_name": "Hansen"
+                },
+                {
+                    "first_name": "Bob",
+                    "last_name": "Kinsey"
+                },
+                {
+                    "first_name": "Deb",
+                    "last_name": "Chattapadhyay"
+                },
+                {
+                    "first_name": "Tomas",
+                    "last_name": "Svitek"
+                }
+            ],
+            "title": "1683 RSL-Gulley Rover 2016-07 Home"
+        }
+    ]
+}

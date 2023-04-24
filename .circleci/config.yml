@@ -43,7 +43,7 @@ jobs:
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
-          command: coverage run --source=author-rank pytest /tests
+          command: pytest -v tests
       - coveralls/upload # upload the results to coveralls.io
 
 # Invoke jobs via workflows

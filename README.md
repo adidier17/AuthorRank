@@ -5,7 +5,6 @@ A modification of PageRank to find the most prestigious authors in a scientific 
 [![PyPi](https://img.shields.io/badge/pypi-0.1.4-blue.svg)](https://pypi.python.org/pypi/author_rank/0.1.4)
 [![License](https://img.shields.io/github/license/adidier17/AuthorRank)](https://opensource.org/licenses/MIT)
 [![Coverage Status](https://coveralls.io/repos/github/adidier17/AuthorRank/badge.svg?branch=main)](https://coveralls.io/github/adidier17/AuthorRank?branch=main)
-[![Build Status](https://api.travis-ci.org/adidier17/AuthorRank.svg?branch=main)](https://travis-ci.org/adidier17/AuthorRank)
 [![adidier/AuthorRank](https://circleci.com/github/adidier17/AuthorRank.svg?style=svg)](https://app.circleci.com/pipelines/github/adidier/AuthorRank)
 
 ## Purpose

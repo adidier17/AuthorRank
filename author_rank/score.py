@@ -19,7 +19,7 @@ def top_authors(graph: nx.DiGraph, n: int = 5, normalize_scores: bool = False) -
     """
 
     # apply the PageRank algorithm to the graph
-    rank = nx.pagerank(graph) #pagerank_scipy is deprecated
+    rank = nx.pagerank(graph)
 
     # sort the results
     sorted_rank = sorted(rank, key=rank.get, reverse=True)
